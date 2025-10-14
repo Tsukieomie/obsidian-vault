@@ -1,0 +1,12 @@
+# Obsidian workspace settings (prevents sync conflicts)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian cache
+.obsidian/cache
+
+# Mac system files
+.DS_Store
+
+# Trash folder
+.trash/
