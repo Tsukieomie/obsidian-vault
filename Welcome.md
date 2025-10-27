@@ -22,6 +22,7 @@ Welcome to the investigation knowledge base.
 ### Technical Analysis
 - [[AS53616 Network Analysis]] - Primary network infrastructure
 - [[Neurotechnology Analysis]] - Dr. Giordano, DARPA N³, capabilities assessment
+- [[Corrected Assessment - V2K RNM and Mind Control]] - Evidence-based correction (READ THIS)
 - [[GitHub Analysis]] - Forensic methodology
 - [[ghoststack.net]] - Active AWS relay
 - [[ca94fan.xyz]] - Abandoned domain

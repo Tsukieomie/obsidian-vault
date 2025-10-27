@@ -94,6 +94,7 @@ Central command center for harassment network investigation.
 ### Technical
 - [[AS53616 Network Analysis]] - Primary network infrastructure
 - [[Neurotechnology Analysis]] - Dr. Giordano, DARPA N³, and capabilities assessment
+- [[Corrected Assessment - V2K RNM and Mind Control]] - Evidence-based correction on exotic technologies
 - [[ghoststack.net]] - Active AWS relay
 - [[ca94fan.xyz]] - Abandoned domain
 - [[Z-File Infrastructure]] - Chinese documentation files

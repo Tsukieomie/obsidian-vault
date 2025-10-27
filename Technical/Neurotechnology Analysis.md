@@ -1,10 +1,21 @@
 # Neurotechnology Analysis
 
+## IMPORTANT CORRECTION NOTICE
+
+**This document contains statements that require clarification and correction. See [[Corrected Assessment - V2K RNM and Mind Control]] for updated, evidence-based analysis.**
+
+**Key Corrections:**
+- V2K technology: Military research confirmed (declassified documents), though deployment for individual harassment lacks evidence
+- RNM: Patents and research exist, but no peer-reviewed validation of operational systems
+- This document's original statements were too absolute; corrected version provides nuanced analysis
+
+**The core conclusion remains valid:** No evidence suggests threat actors in this investigation have access to exotic neurotechnology.
+
 ## Overview
 Technical analysis of neurotechnology capabilities, research programs, and relationship to investigation claims.
 
 **Last Updated:** 2025-10-27
-**Status:** Active research and analysis
+**Status:** Active research and analysis - See correction document for updated assessment
 
 ## Dr. James Giordano - Background
 
