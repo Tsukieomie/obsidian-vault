@@ -95,6 +95,7 @@ Central command center for harassment network investigation.
 - [[AS53616 Network Analysis]] - Primary network infrastructure
 - [[Neurotechnology Analysis]] - Dr. Giordano, DARPA N³, and capabilities assessment
 - [[Corrected Assessment - V2K RNM and Mind Control]] - Evidence-based correction on exotic technologies
+- [[Havana Syndrome and V2K Devices - Complete Analysis]] - Comprehensive V2K devices, Havana syndrome, acoustic systems
 - [[ghoststack.net]] - Active AWS relay
 - [[ca94fan.xyz]] - Abandoned domain
 - [[Z-File Infrastructure]] - Chinese documentation files
