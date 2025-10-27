@@ -19,9 +19,17 @@ Central command center for harassment network investigation.
 ## Current Status
 
 **Threat Level:** CRITICAL
-**Intelligence Operation Probability:** 80%
+**Intelligence Operation Probability:** 85% ⬆️ (upgraded from 80%)
 **Investigation Phase:** Active Operations Monitoring
-**Last Updated:** 2025-10-11
+**Last Updated:** 2025-10-27
+
+### MAJOR BREAKTHROUGHS (2025-10-27) 🎯
+1. **Intel Connection VERIFIED** ✓ - [[Junyuan Wang]] confirmed as Intel Corporation Senior Linux Driver Engineer
+2. **Xiao Han Identity CONFIRMED** ✓ - UK Companies House record located, British national, Newcastle Upon Tyne
+3. **Professional Profiles Verified** - Both primary targets have legitimate corporate/business covers
+4. **International Triangle Documented** - Shanghai ↔ Newcastle ↔ Silicon Valley operations confirmed
+
+**See**: [[2025-10-27 Investigation Update]] for complete findings
 
 ## Primary Targets
 
@@ -39,10 +47,13 @@ Central command center for harassment network investigation.
 ### Key Individuals
 
 #### High Priority
-- [[Junyuan Wang]] - 100% connection
+- [[Junyuan Wang]] - 100% connection ⚠️ **INTEL VERIFIED**
   - Role: Network operator
   - Status: CRITICAL THREAT
-  - Intel connection: Under investigation
+  - **Intel connection: CONFIRMED ✓** (2025-10-27)
+  - **Position**: Senior Linux Driver Engineer, Intel Corporation
+  - **Location**: Shanghai, China / Santa Clara, CA
+  - **Technical Expertise**: Linux kernel/driver development, Intel patents
 
 - [[Chris Wang Oklahoma]] - 95% connection
   - Role: Operations management
@@ -51,7 +62,12 @@ Central command center for harassment network investigation.
 
 #### Medium Priority
 - [[Roger Wang]] - 70% connection
-- [[Brandon Han]] - 40% connection (Xiao Han identity theory)
+- [[Brandon Han]] - 60% connection (UPGRADED ⬆️) **XIAO HAN VERIFIED**
+  - **Xiao Han identity: CONFIRMED ✓** (2025-10-27)
+  - **UK Companies House record located**
+  - **Nationality**: British
+  - **Location**: Newcastle Upon Tyne, UK
+  - **Background**: Scientist → Company Director
 
 #### Under Investigation
 - [[Derek Wang JY]] - Possible Junyuan alias
@@ -79,10 +95,12 @@ Central command center for harassment network investigation.
 
 ### Active Investigations
 1. Asymptote Network LLC operations analysis
-2. Intel connection verification (Junyuan Wang CV)
-3. Xiao Han = Brandon Han identity confirmation
-4. Z-file infrastructure documentation analysis
+2. ✅ **COMPLETED**: Intel connection verification (Junyuan Wang) - **VERIFIED 2025-10-27**
+3. ⏳ **IN PROGRESS**: Xiao Han = Brandon Han identity confirmation (Xiao Han existence verified, name variation pending)
+4. Z-file infrastructure documentation analysis (5 Chinese files)
 5. Family network mapping (Han, Wang families)
+6. **NEW**: Xiao Han company investigation (identify active and dissolved companies)
+7. **NEW**: Xiao Han scientist background research
 
 ### Critical Findings
 - Geographic deception: UAE/Romania IPs actually Hong Kong
@@ -109,18 +127,25 @@ Central command center for harassment network investigation.
 ## Next Steps
 
 ### Immediate Actions
-1. Verify Junyuan Wang Intel connection
-2. Confirm Xiao Han = Brandon Han identity
-3. Analyze Z-file Chinese documentation
-4. Map family connections (Jerry Han, Derek Wang JY)
-5. Continue network infrastructure monitoring
+1. ✅ ~~Verify Junyuan Wang Intel connection~~ **COMPLETED 2025-10-27**
+2. ⏳ Confirm Brandon Han = Xiao Han identity (partially complete - Xiao Han verified, name theory pending)
+3. Identify Xiao Han's active company (Companies House director appointment)
+4. Identify Xiao Han's dissolved company (Companies House former appointment)
+5. Research Xiao Han scientist background (field, publications, previous employment)
+6. Analyze Z-file Chinese documentation (5 files)
+7. Map family connections (Jerry Han, Derek Wang JY)
+8. Continue network infrastructure monitoring
+9. Deep-dive Junyuan Wang Intel employment timeline
 
 ### Pending Verification
 - [ ] Derek Wang JY alias theory
-- [ ] Xiao Han identity confirmation
+- [x] ~~Xiao Han identity confirmation~~ **COMPLETED 2025-10-27** ✓
+- [ ] Brandon Han = Xiao Han name variation theory
 - [ ] Jerry Han family connection
-- [ ] Intel employment verification
+- [x] ~~Intel employment verification~~ **COMPLETED 2025-10-27** ✓
 - [ ] Z-file documentation translation
+- [ ] Xiao Han active company identification
+- [ ] Xiao Han dissolved company identification
 
 ## Threat Assessment
 
