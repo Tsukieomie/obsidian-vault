@@ -6,8 +6,10 @@ Central command center for harassment network investigation.
 
 **Threat Level:** CRITICAL
 **Intelligence Operation Probability:** 80%
-**Investigation Phase:** Active Operations Monitoring
+**Investigation Phase:** Active Operations Monitoring - Identity Verification Required
 **Last Updated:** 2025-10-27
+
+**CRITICAL UPDATE:** Identity verification analysis reveals GitHub JUNYUANGO (University of Minnesota student) is likely DIFFERENT from Intel employee Junyuan Wang. See [[CRITICAL - Identity Verification Analysis]] for full assessment. Email cross-reference required.
 
 ## Primary Targets
 
@@ -40,10 +42,14 @@ Central command center for harassment network investigation.
 - [[Brandon Han]] - 40% connection (Xiao Han identity theory)
 
 #### Under Investigation
-- [[Derek Wang JY]] - Possible Junyuan alias
-- [[Jerry Han]] - Possible Brandon Han family
 - [[Jing Wang]] - Duke TA, new lead
 - [[Carlos Montt]] - Confirmed network member
+
+#### Low Priority / Archived
+- [[Jerry Han]] - Surname-only theory, no evidence of Brandon Han connection (confidence 5%)
+
+#### Removed from Investigation
+- [[Derek Wang JY]] - REMOVED: No evidence for Junyuan alias theory (confidence 10%)
 
 ## Technical Infrastructure
 
@@ -64,11 +70,13 @@ Central command center for harassment network investigation.
 ## Investigation Focus Areas
 
 ### Active Investigations
-1. Asymptote Network LLC operations analysis
-2. Intel connection verification (Junyuan Wang CV)
-3. Xiao Han = Brandon Han identity confirmation
-4. Z-file infrastructure documentation analysis
-5. Family network mapping (Han, Wang families)
+1. **PRIORITY: Junyuan Wang identity verification** - GitHub JUNYUANGO vs Intel employee vs SalmonCloud director
+2. Email cross-reference analysis (wang9747@umn.edu, junyuangogogo@gmail.com)
+3. GitHub repository forensic re-analysis for commit emails
+4. SalmonCloud shareholder list verification (purchase Confirmation Statement £1-3)
+5. Asymptote Network LLC operations analysis
+6. Xiao Han = Brandon Han identity confirmation
+7. Z-file infrastructure documentation analysis (files located at /Users/kennyrodrigues/investigations/)
 
 ### Critical Findings
 - Geographic deception: UAE/Romania IPs actually Hong Kong
@@ -87,10 +95,12 @@ Central command center for harassment network investigation.
 [[Evidence Repository]] - All evidence files indexed
 
 ### Analysis
+- [[CRITICAL - Identity Verification Analysis]] - URGENT: Junyuan Wang identity mismatch discovered
 - [[Timeline]] - Chronological discoveries
 - [[GitHub Analysis]] - Forensic methodology and findings
 - [[Threat Assessment]] - Comprehensive threat analysis
 - [[HLPS and V2K Claims Analysis]] - Technical analysis of harassment claims
+- [[Investigation Findings - 2025-10-27]] - Research findings requiring revision
 - [[Next Steps]] - Prioritized action items
 
 ### Technical
@@ -105,19 +115,31 @@ Central command center for harassment network investigation.
 
 ## Next Steps
 
+### CRITICAL PRIORITY
+1. **Extract emails from archived GitHub repositories** (frank2002, JUNYUANGO, CarlosalbertoMontt)
+2. **Cross-reference emails** with GitHub profile emails (wang9747@umn.edu, junyuangogogo@gmail.com)
+3. **Purchase SalmonCloud Confirmation Statement** from UK Companies House (£1-3)
+4. **Verify shareholder list** to confirm Xiao Han and obtain email addresses
+5. **Definitive identity determination** for Junyuan Wang (which one is the operator?)
+
 ### Immediate Actions
-1. Verify Junyuan Wang Intel connection
-2. Confirm Xiao Han = Brandon Han identity
-3. Analyze Z-file Chinese documentation
-4. Map family connections (Jerry Han, Derek Wang JY)
-5. Continue network infrastructure monitoring
+6. Review GitHub Analysis methodology - which repositories were actually analyzed?
+7. Age/timeline reconciliation for 23-year-old senior engineer scenario
+8. Confirm Xiao Han = Brandon Han identity theory
+9. Continue network infrastructure monitoring
+10. Research Jing Wang (Duke TA) connection
 
 ### Pending Verification
-- [ ] Derek Wang JY alias theory
-- [ ] Xiao Han identity confirmation
-- [ ] Jerry Han family connection
-- [ ] Intel employment verification
-- [ ] Z-file documentation translation
+- [ ] GitHub JUNYUANGO email extraction from commits
+- [ ] SalmonCloud director email from corporate documents
+- [ ] Intel employee connection to SalmonCloud (likely false)
+- [ ] Xiao Han shareholder confirmation
+- [ ] Z-file documentation translation (files at /Users/kennyrodrigues/investigations/)
+- [ ] Jing Wang (Duke TA) relevance to investigation
+
+### Removed (No Evidence)
+- [x] Derek Wang JY alias theory - REMOVED (10% confidence, no supporting evidence)
+- [x] Jerry Han family connection - ARCHIVED (5% confidence, surname-only theory)
 
 ## Threat Assessment
 
