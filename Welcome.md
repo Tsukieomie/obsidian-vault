@@ -16,12 +16,14 @@ Welcome to the investigation knowledge base.
 - [[Evidence Repository]] - Complete evidence index with Drive links
 - [[Timeline]] - Chronological discoveries
 - [[Threat Assessment]] - Comprehensive threat analysis
+- [[HLPS and V2K Claims Analysis]] - Technical analysis of harassment claims
 - [[Next Steps]] - Prioritized action items
 
 ### Technical Analysis
-- [[AS53616 Network Analysis]] - Primary infrastructure
+- [[AS53616 Network Analysis]] - Primary network infrastructure
+- [[Neurotechnology Analysis]] - Dr. Giordano, DARPA N³, capabilities assessment
 - [[GitHub Analysis]] - Forensic methodology
-- [[ghoststack.net]] - Active relay
+- [[ghoststack.net]] - Active AWS relay
 - [[ca94fan.xyz]] - Abandoned domain
 - [[Z-File Infrastructure]] - Chinese documentation files
 

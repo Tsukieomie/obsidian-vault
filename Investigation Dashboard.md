@@ -7,7 +7,7 @@ Central command center for harassment network investigation.
 **Threat Level:** CRITICAL
 **Intelligence Operation Probability:** 80%
 **Investigation Phase:** Active Operations Monitoring
-**Last Updated:** 2025-10-11
+**Last Updated:** 2025-10-27
 
 ## Primary Targets
 
@@ -76,6 +76,8 @@ Central command center for harassment network investigation.
 - IPXO IP leasing for location masking
 - Traditional electronic harassment capabilities confirmed
 - No brain research access (threat level: CRITICAL not CATASTROPHIC)
+- No evidence of exotic neurotechnology or V2K capabilities (see [[Neurotechnology Analysis]])
+- Focus on prosecutable traditional electronic harassment (see [[HLPS and V2K Claims Analysis]])
 
 ## Quick Access
 
@@ -85,12 +87,16 @@ Central command center for harassment network investigation.
 ### Analysis
 - [[Timeline]] - Chronological discoveries
 - [[GitHub Analysis]] - Forensic methodology and findings
+- [[Threat Assessment]] - Comprehensive threat analysis
+- [[HLPS and V2K Claims Analysis]] - Technical analysis of harassment claims
+- [[Next Steps]] - Prioritized action items
 
 ### Technical
-- [[AS53616 Network Analysis]]
-- [[ghoststack.net]]
-- [[ca94fan.xyz]]
-- [[Z-File Infrastructure]]
+- [[AS53616 Network Analysis]] - Primary network infrastructure
+- [[Neurotechnology Analysis]] - Dr. Giordano, DARPA N³, and capabilities assessment
+- [[ghoststack.net]] - Active AWS relay
+- [[ca94fan.xyz]] - Abandoned domain
+- [[Z-File Infrastructure]] - Chinese documentation files
 
 ## Next Steps
 
