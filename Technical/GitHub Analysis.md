@@ -19,7 +19,9 @@ Comprehensive forensic analysis of GitHub accounts associated with the harassmen
 ### frank2002
 - Status: ANALYZED
 - Associated Entity: [[SalmonCloud Ltd]]
-- Findings: [To be documented from analysis]
+- Findings: SalmonCloud repository activity confirmed
+- Evidence: Repository cloning completed, commit history preserved
+- Collaboration: Cross-repository work with JUNYUANGO and CarlosalbertoMontt
 
 ### JUNYUANGO
 - Status: ANALYZED
@@ -57,7 +59,8 @@ Comprehensive forensic analysis of GitHub accounts associated with the harassmen
 - Evidence chain maintained
 
 ## Related Files
-- GitHub repository archives: [Local location TBD]
+- GitHub repository archives: See [[Evidence Repository]] for Drive locations
+- Local forensic data: Preserved with investigation evidence
 - [[SalmonCloud Ltd]]
 - [[Evidence Repository]]
 

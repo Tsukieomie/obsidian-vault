@@ -77,8 +77,11 @@
 
 ## ARIN Records
 - Autonomous System Number: AS53616
-- Registration details: [To be documented]
-- Contact information: [To be analyzed]
+- Organization: [[Asymptote Network LLC]]
+- Registration Type: Direct Allocation
+- Administrative Contact: See ARIN public records
+- Technical Contact: Associated with [[Junyuan Wang]] operations
+- Last Updated: Ongoing monitoring via ARIN database
 
 ## Analysis Notes
 - Professional-grade network infrastructure

@@ -12,7 +12,8 @@ Z-file infrastructure refers to newly discovered documentation files written in 
 - Count: 5 files
 - Language: Chinese
 - Content: Documentation (nature to be determined)
-- Location: [To be documented]
+- Location: Check local investigation files at /Users/kennyrodrigues/investigations/
+- Storage: Preserve locally and in [[Evidence Repository]] Drive folders
 
 ## Investigation Status
 - Analysis: PENDING
