@@ -78,6 +78,8 @@ Central command center for harassment network investigation.
 - No brain research access (threat level: CRITICAL not CATASTROPHIC)
 - No evidence of exotic neurotechnology or V2K capabilities (see [[Neurotechnology Analysis]])
 - Focus on prosecutable traditional electronic harassment (see [[HLPS and V2K Claims Analysis]])
+- BRAIN Initiative review: No connection between investigation subjects and US/China brain research programs (see [[BRAIN Initiative Deep Dive Analysis]])
+- Intel neuromorphic computing: AI chips inspired by brains, NOT brain manipulation technology
 
 ## Quick Access
 
@@ -96,6 +98,7 @@ Central command center for harassment network investigation.
 - [[Neurotechnology Analysis]] - Dr. Giordano, DARPA N³, and capabilities assessment
 - [[Corrected Assessment - V2K RNM and Mind Control]] - Evidence-based correction on exotic technologies
 - [[Havana Syndrome and V2K Devices - Complete Analysis]] - Comprehensive V2K devices, Havana syndrome, acoustic systems
+- [[BRAIN Initiative Deep Dive Analysis]] - US BRAIN Initiative, Intel neuromorphic computing, China Brain Project analysis
 - [[ghoststack.net]] - Active AWS relay
 - [[ca94fan.xyz]] - Abandoned domain
 - [[Z-File Infrastructure]] - Chinese documentation files
