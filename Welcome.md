@@ -6,6 +6,16 @@ Welcome to the investigation knowledge base.
 
 **[[Quick Start Guide]]** - Complete getting started guide (5-15 minutes)
 
+## AI-Powered Investigation
+
+**[[Claude Integration Guide]]** - Use Claude Code for automated investigation workflows!
+- 10 slash commands for common tasks
+- Automatic documentation and cross-referencing
+- Guided investigation sessions
+- Risk assessments and reporting
+
+Try: `/investigation-session` to start!
+
 ## Essential Resources
 
 **[[Investigation Dashboard]]** - Central command center with complete overview
@@ -14,6 +24,7 @@ Welcome to the investigation knowledge base.
 
 ### Indices and Guides
 - [[Quick Start Guide]] - Getting started guide
+- [[Claude Integration Guide]] - AI-powered investigation assistance
 - [[Entity Index]] - Complete entity directory
 - [[Analysis Index]] - All analysis documents
 - [[Templates]] - Document templates for new entities
@@ -62,6 +73,7 @@ Welcome to the investigation knowledge base.
 ## Getting Started
 
 1. **First Time?** → [[Quick Start Guide]] (5-15 minutes)
-2. **Ready to Dive In?** → [[Investigation Dashboard]] (complete overview)
-3. **Need to Add Info?** → [[Templates]] (use templates for consistency)
-4. **Looking for Something?** → [[Entity Index]] or [[Analysis Index]]
+2. **Want AI Help?** → [[Claude Integration Guide]] (try `/investigation-session`)
+3. **Ready to Dive In?** → [[Investigation Dashboard]] (complete overview)
+4. **Need to Add Info?** → [[Templates]] (use templates for consistency)
+5. **Looking for Something?** → [[Entity Index]] or [[Analysis Index]]

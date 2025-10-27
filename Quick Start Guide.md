@@ -9,6 +9,7 @@ Welcome to the Harassment Network Investigation vault. This guide will help you 
 2. Open [[Investigation Dashboard]] - Central command center
 3. Scan [[Timeline]] - Recent discoveries
 4. Review [[Threat Assessment]] - Current threat level
+5. **NEW**: Check out [[Claude Integration Guide]] - AI-powered investigation assistance
 
 ### Essential Knowledge (15 minutes)
 - **Who**: [[Asymptote Network LLC]], [[Junyuan Wang]], [[Chris Wang Oklahoma]]
@@ -193,6 +194,45 @@ Investigation Dashboard ← START HERE
     ├── Technical Infrastructure Template.md
     └── Investigation Note Template.md
 ```
+
+## Claude Code Integration (AI-Powered Assistance)
+
+### What is Claude Code?
+This vault now has **AI-powered investigation assistance** through Claude Code integration!
+
+### Quick Start with Claude
+Simply type slash commands in your Claude Code conversation:
+
+```
+/investigation-session   - Start guided investigation
+/add-person             - Add new person entity
+/search-entity          - Search for any entity
+/weekly-review          - Generate weekly review
+/export-report          - Create reports for law enforcement
+```
+
+**Full Guide**: [[Claude Integration Guide]]
+
+### Example Usage
+```
+You: /investigation-session
+
+Claude: What are you investigating today?
+
+You: New connection between Junyuan Wang and Intel
+
+Claude: [Creates investigation note, guides you through documentation,
+         updates all relevant files automatically, provides summary]
+```
+
+### Benefits
+- **Automatic Documentation**: Claude updates multiple files automatically
+- **Guided Workflows**: Step-by-step investigation processes
+- **Consistency**: Templates applied automatically
+- **Comprehensive**: All cross-references maintained
+- **Efficient**: Save hours on documentation
+
+**Learn More**: [[Claude Integration Guide]] (complete guide with 10 commands)
 
 ## Obsidian Features to Use
 
