@@ -10,3 +10,35 @@
 
 # Trash folder
 .trash/
+
+# Investigation logs and generated files
+Logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Sensitive data (if accidentally added)
+*.key
+*.pem
+*.p12
+credentials.*
+secrets.*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
