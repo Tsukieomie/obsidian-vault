@@ -2,6 +2,20 @@
 
 Central command center for harassment network investigation.
 
+## Quick Navigation
+
+### Maps of Content (MOC)
+- [[Entities MOC]] - All people and organizations
+- [[Technical MOC]] - Infrastructure and technical findings
+- [[Analysis MOC]] - Analytical work and assessments
+- [[Evidence MOC]] - Evidence tracking and documentation
+
+### Resources
+- [[Quick Reference Guide]] - Search patterns, shortcuts, workflows
+- [[Investigation Methodology]] - Standards and best practices
+- [[Timeline]] - Chronological discoveries
+- [[Evidence Repository]] - Master evidence index
+
 ## Current Status
 
 **Threat Level:** CRITICAL
