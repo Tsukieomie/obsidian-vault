@@ -1,0 +1,11 @@
+# Obsidian-Claude Connector Requirements
+# Python dependencies for the connector
+
+# Core dependencies (all built-in, no external packages required for basic functionality)
+# The connector uses only Python standard library
+
+# Optional dependencies for enhanced features:
+# anthropic>=0.18.0  # For Claude API integration
+# python-frontmatter>=1.0.0  # For advanced YAML frontmatter parsing
+# watchdog>=3.0.0  # For file system monitoring
+# rich>=13.0.0  # For better CLI output formatting

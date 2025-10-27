@@ -1,0 +1,36 @@
+{
+  "vault": {
+    "path": "/home/user/obsidian-vault",
+    "name": "obsidian-vault",
+    "description": "Personal Obsidian vault connected to Claude"
+  },
+  "connector": {
+    "version": "1.0.0",
+    "created": "2025-10-27",
+    "auto_sync": true,
+    "sync_interval_minutes": 5
+  },
+  "search": {
+    "case_sensitive": false,
+    "max_results": 100,
+    "exclude_patterns": [
+      ".git/*",
+      ".obsidian/*",
+      ".sync-*",
+      "*.canvas",
+      "*.base",
+      "__pycache__/*",
+      "node_modules/*"
+    ]
+  },
+  "api": {
+    "enabled": false,
+    "port": 8080,
+    "host": "localhost"
+  },
+  "claude": {
+    "integration_enabled": true,
+    "model": "claude-3-5-sonnet-20241022",
+    "api_key_env": "ANTHROPIC_API_KEY"
+  }
+}
