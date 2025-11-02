@@ -1,0 +1,67 @@
+{
+  // Markdown editor settings
+  "editor.wordWrap": "on",
+  "editor.wrappingIndent": "indent",
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  },
+  "editor.renderWhitespace": "none",
+  "editor.acceptSuggestionOnEnter": "on",
+
+  // Markdown specific
+  "markdown.preview.breaks": true,
+  "markdown.preview.linkify": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
+  },
+
+  // File explorer
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    ".obsidian/workspace*.json": true,
+    ".obsidian/cache": true
+  },
+
+  // Search settings
+  "search.exclude": {
+    "**/.obsidian/workspace*.json": true,
+    "**/.obsidian/cache/**": true,
+    "**/.git": true,
+    "**/node_modules": true
+  },
+
+  // File associations
+  "files.associations": {
+    "*.md": "markdown"
+  },
+
+  // Auto-save (disabled to avoid conflicts with Obsidian)
+  "files.autoSave": "off",
+
+  // Obsidian-specific settings
+  "files.watcherExclude": {
+    "**/.obsidian/workspace*.json": true,
+    "**/.obsidian/cache/**": true
+  },
+
+  // Git settings
+  "git.enableCommitSigning": false,
+  "git.autofetch": true,
+
+  // Enable breadcrumbs for easy navigation
+  "breadcrumbs.enabled": true,
+
+  // Minimap settings
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 80
+}

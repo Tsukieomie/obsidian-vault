@@ -1,0 +1,26 @@
+{
+  "recommendations": [
+    // Markdown editing and preview
+    "yzhang.markdown-all-in-one",
+    "bierner.markdown-preview-github-styles",
+    "bierner.markdown-emoji",
+    "bierner.markdown-mermaid",
+
+    // Code formatting
+    "esbenp.prettier-vscode",
+
+    // Git integration
+    "eamodio.gitlens",
+
+    // Spell checking
+    "streetsidesoftware.code-spell-checker",
+
+    // Additional markdown features
+    "tchayen.markdown-links",
+    "shd101wyy.markdown-preview-enhanced",
+
+    // File management
+    "alefragnani.project-manager"
+  ],
+  "unwantedRecommendations": []
+}

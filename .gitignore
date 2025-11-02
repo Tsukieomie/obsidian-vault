@@ -10,3 +10,7 @@
 
 # Trash folder
 .trash/
+
+# VS Code temporary files (but keep .vscode/ folder tracked)
+.vscode/.history/
+.vscode/*.log

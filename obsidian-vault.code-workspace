@@ -1,0 +1,29 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "Obsidian Vault"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      ".obsidian/workspace*.json": true,
+      ".obsidian/cache": true
+    },
+    "search.exclude": {
+      "**/.obsidian/workspace*.json": true,
+      "**/.obsidian/cache/**": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "yzhang.markdown-all-in-one",
+      "bierner.markdown-preview-github-styles",
+      "esbenp.prettier-vscode",
+      "eamodio.gitlens",
+      "streetsidesoftware.code-spell-checker"
+    ]
+  }
+}
