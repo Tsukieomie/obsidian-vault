@@ -16,3 +16,10 @@ scripts/google-api/token.json
 scripts/google-api/token.pickle
 scripts/google-api/*.pickle
 scripts/google-api/youtube_token.pickle
+
+# Cline-specific files
+.cline/.env
+.cline/secrets/
+.cline/*.key
+.cline/session.json
+.cline/cache/

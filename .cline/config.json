@@ -1,0 +1,58 @@
+{
+  "projectName": "Obsidian Vault - Investigation & Research",
+  "description": "Personal knowledge base with Google Drive & YouTube API integration",
+  "version": "1.0.0",
+  "googleOAuth": {
+    "clientId": "988966010493-43du2fbcltpeuaet86398p962boak66u.apps.googleusercontent.com",
+    "credentialsPath": "scripts/google-api/credentials.json",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive",
+      "https://www.googleapis.com/auth/youtube.readonly",
+      "https://www.googleapis.com/auth/youtube.force-ssl"
+    ]
+  },
+  "apis": {
+    "googleDrive": {
+      "enabled": true,
+      "scriptPath": "scripts/google-api/google_drive_auth.py"
+    },
+    "youtube": {
+      "enabled": true,
+      "scriptPath": "scripts/google-api/youtube_api_auth.py"
+    }
+  },
+  "projectStructure": {
+    "notes": {
+      "entities": "Entities/",
+      "analysis": "Analysis/",
+      "patents": "Patents/",
+      "technical": "Technical/"
+    },
+    "scripts": "scripts/",
+    "docs": [
+      "README.md",
+      "INVESTIGATION_SUMMARY.md",
+      "ENTITY_NETWORK_MAP.md"
+    ]
+  },
+  "customInstructions": {
+    "context": "This is an Obsidian vault containing investigation and research notes about DARPA BRAIN Initiative connections. The vault includes entity profiles, timeline analysis, and patent research.",
+    "preferences": [
+      "Use markdown formatting for all notes",
+      "Maintain clear entity relationships in ENTITY_NETWORK_MAP.md",
+      "Update Timeline.md when adding temporal information",
+      "Keep investigation evidence organized in Evidence Repository.md"
+    ],
+    "apiUsage": [
+      "Use Google Drive API to backup investigation materials",
+      "Use YouTube API to analyze and archive relevant video content",
+      "Always respect API quotas and rate limits"
+    ]
+  },
+  "settings": {
+    "autoBackup": true,
+    "backupLocation": "Google Drive",
+    "syncEnabled": true,
+    "syncScript": ".sync-vault.sh"
+  }
+}

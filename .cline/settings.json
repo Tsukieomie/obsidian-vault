@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "cline.customInstructions": "Read .cline/custom-instructions.md for project-specific guidelines",
+  "cline.projectContext": {
+    "type": "research",
+    "domain": "investigation-vault",
+    "vault": "obsidian"
+  },
+  "cline.apis": {
+    "google": {
+      "drive": {
+        "enabled": true,
+        "pythonScript": "${workspaceFolder}/scripts/google-api/google_drive_auth.py"
+      },
+      "youtube": {
+        "enabled": true,
+        "pythonScript": "${workspaceFolder}/scripts/google-api/youtube_api_auth.py"
+      }
+    }
+  },
+  "cline.shortcuts": {
+    "analyzeVideo": "python3 ${workspaceFolder}/scripts/google-api/review_video.py",
+    "backupToDrive": "python3 ${workspaceFolder}/scripts/google-api/google_drive_auth.py",
+    "syncVault": "${workspaceFolder}/.sync-vault.sh"
+  },
+  "cline.workflowHints": [
+    "Use [[WikiLinks]] for entity cross-references",
+    "Update ENTITY_NETWORK_MAP.md when adding entity relationships",
+    "Add dates to Timeline.md in ISO format (YYYY-MM-DD)",
+    "Log evidence with sources in Evidence Repository.md",
+    "Backup critical research to Google Drive regularly",
+    "Respect YouTube API quota (10,000 units/day)"
+  ],
+  "cline.filePatterns": {
+    "entities": "Entities/*.md",
+    "analysis": "Analysis/*.md",
+    "patents": "Patents/*.md",
+    "technical": "Technical/*.md",
+    "summaries": "*_SUMMARY.md",
+    "dashboards": "*Dashboard.md"
+  },
+  "cline.autoBackup": {
+    "enabled": true,
+    "targets": [
+      "INVESTIGATION_SUMMARY.md",
+      "ENTITY_NETWORK_MAP.md",
+      "Timeline.md",
+      "Evidence Repository.md"
+    ],
+    "destination": "Google Drive",
+    "frequency": "on-demand"
+  },
+  "cline.apiConfig": {
+    "googleOAuth": {
+      "clientIdPath": "${workspaceFolder}/scripts/google-api/credentials.json",
+      "tokenStorePath": "${workspaceFolder}/scripts/google-api/",
+      "scopes": {
+        "drive": ["https://www.googleapis.com/auth/drive"],
+        "youtube": [
+          "https://www.googleapis.com/auth/youtube.readonly",
+          "https://www.googleapis.com/auth/youtube.force-ssl"
+        ]
+      }
+    }
+  },
+  "cline.pythonEnvironment": {
+    "interpreter": "python3",
+    "requirements": "${workspaceFolder}/scripts/google-api/requirements.txt",
+    "dependencies": [
+      "google-auth-oauthlib",
+      "google-auth-httplib2",
+      "google-api-python-client"
+    ]
+  },
+  "cline.gitWorkflow": {
+    "branchPrefix": "claude/",
+    "autoCommit": false,
+    "commitMessageStyle": "descriptive",
+    "excludeTokenFiles": true
+  },
+  "cline.markdownFormatting": {
+    "headingStyle": "atx",
+    "bulletStyle": "-",
+    "linkStyle": "wikilink",
+    "codeBlockLanguage": "auto",
+    "tableAlignment": "left"
+  }
+}
