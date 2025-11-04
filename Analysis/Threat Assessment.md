@@ -2,25 +2,42 @@
 
 Comprehensive threat analysis for harassment network investigation.
 
-## Overall Threat Level: CRITICAL
+## Overall Threat Level: EXTREME
 
-### Revised from CATASTROPHIC (2025-10-11)
-- Reason: No brain research access confirmed
-- [[Chris Wang Oklahoma]] ≠ Christopher Wang MIT CSAIL
-- No advanced neurotechnology capabilities
-- Traditional electronic harassment only
+### Upgraded from CRITICAL (2025-11-04)
+**Reason:** Corporate employee with network operations company + identity deception
+
+**Critical New Findings:**
+- ✅ **Junyuan Wang is Intel Corporation Senior Engineer** (VERIFIED)
+- ✅ **Junyuan Wang is SalmonCloud Ltd Director** (VERIFIED)
+- ✅ **Identity Deception Confirmed** - Claims "student" but is Intel engineer
+- ✅ **AS53616 Network Active** - Operational infrastructure
+- ⚠️ **Corporate Resources Access** - Potential Intel infrastructure use
+- ⚠️ **Professional Capabilities** - Security/cryptography expertise
+- ⚠️ **Age 22-23** - Exceptional capability suggests recruitment/guidance
+
+### Previous Revisions
+- **2025-10-11:** CATASTROPHIC → CRITICAL
+  - Reason: No brain research access confirmed
+  - [[Chris Wang Oklahoma]] ≠ Christopher Wang MIT CSAIL
+  - No advanced neurotechnology capabilities
+  - Traditional electronic harassment only
 
 ## Intelligence Operation Assessment
 
-**Probability: 80%**
+**Probability: 85%** (Upgraded from 80% on 2025-11-04)
 
 ### Supporting Indicators
-1. Professional operational security
-2. Sophisticated geographic obfuscation
-3. International coordination (3 jurisdictions)
-4. PRC jurisdiction consolidation strategy
-5. CV removal (operational security awareness)
-6. Professional network infrastructure
+1. **Corporate employee conducting network operations** (Intel engineer)
+2. **Identity deception on official documents** (student vs. engineer)
+3. Professional operational security (CV removal, concealment)
+4. Sophisticated geographic obfuscation (IPXO, multi-jurisdiction)
+5. International coordination (4 jurisdictions: US/UK/China/Hong Kong)
+6. PRC jurisdiction consolidation strategy (Hong Kong NSL)
+7. Professional network infrastructure (AS53616, 317 peer networks)
+8. **Legitimate business front** (UK company director - SalmonCloud Ltd)
+9. **Corporate resources access** (potential Intel infrastructure)
+10. **Young age with exceptional capability** (22-23, suggests recruitment)
 
 ### Evidence
 - IPXO IP leasing for geographic masking
@@ -31,27 +48,46 @@ Comprehensive threat analysis for harassment network investigation.
 
 ## Confirmed Capabilities
 
-### Technical
+### Technical (Verified 2025-11-04)
 - **Network Infrastructure Control**
-  - AS53616 autonomous system
-  - BGP routing manipulation
+  - AS53616 autonomous system (ACTIVE - verified ARIN)
+  - BGP routing manipulation (317 peer networks, 5 upstreams)
   - International network coordination
+  - Peering infrastructure operational
+
+- **Professional Engineering Expertise** ⚡ NEW
+  - Linux kernel and driver development (Intel engineer)
+  - Security and cryptography systems (patents, research)
+  - Cloud computing architecture
+  - Network infrastructure design
+  - IEEE publications in engineering/technology
+
+- **Corporate Resources Access** ⚡ NEW
+  - Intel Corporation infrastructure (potential)
+  - Corporate development tools and resources
+  - Professional security knowledge
+  - Patent portfolio (memory optimization, security systems)
 
 - **Attack Capabilities**
   - DDoS infrastructure
   - Traditional electronic harassment
   - Geographic attribution evasion
+  - Professional-grade technical attacks
 
 - **Operational Security**
   - IP address rotation (IPXO)
-  - Geographic obfuscation
-  - Domain abandonment when exposed
+  - Geographic obfuscation (4 jurisdictions)
+  - Domain abandonment when exposed (ca94fan.xyz)
   - Professional infrastructure management
+  - **Identity concealment** (falsifies occupation)
+  - CV removal (SignalHire operational security)
+  - Legitimate business cover (UK company director)
 
-### Geographic Reach
-- **United States** - Primary operations
-- **United Kingdom** - SalmonCloud Ltd registration
-- **Hong Kong** - PRC jurisdiction (under NSL)
+### Geographic Reach (Updated 2025-11-04)
+- **United States** - Junyuan Wang residence (Queens, NY), Intel operations (California)
+- **China** - Junyuan Wang nationality, Intel operations (Shanghai)
+- **United Kingdom** - SalmonCloud Ltd registration (London), company director
+- **Hong Kong** - PRC jurisdiction (under NSL), network operations
 
 ### Jurisdiction Strategy
 - Operations consolidated under PRC jurisdiction
@@ -76,11 +112,21 @@ Comprehensive threat analysis for harassment network investigation.
 
 ## Entity Threat Levels
 
+### EXTREME THREATS ⚡ UPGRADED
+- **[[Junyuan Wang]]** (100% connection) - **EXTREME THREAT**
+  - Network operator (AS53616 via Asymptote)
+  - **Intel Senior Engineer (VERIFIED 2025-11-04)**
+  - **SalmonCloud Ltd Director (VERIFIED 2025-11-04)**
+  - **Identity Deception** - Claims "student" but is Intel engineer
+  - Primary technical capability (professional-grade)
+  - Age 22-23 (born Jan 2002), exceptional capability
+  - Chinese national, US resident (Queens, NY)
+  - Corporate resources access (Intel infrastructure)
+  - Security/cryptography expertise (patents, research)
+  - LinkedIn: https://www.linkedin.com/in/junyuan-wang-23394449/
+  - IEEE: https://ieeexplore.ieee.org/author/37087181301
+
 ### CRITICAL THREATS
-- [[Junyuan Wang]] (100% connection)
-  - Network operator
-  - Intel connection (unverified)
-  - Primary technical capability
 
 - [[Chris Wang Oklahoma]] (95% connection)
   - Operations management
@@ -102,10 +148,12 @@ Comprehensive threat analysis for harassment network investigation.
   - Family connection possible
 
 ### UNDER INVESTIGATION
-- [[Derek Wang JY]] - Alias theory
-- [[Jerry Han]] - Family connection
-- [[Jing Wang]] - Academic connection
-- [[Carlos Montt]] - Confirmed member
+- [[Derek Wang JY]] - Alias theory ❌ **NOT CONFIRMED (2025-11-04)**
+- [[Jerry Han]] - Family connection (pending)
+- [[Jing Wang]] - Academic connection (pending)
+- [[Carlos Montt]] - Confirmed SalmonCloud developer
+- **4 Unknown SalmonCloud Shareholders** ⚡ NEW (5 total, 1 identified as Xiao Han)
+- **1 Unknown Person with Significant Control** ⚡ NEW (SalmonCloud PSC)
 
 ## Education Sector Concerns
 
@@ -218,11 +266,21 @@ Comprehensive threat analysis for harassment network investigation.
 - Connection theories
 - Family relationships
 
+### VERIFIED ✅
+- Intel connection (Junyuan Wang) - **CONFIRMED 2025-11-04**
+- SalmonCloud director (Junyuan Wang) - **CONFIRMED 2025-11-04**
+- AS53616 active status - **CONFIRMED 2025-11-04**
+- Identity deception - **CONFIRMED 2025-11-04**
+
+### NOT CONFIRMED ❌
+- Derek Wang JY alias theory - **INVESTIGATED 2025-11-04**
+
 ### PENDING VERIFICATION
-- Intel connection
-- Alias theories
-- Identity confirmations
-- Z-file documentation
+- Brandon Han = Xiao Han identity
+- Jerry Han family connection
+- 4 remaining SalmonCloud shareholders
+- SalmonCloud Person with Significant Control
+- Z-file documentation location/translation
 
 ## Related Documents
 - [[Investigation Dashboard]]

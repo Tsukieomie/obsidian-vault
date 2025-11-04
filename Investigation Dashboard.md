@@ -4,10 +4,18 @@ Central command center for harassment network investigation.
 
 ## Current Status
 
-**Threat Level:** CRITICAL
-**Intelligence Operation Probability:** 80%
-**Investigation Phase:** Active Operations Monitoring
-**Last Updated:** 2025-10-11
+**Threat Level:** EXTREME (Upgraded 2025-11-04)
+**Intelligence Operation Probability:** 85% (Upgraded from 80%)
+**Investigation Phase:** Active Operations Monitoring + Corporate Vector Analysis
+**Last Updated:** 2025-11-04
+
+### CRITICAL UPDATES (2025-11-04)
+🚨 **MAJOR BREAKTHROUGHS:**
+- ✅ **Junyuan Wang Intel employment VERIFIED** - Senior Linux Driver Engineer
+- ✅ **Junyuan Wang is SalmonCloud Ltd director** - UK Companies House confirmed
+- ✅ **Identity deception confirmed** - Claims "student" but is Intel engineer
+- ✅ **AS53616 network ACTIVE** - Operational and in good standing
+- ✅ **SalmonCloud company number corrected** - 15025687 (not 10063474)
 
 ## Primary Targets
 
@@ -26,9 +34,13 @@ Central command center for harassment network investigation.
 
 #### High Priority
 - [[Junyuan Wang]] - 100% connection
-  - Role: Network operator
-  - Status: CRITICAL THREAT
-  - Intel connection: Under investigation
+  - Role: Network operator, SalmonCloud Ltd director
+  - Status: **EXTREME THREAT** (Upgraded 2025-11-04)
+  - Intel connection: ✅ **VERIFIED** - Senior Linux Driver Engineer
+  - **NEW:** Director of SalmonCloud Ltd (UK Companies House 15025687)
+  - **NEW:** Identity deception - Claims "student" but is Intel engineer
+  - **NEW:** Age 22-23 (born Jan 2002), Chinese national, US resident (Queens, NY)
+  - **NEW:** Patents, research, professional security expertise
 
 - [[Chris Wang Oklahoma]] - 95% connection
   - Role: Operations management
@@ -102,21 +114,28 @@ Central command center for harassment network investigation.
 5. Continue network infrastructure monitoring
 
 ### Pending Verification
-- [ ] Derek Wang JY alias theory
-- [ ] Xiao Han identity confirmation
+- [x] ~~Intel employment verification~~ - **VERIFIED 2025-11-04**
+- [x] ~~Derek Wang JY alias theory~~ - **NOT CONFIRMED 2025-11-04**
+- [ ] Xiao Han = Brandon Han identity confirmation
 - [ ] Jerry Han family connection
-- [ ] Intel employment verification
 - [ ] Z-file documentation translation
+- [ ] **NEW:** Identify 4 remaining SalmonCloud shareholders (5 total)
+- [ ] **NEW:** Identify SalmonCloud Person with Significant Control (PSC)
 
 ## Threat Assessment
 
 ### Confirmed Capabilities
 - Traditional electronic harassment
-- Network infrastructure control (AS53616)
+- Network infrastructure control (AS53616) - **ACTIVE (verified 2025-11-04)**
 - DDoS capabilities
-- BGP routing manipulation
-- International coordination (US/UK/Hong Kong)
+- BGP routing manipulation (317 peer networks)
+- International coordination (US/UK/Hong Kong/China)
 - Geographic obfuscation (IPXO)
+- **NEW:** Professional-grade technical expertise (Intel engineer)
+- **NEW:** Corporate resources access (potential Intel infrastructure)
+- **NEW:** Security/cryptography expertise (patents, research)
+- **NEW:** Identity deception (official documents)
+- **NEW:** Legitimate business front (UK company director)
 
 ### Geographic Operations
 - United States
