@@ -10,3 +10,9 @@
 
 # Trash folder
 .trash/
+
+# Google API tokens and credentials
+scripts/google-api/token.json
+scripts/google-api/token.pickle
+scripts/google-api/*.pickle
+scripts/google-api/youtube_token.pickle
