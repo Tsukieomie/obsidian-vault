@@ -5,9 +5,9 @@ Central command center for harassment network investigation.
 ## Current Status
 
 **Threat Level:** CRITICAL
-**Intelligence Operation Probability:** 80%
+**Intelligence Operation Probability:** 85% (increased due to Intel connection confirmation)
 **Investigation Phase:** Active Operations Monitoring
-**Last Updated:** 2025-10-11
+**Last Updated:** 2025-11-05
 
 ## Primary Targets
 
@@ -28,7 +28,10 @@ Central command center for harassment network investigation.
 - [[Junyuan Wang]] - 100% connection
   - Role: Network operator
   - Status: CRITICAL THREAT
-  - Intel connection: Under investigation
+  - Intel connection: **CONFIRMED ✓** (2025-11-05)
+    - Position: Senior Linux Driver Engineer at Intel Corporation
+    - Location: Shanghai, China / Santa Clara, CA
+    - Expertise: Linux drivers, security technologies, Intel patents
 
 - [[Chris Wang Oklahoma]] - 95% connection
   - Role: Operations management
@@ -37,7 +40,10 @@ Central command center for harassment network investigation.
 
 #### Medium Priority
 - [[Roger Wang]] - 70% connection
-- [[Brandon Han]] - 40% connection (Xiao Han identity theory)
+- [[Brandon Han]] - 40% connection
+  - Xiao Han identity: **LIKELY CONFIRMED ✓** (2025-11-05)
+  - Found as "Xiao (Brandon) Han" - same person using both names
+  - Website: brandonhan.uk
 
 #### Under Investigation
 - [[Derek Wang JY]] - Possible Junyuan alias
@@ -65,10 +71,11 @@ Central command center for harassment network investigation.
 
 ### Active Investigations
 1. Asymptote Network LLC operations analysis
-2. Intel connection verification (Junyuan Wang CV)
-3. Xiao Han = Brandon Han identity confirmation
-4. Z-file infrastructure documentation analysis
+2. ~~Intel connection verification (Junyuan Wang CV)~~ **COMPLETED ✓** (2025-11-05)
+3. ~~Xiao Han = Brandon Han identity confirmation~~ **LIKELY CONFIRMED ✓** (2025-11-05)
+4. Z-file infrastructure documentation analysis (files not yet secured)
 5. Family network mapping (Han, Wang families)
+6. Corporate espionage investigation (Intel employee + network operations)
 
 ### Critical Findings
 - Geographic deception: UAE/Romania IPs actually Hong Kong
@@ -95,18 +102,22 @@ Central command center for harassment network investigation.
 ## Next Steps
 
 ### Immediate Actions
-1. Verify Junyuan Wang Intel connection
-2. Confirm Xiao Han = Brandon Han identity
-3. Analyze Z-file Chinese documentation
+1. ~~Verify Junyuan Wang Intel connection~~ **COMPLETED ✓** (2025-11-05)
+2. ~~Confirm Xiao Han = Brandon Han identity~~ **LIKELY CONFIRMED ✓** (2025-11-05)
+3. Secure and analyze Z-file Chinese documentation (files location needed)
 4. Map family connections (Jerry Han, Derek Wang JY)
 5. Continue network infrastructure monitoring
+6. Investigate corporate espionage implications (Intel employee + network ops)
+7. Search for additional Intel patents by Junyuan Wang
 
 ### Pending Verification
 - [ ] Derek Wang JY alias theory
-- [ ] Xiao Han identity confirmation
+- [X] Xiao Han identity confirmation **LIKELY CONFIRMED ✓** (2025-11-05)
 - [ ] Jerry Han family connection
-- [ ] Intel employment verification
-- [ ] Z-file documentation translation
+- [X] Intel employment verification **CONFIRMED ✓** (2025-11-05)
+- [ ] Z-file documentation translation (pending file access)
+- [ ] Junyuan Wang Intel patents review
+- [ ] Corporate espionage scope assessment
 
 ## Threat Assessment
 

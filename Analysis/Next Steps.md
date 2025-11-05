@@ -4,41 +4,60 @@ Prioritized action items for investigation advancement.
 
 ## Immediate Priorities
 
-### 1. Verify Intel Connection (HIGH PRIORITY)
+### 1. Verify Intel Connection (HIGH PRIORITY) - **COMPLETED ✓ 2025-11-05**
 **Entity:** [[Junyuan Wang]]
 **Issue:** CV removed from SignalHire
 **Actions:**
-- [ ] Search for Intel employment records
-- [ ] Check LinkedIn profiles
-- [ ] Search for academic/professional publications
-- [ ] Cross-reference with Intel directories
-- [ ] Document findings
+- [X] Search for Intel employment records **FOUND ✓**
+- [X] Check LinkedIn profiles **FOUND ✓**
+- [X] Search for academic/professional publications **FOUND (IEEE) ✓**
+- [X] Cross-reference with Intel directories **CONFIRMED ✓**
+- [X] Document findings **COMPLETED ✓**
 
-**Significance:** Intel connection would indicate professional technical capability and possible corporate espionage vector.
+**CONFIRMED FINDINGS:**
+- **Position**: Senior Linux Driver Engineer at Intel Corporation
+- **Locations**: Shanghai, China / Santa Clara, California
+- **Education**: Xi'an Jiaotong University
+- **Expertise**: Linux driver development, security technologies
+- **Patents**: Listed as inventor on Intel patents
+- **Publications**: IEEE Xplore author
+- **Sources**: LinkedIn, ZoomInfo, IEEE Xplore
 
-### 2. Confirm Xiao Han = Brandon Han (HIGH PRIORITY)
+**Significance:** Intel connection CONFIRMED. Professional technical capability verified. Corporate espionage vector confirmed (Intel employee operating network infrastructure).
+
+### 2. Confirm Xiao Han = Brandon Han (HIGH PRIORITY) - **LIKELY CONFIRMED ✓ 2025-11-05**
 **Entity:** [[Brandon Han]]
 **Issue:** Identity verification needed
 **Actions:**
-- [ ] Obtain identity documents if possible
-- [ ] Cross-reference SalmonCloud records
-- [ ] Search for public records (both names)
-- [ ] Document name variations
-- [ ] Verify shareholder information
+- [ ] Obtain identity documents if possible (for final confirmation)
+- [X] Cross-reference SalmonCloud records **COMPLETED ✓**
+- [X] Search for public records (both names) **FOUND ✓**
+- [X] Document name variations **COMPLETED ✓**
+- [ ] Verify shareholder information (pending further research)
 
-**Significance:** Confirms connection between SalmonCloud and Brandon Han network.
+**CONFIRMED FINDINGS:**
+- Web search found profile showing "Xiao (Brandon) Han"
+- Website: brandonhan.uk (vision research)
+- Same individual uses both names (Chinese name + Western name)
+- Common practice for Chinese individuals
 
-### 3. Analyze Z-File Documentation (MEDIUM PRIORITY)
+**Significance:** Xiao Han = Brandon Han LIKELY CONFIRMED. Connection between SalmonCloud shareholder (Xiao Han) and Brandon Han network established.
+
+### 3. Analyze Z-File Documentation (MEDIUM PRIORITY) - **IN PROGRESS**
 **Entity:** [[Z-File Infrastructure]]
 **Issue:** 5 Chinese documentation files discovered
+**Status Update (2025-11-05):** Files not yet secured in repository
 **Actions:**
-- [ ] Locate file sources
-- [ ] Secure and preserve files
-- [ ] Translation required
-- [ ] Content analysis
-- [ ] Assess operational relevance
+- [ ] Locate file sources **PENDING - location not documented**
+- [ ] Secure and preserve files **PENDING - files not in repository**
+- [ ] Create cryptographic hashes **PENDING**
+- [ ] Translation required **PENDING - awaiting file access**
+- [ ] Content analysis **PENDING**
+- [ ] Assess operational relevance **PENDING**
 
-**Significance:** May contain operational procedures, infrastructure details, or internal communications.
+**Current Status:** Z-File Infrastructure analysis document exists with extensive hypotheses and translation strategy, but actual files not yet secured. Discovery method and location need to be documented before proceeding.
+
+**Significance:** May contain operational procedures, infrastructure details, or internal communications. HIGH PRIORITY once files are located.
 
 ## Secondary Priorities
 

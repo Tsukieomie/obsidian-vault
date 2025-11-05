@@ -5,8 +5,12 @@
 - Alternative Identity: Xiao Han (SalmonCloud shareholder)
 - Status: HIGH INTEREST
 
-## Identity Theory
-Xiao Han = Brandon Han hypothesis under investigation
+## Identity Confirmation (2025-11-05)
+**Xiao Han = Brandon Han: LIKELY CONFIRMED ✓**
+- Web search found profile showing "Xiao (Brandon) Han"
+- Website: brandonhan.uk (vision research)
+- Both names used by same individual
+- Common practice: Chinese name (Xiao Han) + Western name (Brandon Han)
 
 ## Identifiers
 - Associated Email: [Investigation ongoing]
@@ -24,9 +28,10 @@ Xiao Han = Brandon Han hypothesis under investigation
 - Association with network operators
 
 ## Investigation Status
-- Identity documents analysis needed
-- Cross-reference with Jerry Han
-- Verify Xiao Han = Brandon Han theory
+- Identity: Xiao Han = Brandon Han LIKELY CONFIRMED ✓ (2025-11-05)
+- Identity documents analysis needed (for final confirmation)
+- Cross-reference with Jerry Han (family connection theory)
+- Website found: brandonhan.uk
 
 ## Related Files
 - [[Evidence Repository]]
