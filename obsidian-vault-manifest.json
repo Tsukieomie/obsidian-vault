@@ -1,0 +1,108 @@
+{
+  "vault_name": "Obsidian Investigation Vault",
+  "vault_id": "obsidian-vault-supreme-memory",
+  "version": "1.0.0",
+  "created": "2025-11-07",
+
+  "repository": {
+    "platform": "github",
+    "owner": "Tsukieomie",
+    "name": "obsidian-vault",
+    "url": "https://github.com/Tsukieomie/obsidian-vault",
+    "git_url": "https://github.com/Tsukieomie/obsidian-vault.git",
+    "default_branch": "main",
+    "current_branch": "claude/github-connector-011CUtdC2RTxFRm9vEYuH5rg"
+  },
+
+  "vault_structure": {
+    "type": "obsidian",
+    "purpose": "Investigation and Knowledge Management",
+    "key_directories": [
+      "Entities/Organizations/",
+      "Entities/People/",
+      "Analysis/",
+      "Technical/",
+      "Patents/"
+    ],
+    "entity_count": {
+      "organizations": 4,
+      "people": 8,
+      "total": 12
+    }
+  },
+
+  "tools": {
+    "github_connector": {
+      "installed": true,
+      "version": "1.0.0",
+      "script": "github-connector.py",
+      "config": "github-connector.yml",
+      "docs": "GITHUB_CONNECTOR.md",
+      "commands": [
+        "sync",
+        "report",
+        "status",
+        "entities",
+        "todos",
+        "create-issue"
+      ]
+    },
+    "auto_sync": {
+      "installed": true,
+      "script": ".sync-vault.sh",
+      "log_file": ".sync-log.txt"
+    }
+  },
+
+  "quick_start": {
+    "clone_command": "git clone https://github.com/Tsukieomie/obsidian-vault.git",
+    "setup_steps": [
+      "Clone the repository",
+      "Install Python 3.7+ (optional: PyYAML)",
+      "Make github-connector.py executable: chmod +x github-connector.py",
+      "Run initial report: ./github-connector.py report"
+    ]
+  },
+
+  "integration": {
+    "google_drive": {
+      "manifest_file": "obsidian-vault-manifest.json",
+      "sync_method": "google-drive-connector.py",
+      "purpose": "Access vault from any Claude session via Google Drive"
+    },
+    "claude_workflow": {
+      "search_command": "Search Google Drive for 'obsidian-vault-manifest.json'",
+      "connect_command": "./google-drive-connector.py connect",
+      "sync_command": "./github-connector.py sync"
+    }
+  },
+
+  "metadata": {
+    "last_updated": "2025-11-07T13:50:00Z",
+    "total_files": 46,
+    "total_commits": "82776a6+",
+    "active_todos": 100,
+    "tracked_entities": 12,
+    "investigation_focus": [
+      "DARPA BRAIN program",
+      "Technology transfer mechanisms",
+      "Network analysis",
+      "Entity mapping"
+    ]
+  },
+
+  "access_instructions": {
+    "from_claude": [
+      "Ask Claude: 'Search my Google Drive for obsidian-vault-manifest.json'",
+      "Claude will locate and read the manifest",
+      "Run: ./google-drive-connector.py connect",
+      "Vault will be cloned/synced to local directory",
+      "Use: ./github-connector.py report to verify"
+    ],
+    "from_local": [
+      "Navigate to vault directory",
+      "Run: ./github-connector.py report",
+      "Use any github-connector commands"
+    ]
+  }
+}
