@@ -1,0 +1,71 @@
+# GitHub Connector Configuration
+# ==============================
+
+# Repository Settings
+repository:
+  remote: "origin"
+  branch_prefix: "claude/"
+
+# Commit Message Generation
+commit_analysis:
+  enabled: true
+  # Analyze specific directories for intelligent commit messages
+  tracked_directories:
+    - "Entities/"
+    - "Analysis/"
+    - "Technical/"
+    - "Patents/"
+  # Keywords that trigger specific commit message templates
+  keywords:
+    entity_update: ["Entities/", "ENTITY_NETWORK_MAP"]
+    technical_analysis: ["Technical/", "Network Analysis", "Infrastructure"]
+    investigation: ["Analysis/", "Evidence", "LEGAL_CASE"]
+    documentation: ["README", "CROSS_REFERENCE", "Dashboard"]
+
+# Issue Tracking
+issue_tracking:
+  enabled: true
+  # Auto-create GitHub issues from TODO items
+  auto_create_issues: false  # Set to true to auto-create
+  labels:
+    - "investigation"
+    - "documentation"
+  # Scan these files for TODO items
+  todo_sources:
+    - "Analysis/Next Steps.md"
+    - "Investigation Dashboard.md"
+    - "LEGAL_CASE_FRAMEWORK.md"
+
+# Entity Change Tracking
+entity_tracking:
+  enabled: true
+  # Create detailed commits when entities are modified
+  entity_directories:
+    - "Entities/Organizations/"
+    - "Entities/People/"
+  # Include diff stats in commit messages
+  include_diff: true
+
+# Sync Behavior
+sync:
+  # Pull before push to avoid conflicts
+  pull_before_push: true
+  # Create backup branch before major changes
+  backup_on_major_changes: true
+  # Push threshold: number of changes before requiring explicit confirmation
+  auto_push_threshold: 10
+
+# Reporting
+reporting:
+  # Generate activity reports
+  enabled: true
+  # Include in reports
+  include_stats: true
+  include_recent_commits: 5
+  include_entity_changes: true
+
+# Git Proxy (for Claude Code environment)
+git_proxy:
+  enabled: true
+  host: "127.0.0.1"
+  port: 22371
