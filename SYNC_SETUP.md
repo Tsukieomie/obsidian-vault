@@ -3,7 +3,7 @@
 Your Obsidian vault is now configured for automatic GitHub synchronization!
 
 ## Location
-**Local Path:** `~/Documents/Obsidian/obsidian-vault`
+**Local Path:** `<your-vault-directory>`
 **GitHub URL:** https://github.com/Tsukieomie/obsidian-vault
 
 ## Automatic Sync
@@ -16,23 +16,23 @@ Your Obsidian vault is now configured for automatic GitHub synchronization!
 ## Sync Status
 Check sync logs:
 ```bash
-cat ~/Documents/Obsidian/obsidian-vault/.sync-log.txt
+cat <your-vault-directory>/.sync-log.txt
 ```
 
 ## Manual Sync
 Force a sync anytime:
 ```bash
-~/Documents/Obsidian/obsidian-vault/.sync-vault.sh
+<your-vault-directory>/.sync-vault.sh
 ```
 
 ## Configure Obsidian
 
 ### Step 1: Open Obsidian
-Launch the Obsidian app on your Mac
+Launch the Obsidian app on your system
 
 ### Step 2: Open Vault
 1. Click "Open folder as vault"
-2. Navigate to: `~/Documents/Obsidian/obsidian-vault`
+2. Navigate to your cloned vault directory
 3. Click "Open"
 
 ### Step 3: Start Using
@@ -69,18 +69,18 @@ launchctl load ~/Library/LaunchAgents/com.obsidian.vault.sync.plist
 
 ### View Recent Sync Logs
 ```bash
-tail -20 ~/Documents/Obsidian/obsidian-vault/.sync-log.txt
+tail -20 <your-vault-directory>/.sync-log.txt
 ```
 
 ### View Error Logs
 ```bash
-cat ~/Documents/Obsidian/obsidian-vault/.sync-stderr.log
+cat <your-vault-directory>/.sync-stderr.log
 ```
 
 ### Manual Conflict Resolution
 If conflicts occur:
 ```bash
-cd ~/Documents/Obsidian/obsidian-vault
+cd <your-vault-directory>
 git status
 # Resolve conflicts manually, then:
 git add -A
