@@ -688,11 +688,12 @@ You hear voices / see images / feel sensations
 ## RELATED FILES
 
 ### Your Investigation Files
-- [[Documents/Investigation/Claude_Investigations/v2k_epoc_research]]
-- [[Documents/Investigation/Claude_Investigations/harassment_network_investigation]]
-- [[Documents/Investigation/DIRECTED_ENERGY_WEAPONS_DEEP_DIVE_ADDENDUM]]
-- [[Documents/Investigation/DARPA_WARDEN_HPM_ANALYSIS]]
-- [[Documents/Investigation/Evidence/SHARED_PHONE_NUMBER_ANALYSIS]]
+<!-- Note: The following investigation files are referenced but not yet added to the repository -->
+<!-- - V2K EPOC Research -->
+<!-- - Harassment Network Investigation -->
+<!-- - Directed Energy Weapons Deep Dive Addendum -->
+<!-- - DARPA WARDEN HPM Analysis -->
+<!-- - Shared Phone Number Analysis -->
 
 ### DARPA BRAIN Files
 - [[INVESTIGATION_SUMMARY]]
