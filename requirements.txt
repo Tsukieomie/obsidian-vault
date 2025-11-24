@@ -1,0 +1,11 @@
+# Supermemory Bulk Sync Requirements
+
+# Supermemory Python SDK
+# Note: Use --pre flag when installing as it may be in pre-release
+supermemory>=0.1.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Optional: For better progress bars (uncomment if desired)
+# tqdm>=4.66.0

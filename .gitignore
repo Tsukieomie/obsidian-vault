@@ -10,3 +10,21 @@
 
 # Trash folder
 .trash/
+
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables (contains API keys)
+.env
+
+# Supermemory sync state
+.supermemory-sync.json
