@@ -89,7 +89,12 @@ class ObsidianSupermemorySync:
             logger.error(f"Could not save sync state: {e}")
     
     def _compute_file_hash(self, file_path: Path) -> str:
-        """Compute MD5 hash of file content"""
+        """
+        Compute MD5 hash of file content for change detection.
+        
+        Note: MD5 is used here only for detecting file changes, not for security.
+        This is acceptable for this use case as we're just comparing file versions.
+        """
         try:
             with open(file_path, 'rb') as f:
                 return hashlib.md5(f.read()).hexdigest()
@@ -155,27 +160,49 @@ class ObsidianSupermemorySync:
             }
             
             # Upload to Supermemory
-            # Note: The actual API method may vary depending on Supermemory SDK version
-            # This uses a common pattern, but may need adjustment
+            # Note: The API method may vary depending on Supermemory SDK version.
+            # Common methods: add(), create(), memories.add()
+            # Adjust based on your SDK version if needed.
             logger.info(f"Uploading: {relative_path}")
             
             # Add title to content for better context
             title = file_path.stem
             formatted_content = f"# {title}\n\nFile: {relative_path}\n\n{content}"
             
-            response = self.client.add(
-                content=formatted_content,
-                metadata=metadata
-            )
+            # Try different API methods based on SDK version
+            try:
+                # Try the add method first (common pattern)
+                response = self.client.add(
+                    content=formatted_content,
+                    metadata=metadata
+                )
+            except AttributeError:
+                # Fallback: Try memories.add() if direct add() doesn't exist
+                try:
+                    response = self.client.memories.add(
+                        content=formatted_content,
+                        metadata=metadata
+                    )
+                except Exception as inner_e:
+                    logger.error(f"API method not found. Please check Supermemory SDK documentation: {inner_e}")
+                    raise
             
             logger.info(f"✓ Uploaded successfully: {relative_path}")
             
             # Update sync state
             file_hash = self._compute_file_hash(file_path)
+            
+            # Extract response ID safely
+            response_id = None
+            if hasattr(response, 'id'):
+                response_id = response.id
+            elif isinstance(response, dict) and 'id' in response:
+                response_id = response['id']
+            
             self.sync_state["synced_files"][relative_path] = {
                 "hash": file_hash,
                 "last_synced": datetime.now().isoformat(),
-                "supermemory_id": getattr(response, 'id', None)
+                "supermemory_id": response_id
             }
             
             return True
