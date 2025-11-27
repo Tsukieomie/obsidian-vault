@@ -93,7 +93,11 @@ class InvestigationQuery:
 
         for md_file in VAULT_DIR.rglob("*.md"):
             # Skip hidden files
-            if any(part.startswith(".") for part in md_file.parts[len(VAULT_DIR.parts):]):
+            try:
+                relative_parts = md_file.relative_to(VAULT_DIR).parts
+                if any(part.startswith(".") for part in relative_parts):
+                    continue
+            except ValueError:
                 continue
 
             try:
@@ -179,7 +183,11 @@ class InvestigationQuery:
         print("-" * 40)
         files_with_both = []
         for md_file in VAULT_DIR.rglob("*.md"):
-            if any(part.startswith(".") for part in md_file.parts[len(VAULT_DIR.parts):]):
+            try:
+                relative_parts = md_file.relative_to(VAULT_DIR).parts
+                if any(part.startswith(".") for part in relative_parts):
+                    continue
+            except ValueError:
                 continue
             try:
                 content = md_file.read_text(encoding="utf-8").lower()

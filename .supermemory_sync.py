@@ -142,7 +142,7 @@ class SupermemorySync:
 
     def _calculate_hash(self, content: str) -> str:
         """Calculate hash of content for change detection."""
-        return hashlib.md5(content.encode()).hexdigest()
+        return hashlib.sha256(content.encode()).hexdigest()
 
     def _upload_document(
         self,
@@ -184,7 +184,11 @@ class SupermemorySync:
 
         for md_file in VAULT_DIR.rglob("*.md"):
             # Skip hidden files and directories
-            if any(part.startswith(".") for part in md_file.parts[len(VAULT_DIR.parts):]):
+            try:
+                relative_parts = md_file.relative_to(VAULT_DIR).parts
+                if any(part.startswith(".") for part in relative_parts):
+                    continue
+            except ValueError:
                 continue
 
             # Read content
