@@ -10,3 +10,16 @@
 
 # Trash folder
 .trash/
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment files (API keys)
+.env
+*.env
+
+# Log files
+*.log
