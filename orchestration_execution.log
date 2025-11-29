@@ -1,0 +1,91 @@
+[2025-11-29T01:24:37.034379] MASTER INVESTIGATION ORCHESTRATOR INITIALIZED
+[2025-11-29T01:24:37.034480] Vault Path: /home/user/obsidian-vault
+[2025-11-29T01:24:37.034518] Start Time: 2025-11-29T01:24:37.034369
+[2025-11-29T01:24:37.034588] 
+Registering investigation tools...
+[2025-11-29T01:24:37.034603] ✓ Registered tool: Core Investigation Engine
+[2025-11-29T01:24:37.034618] ✓ Registered tool: Pattern Analysis Engine
+[2025-11-29T01:24:37.034630] ✓ Registered tool: Timeline Analysis Engine
+[2025-11-29T01:24:37.034645] ✓ Registered tool: Network Graph Analyzer
+[2025-11-29T01:24:37.034663] 
+✓ Registered 4 investigation tools
+[2025-11-29T01:24:37.034682] 
+====================================================================================================
+[2025-11-29T01:24:37.034700] PHASE 1: EXECUTING CORE INVESTIGATION TOOLS
+[2025-11-29T01:24:37.034721] ====================================================================================================
+[2025-11-29T01:24:37.034738] 
+Executing 4 investigation tools...
+
+[2025-11-29T01:24:37.034754] 
+[1/4] Executing: Core Investigation Engine
+[2025-11-29T01:24:37.034767] Description: Analyzes all files, extracts entities, discovers relationships
+[2025-11-29T01:24:37.034958] Starting execution...
+[2025-11-29T01:24:38.660953]   ✓ Found 51 files for analysis
+[2025-11-29T01:24:38.661070]   ✓ Content analysis complete
+[2025-11-29T01:24:38.661106]   ✓ Keywords extracted from 20 categories
+[2025-11-29T01:24:38.661128]   ✓ Identified 4728 entities across 5 categories
+[2025-11-29T01:24:38.661163]   ✓ Discovered 6 relationships
+[2025-11-29T01:24:38.661181]   ✓ Built cross-reference index with 6375 entries
+[2025-11-29T01:24:38.661204]   ✓ Top connected entities:
+[2025-11-29T01:24:38.661226]   ✓ Extracted 241 evidence items from evidence documents
+[2025-11-29T01:24:38.661251]   ✓ Identified 3 investigation gaps
+[2025-11-29T01:24:38.661280]   ✓ Report generated: /home/user/obsidian-vault/AUTONOMOUS_INVESTIGATION_REPORT.md
+[2025-11-29T01:24:38.661298]   ✓ JSON data export: /home/user/obsidian-vault/investigation_data.json
+[2025-11-29T01:24:38.661329] ✓ Core Investigation Engine completed successfully
+[2025-11-29T01:24:38.661361] 
+[2/4] Executing: Pattern Analysis Engine
+[2025-11-29T01:24:38.661378] Description: Identifies suspicious patterns, anomalies, and entity clusters
+[2025-11-29T01:24:38.661578] Starting execution...
+[2025-11-29T01:24:38.979606]   ✓ Found 1143 suspicious pattern occurrences
+[2025-11-29T01:24:38.979680]   ✓ Detected 46 anomalies
+[2025-11-29T01:24:38.979722]   ✓ Identified 0 entity clusters
+[2025-11-29T01:24:38.979736]   ✓ Identified temporal patterns across 1 years
+[2025-11-29T01:24:38.979749]   ✓ Pattern report generated: /home/user/obsidian-vault/PATTERN_ANALYSIS_REPORT.md
+[2025-11-29T01:24:38.979766] ✓ Pattern Analysis Engine completed successfully
+[2025-11-29T01:24:38.979793] 
+[3/4] Executing: Timeline Analysis Engine
+[2025-11-29T01:24:38.979820] Description: Builds chronological timelines and identifies temporal patterns
+[2025-11-29T01:24:38.980025] Starting execution...
+[2025-11-29T01:24:39.229214]   ✓ Extracted 803 dated events from files
+[2025-11-29T01:24:39.229295]   ✓ Found 0 undated event references
+[2025-11-29T01:24:39.229310]   ✓ Timeline spans 117 years with 803 events
+[2025-11-29T01:24:39.229322]   ✓ Identified 20 temporal clusters
+[2025-11-29T01:24:39.229349]   ✓ Timeline report generated: /home/user/obsidian-vault/TIMELINE_ANALYSIS_REPORT.md
+[2025-11-29T01:24:39.229384] ✓ Timeline Analysis Engine completed successfully
+[2025-11-29T01:24:39.229409] 
+[4/4] Executing: Network Graph Analyzer
+[2025-11-29T01:24:39.229423] Description: Analyzes network topology, centrality, and connectivity
+[2025-11-29T01:24:39.229621] Starting execution...
+[2025-11-29T01:24:39.309048]   ✓ Built graph with 12 nodes and 6 edges
+[2025-11-29T01:24:39.309127]   ✓ Calculated centrality for 12 nodes
+[2025-11-29T01:24:39.309166]   ✓ Identified 0 hubs and 0 potential bridges
+[2025-11-29T01:24:39.309208]   ✓ Network report generated: /home/user/obsidian-vault/NETWORK_ANALYSIS_REPORT.md
+[2025-11-29T01:24:39.309227] ✓ Network Graph Analyzer completed successfully
+[2025-11-29T01:24:39.309266] 
+====================================================================================================
+[2025-11-29T01:24:39.309279] PHASE 2: AGGREGATING AND CROSS-REFERENCING RESULTS
+[2025-11-29T01:24:39.309290] ====================================================================================================
+[2025-11-29T01:24:39.309305] 
+Aggregating results from 4 tools...
+[2025-11-29T01:24:39.309494] ✓ Found: AUTONOMOUS_INVESTIGATION_REPORT.md
+[2025-11-29T01:24:39.309676] ✓ Found: PATTERN_ANALYSIS_REPORT.md
+[2025-11-29T01:24:39.309943] ✓ Found: TIMELINE_ANALYSIS_REPORT.md
+[2025-11-29T01:24:39.310190] ✓ Found: NETWORK_ANALYSIS_REPORT.md
+[2025-11-29T01:24:39.310396] ✓ Found: investigation_data.json
+[2025-11-29T01:24:39.310447] 
+✓ Aggregated 5 analysis reports
+[2025-11-29T01:24:39.310463] 
+====================================================================================================
+[2025-11-29T01:24:39.310482] PHASE 3: GENERATING MASTER INVESTIGATION REPORT
+[2025-11-29T01:24:39.310494] ====================================================================================================
+[2025-11-29T01:24:39.310895] ✓ Master report generated: /home/user/obsidian-vault/MASTER_INVESTIGATION_REPORT.md
+[2025-11-29T01:24:39.310928] 
+====================================================================================================
+[2025-11-29T01:24:39.310947] PHASE 4: CREATING INVESTIGATION DASHBOARD
+[2025-11-29T01:24:39.310958] ====================================================================================================
+[2025-11-29T01:24:39.311253] ✓ Investigation dashboard created: /home/user/obsidian-vault/INVESTIGATION_DASHBOARD.md
+[2025-11-29T01:24:39.311285] 
+====================================================================================================
+[2025-11-29T01:24:39.311308] ORCHESTRATION COMPLETE
+[2025-11-29T01:24:39.311323] ====================================================================================================
+[2025-11-29T01:24:39.311346] Total Execution Time: 2.28 seconds
