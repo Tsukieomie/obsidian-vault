@@ -1,0 +1,97 @@
+[2025-11-29T01:33:42.941844] DEEP INVESTIGATION ORCHESTRATOR INITIALIZED
+[2025-11-29T01:33:42.941936] Vault Path: /home/user/obsidian-vault
+[2025-11-29T01:33:42.941953] Start Time: 2025-11-29T01:33:42.941835
+====================================================================================================
+DEEP INVESTIGATION ORCHESTRATOR - COMPREHENSIVE DRILLING AND ANALYSIS
+====================================================================================================
+[2025-11-29T01:33:42.942034] 
+Registering deep investigation tools...
+
+[2025-11-29T01:33:42.942056] ✓ Registered tool: Deep Relationship Analyzer
+[2025-11-29T01:33:42.942117] ✓ Registered tool: Pattern Correlation Engine
+[2025-11-29T01:33:42.942129] ✓ Registered tool: Evidence Chain Validator
+[2025-11-29T01:33:42.942158] ✓ Registered tool: Keyword Co-occurrence Analyzer
+[2025-11-29T01:33:42.942194] ✓ Registered tool: Document Similarity Analyzer
+[2025-11-29T01:33:42.942214] ✓ Registered tool: Network Community Detection
+[2025-11-29T01:33:42.942225] 
+✓ Registered 6 deep investigation tools
+[2025-11-29T01:33:42.942250] 
+====================================================================================================
+[2025-11-29T01:33:42.942283] PHASE 1: EXECUTING DEEP ANALYSIS TOOLS
+[2025-11-29T01:33:42.942311] ====================================================================================================
+[2025-11-29T01:33:42.942328] 
+Executing 6 deep investigation tools...
+
+[2025-11-29T01:33:42.942348] 
+[1/6] Executing: Deep Relationship Analyzer
+[2025-11-29T01:33:42.942360] Description: Discovers hidden connections and multi-hop relationships
+[2025-11-29T01:33:42.942486] Starting execution...
+[2025-11-29T01:33:48.853739]   ✓ Found 1426955 co-occurrence relationships
+[2025-11-29T01:33:48.853803]   ✓ Discovered 929 hidden connections
+[2025-11-29T01:33:48.853816]   ✓ Found 0 multi-hop relationship paths
+[2025-11-29T01:33:48.853903]   ✓ Analyzed 3063 entity interactions
+[2025-11-29T01:33:48.853940]   ✓ Calculated influence scores for 3048 entities
+[2025-11-29T01:33:48.853974]   ✓ Deep relationship report generated: /home/user/obsidian-vault/DEEP_RELATIONSHIP_ANALYSIS.md
+[2025-11-29T01:33:48.854012] ✓ Deep Relationship Analyzer completed successfully
+[2025-11-29T01:33:48.854034] 
+[2/6] Executing: Pattern Correlation Engine
+[2025-11-29T01:33:48.854055] Description: Correlates patterns across documents
+[2025-11-29T01:33:48.854233] Starting execution...
+[2025-11-29T01:33:49.030461]   ✓ Built pattern vectors for 54 documents
+[2025-11-29T01:33:49.030531]   ✓ Found 845 correlated pattern groups
+[2025-11-29T01:33:49.030597]   ✓ Created 18 pattern clusters
+[2025-11-29T01:33:49.030618]   ✓ Pattern correlation report generated: /home/user/obsidian-vault/PATTERN_CORRELATION_REPORT.md
+[2025-11-29T01:33:49.030632] ✓ Pattern Correlation Engine completed successfully
+[2025-11-29T01:33:49.030670] 
+[3/6] Executing: Evidence Chain Validator
+[2025-11-29T01:33:49.030681] Description: Validates evidence chains and checks consistency
+[2025-11-29T01:33:49.030843] Starting execution...
+[2025-11-29T01:33:49.145191]   ✓ Extracted 7733 evidence chains
+[2025-11-29T01:33:49.145249]   ✓ Valid chains: 0, Invalid: 6
+[2025-11-29T01:33:49.145264] ✓ Evidence Chain Validator completed successfully
+[2025-11-29T01:33:49.145287] 
+[4/6] Executing: Keyword Co-occurrence Analyzer
+[2025-11-29T01:33:49.145312] Description: Analyzes keyword patterns and thematic clusters
+[2025-11-29T01:33:49.145480] Starting execution...
+[2025-11-29T01:33:49.400228]   ✓ Analyzed 7065 keyword pair co-occurrences
+[2025-11-29T01:33:49.400294]   ✓ Built keyword networks with 514 connections
+[2025-11-29T01:33:49.400388]   ✓ Identified 8 thematic clusters
+[2025-11-29T01:33:49.400418]   ✓ Analyzed themes for 56 documents
+[2025-11-29T01:33:49.400434] ✓ Keyword Co-occurrence Analyzer completed successfully
+[2025-11-29T01:33:49.400459] 
+[5/6] Executing: Document Similarity Analyzer
+[2025-11-29T01:33:49.400482] Description: Identifies similar and related documents
+[2025-11-29T01:33:49.400650] Starting execution...
+[2025-11-29T01:33:49.641696]   ✓ Loaded 57 documents
+[2025-11-29T01:33:49.641772]   ✓ Built vectors for 57 documents
+[2025-11-29T01:33:49.641792]   ✓ Calculated 117 significant similarities
+[2025-11-29T01:33:49.641913]   ✓ Created 9 document clusters
+[2025-11-29T01:33:49.641955]   ✓ Identified 41 document relationships
+[2025-11-29T01:33:49.641974]   ✓ Document similarity report generated: /home/user/obsidian-vault/DOCUMENT_SIMILARITY_REPORT.md
+[2025-11-29T01:33:49.641990] ✓ Document Similarity Analyzer completed successfully
+[2025-11-29T01:33:49.642032] 
+[6/6] Executing: Network Community Detection
+[2025-11-29T01:33:49.642060] Description: Detects entity communities and clusters
+[2025-11-29T01:33:49.642273] Starting execution...
+[2025-11-29T01:33:49.942412]   ✓ Built network with 900 nodes and 12313 edges
+[2025-11-29T01:33:49.942491]   ✓ Detected 7 communities
+[2025-11-29T01:33:49.942577]   ✓ Analyzed strength for 7 communities
+[2025-11-29T01:33:49.942595]   ✓ Mapped 0 inter-community links
+[2025-11-29T01:33:49.942622]   ✓ Network community report generated: /home/user/obsidian-vault/NETWORK_COMMUNITY_REPORT.md
+[2025-11-29T01:33:49.942654] ✓ Network Community Detection completed successfully
+[2025-11-29T01:33:49.942680] 
+====================================================================================================
+[2025-11-29T01:33:49.942716] PHASE 2: SYNTHESIZING DEEP ANALYSIS RESULTS
+[2025-11-29T01:33:49.942733] ====================================================================================================
+[2025-11-29T01:33:49.943180] ✓ Deep synthesis report generated: /home/user/obsidian-vault/DEEP_INVESTIGATION_SYNTHESIS.md
+[2025-11-29T01:33:49.943209] 
+====================================================================================================
+[2025-11-29T01:33:49.943227] DEEP INVESTIGATION COMPLETE
+[2025-11-29T01:33:49.943267] ====================================================================================================
+[2025-11-29T01:33:49.943287] Total Execution Time: 7.00 seconds
+[2025-11-29T01:33:49.943554] ✓ Deep orchestration log saved: /home/user/obsidian-vault/deep-orchestration-execution.log
+
+====================================================================================================
+DEEP INVESTIGATION ORCHESTRATION COMPLETE
+All deep analysis tools have been executed comprehensively
+====================================================================================================
