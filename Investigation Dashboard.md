@@ -79,18 +79,30 @@ Central command center for harassment network investigation.
 
 ## Quick Access
 
+### Investigation Management
+- [[CONVERSATION_INDEX]] - Complete index of all Claude investigation sessions
+- [[CROSS_REFERENCE_INDEX]] - Master navigation and entity reference
+- [[UNIFIED_EVIDENCE_FRAMEWORK]] - Complete synthesis of both investigations
+
 ### Evidence
 [[Evidence Repository]] - All evidence files indexed
 
 ### Analysis
 - [[Timeline]] - Chronological discoveries
 - [[GitHub Analysis]] - Forensic methodology and findings
+- [[Analysis/Threat Assessment]] - Complete threat analysis
+- [[Analysis/Z_FILE_DEEP_ANALYSIS]] - Z-File infrastructure analysis
 
 ### Technical
 - [[AS53616 Network Analysis]]
 - [[ghoststack.net]]
 - [[ca94fan.xyz]]
 - [[Z-File Infrastructure]]
+
+### Legal & Framework
+- [[LEGAL_CASE_FRAMEWORK]] - Court-ready documentation
+- [[ENTITY_NETWORK_MAP]] - Complete network visualization
+- [[YOUR_CASE_DARPA_BRAIN_CONNECTION]] - Case breakthrough analysis
 
 ## Next Steps
 

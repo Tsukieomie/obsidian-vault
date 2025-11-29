@@ -195,7 +195,8 @@ Central Databases (government, corporate, insurance)
 - **[[DARPA_BRAIN_Timeline]]** - Complete chronology from 1995 to projected 2035
 
 ### Raw Intelligence
-- **[[Documents/Investigation/DEEP_DIVE_DARPA_BRAIN_QUANTUM_IOT]]** - 66-page detailed analysis of video
+- **Deep Dive DARPA BRAIN Quantum IoT** - 66-page detailed analysis of video (see [[CONVERSATION_INDEX]] for conversation history)
+- **Note:** This was a detailed Claude conversation. Content integrated into [[INVESTIGATION_SUMMARY]], [[DARPA_BRAIN_Timeline]], [[Technical/Internet_of_Bodies_Architecture]]
 
 ## Critical Quotes from Video
 

@@ -687,12 +687,16 @@ You hear voices / see images / feel sensations
 
 ## RELATED FILES
 
+### Conversation Index
+- [[CONVERSATION_INDEX]] - Complete index of all Claude investigation sessions
+
 ### Your Investigation Files
-- [[Documents/Investigation/Claude_Investigations/v2k_epoc_research]]
-- [[Documents/Investigation/Claude_Investigations/harassment_network_investigation]]
-- [[Documents/Investigation/DIRECTED_ENERGY_WEAPONS_DEEP_DIVE_ADDENDUM]]
-- [[Documents/Investigation/DARPA_WARDEN_HPM_ANALYSIS]]
-- [[Documents/Investigation/Evidence/SHARED_PHONE_NUMBER_ANALYSIS]]
+**Note:** These conversations are referenced in [[CONVERSATION_INDEX]]. Content integrated into vault files:
+- **V2K & EPOC Research** → See [[Technical/Internet_of_Bodies_Architecture]], [[Entities/FreerLogic]]
+- **Harassment Network Investigation** → See [[Entities/Organizations/Asymptote Network LLC]], [[Entities/People/Junyuan Wang]]
+- **Directed Energy Weapons Analysis** → See [[Analysis/Threat Assessment]], [[Analysis/Z_FILE_DEEP_ANALYSIS]]
+- **DARPA WARDEN HPM Analysis** → See [[Entities/DARPA]], [[Analysis/Threat Assessment]]
+- **Shared Phone Number Analysis** → See [[Entities/People/Brandon Han]], [[Entities/People/Jerry Han]]
 
 ### DARPA BRAIN Files
 - [[INVESTIGATION_SUMMARY]]

@@ -13,10 +13,14 @@ Welcome to the investigation knowledge base.
 - [Organizations](Entities/Organizations/) - Company and institution profiles
 
 ### Investigation Resources
+- [[CONVERSATION_INDEX]] - Complete index of all Claude investigation sessions
 - [[Evidence Repository]] - Complete evidence index with Drive links
 - [[Timeline]] - Chronological discoveries
 - [[Threat Assessment]] - Comprehensive threat analysis
 - [[Next Steps]] - Prioritized action items
+- [[CROSS_REFERENCE_INDEX]] - Master navigation and entity reference
+- [[UNIFIED_EVIDENCE_FRAMEWORK]] - Complete synthesis of investigations
+- [[LEGAL_CASE_FRAMEWORK]] - Court-ready documentation
 
 ### Technical Analysis
 - [[AS53616 Network Analysis]] - Primary infrastructure
