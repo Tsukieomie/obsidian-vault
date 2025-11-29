@@ -10,3 +10,13 @@
 
 # Trash folder
 .trash/
+
+# Claude Code - Local settings with sensitive credentials
+.claude/settings.local.json
+.claude/*.local.json
+
+# API keys and credentials
+.env
+.env.local
+*.key
+*.pem

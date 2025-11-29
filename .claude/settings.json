@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": ["Skill"]
+  },
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-filesystem"],
+      "env": {
+        "ALLOWED_PATHS": "/home/user/obsidian-vault,/home/user/Documents,/home/user/Downloads"
+      }
+    },
+    "git": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-git"],
+      "env": {
+        "GIT_REPOSITORY_PATH": "/home/user/obsidian-vault"
+      }
+    },
+    "fetch": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-fetch"]
+    }
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/home/user/obsidian-vault/.claude/stop-hook-git-check.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
