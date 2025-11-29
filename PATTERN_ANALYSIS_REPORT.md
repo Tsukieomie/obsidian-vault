@@ -1,14 +1,14 @@
 # PATTERN ANALYSIS REPORT
 
-**Generated:** 2025-11-29T01:24:50.948304
+**Generated:** 2025-11-29T01:28:30.652993
 
 
 ## SUSPICIOUS PATTERNS DETECTED
 
-**Total Occurrences:** 1255
+**Total Occurrences:** 1316
 
 
-### High Severity (623)
+### High Severity (640)
 
 - **surveil** (File: AUTONOMOUS_INVESTIGATION_REPORT.md)
   Context: ing
@@ -18,8 +18,10 @@
   Context: tims:** Own surveillance devices (Apple Watch, iPhone, etc.), unaware of neural monitoring
   (From: ...
 - **Population Control** (File: AUTONOMOUS_INVESTIGATION_REPORT.md)
-  Context:  2 locations)
-- ... (cross-referenced in 13 locations)
+  Context: ion Orchestrator** 🎯 (cross-referenced in 1 locations)
+- 1. BRAIN Initiative is Population Control I...
+- **Population Control** (File: AUTONOMOUS_INVESTIGATION_REPORT.md)
+  Context: ulation Control I... (cross-referenced in 1 locations)
 - 1. BRAIN Initiative is Population Control I...
 - **monitor** (File: INVESTIGATION_SUMMARY.md)
   Context: rain like Human Genome Project
@@ -108,16 +110,11 @@ This investigation reveals:
 **In Development:**
 - Non-invasive neural interfaces (DARPA N3)
 - ...
-- **rf** (File: INVESTIGATION_SUMMARY.md)
-  Context: 
-- Non-invasive neural interfaces (DARPA N3)
-- Bidirectional brain-computer interfaces
-- Quantum com...
 
-### Medium Severity (440)
+### Medium Severity (455)
 
+- **Surveil** (File: ENTITY_PROFILES_REPORT.md)
 - **monitor** (File: AUTONOMOUS_INVESTIGATION_REPORT.md)
-- **Monitor** (File: AUTONOMOUS_INVESTIGATION_REPORT.md)
 - **Surveil** (File: AUTONOMOUS_INVESTIGATION_REPORT.md)
 - **Monitor** (File: AUTONOMOUS_INVESTIGATION_REPORT.md)
 - **track** (File: AUTONOMOUS_INVESTIGATION_REPORT.md)
@@ -144,29 +141,29 @@ This investigation reveals:
 
 ### ISOLATED ENTITY (30)
 
-- LEGAL FRAMEWORK: Unified Case appears in vault but has no documented connections
-- Class Action Elements appears in vault but has no documented connections
-- Mass Disruption appears in vault but has no documented connections
-- Search Query appears in vault but has no documented connections
-- Personal Router appears in vault but has no documented connections
-- Implicit Message appears in vault but has no documented connections
-- Neural Processing appears in vault but has no documented connections
-- Processing Layer appears in vault but has no documented connections
-- Key Difference appears in vault but has no documented connections
-- Foreign Agent appears in vault but has no documented connections
+- Is Technology Transfer appears in vault but has no documented connections
+- Expert Witness Value appears in vault but has no documented connections
+- Which Christopher Wang appears in vault but has no documented connections
+- Total Revenue appears in vault but has no documented connections
+- Child Health appears in vault but has no documented connections
+- 9709 (1 events) appears in vault but has no documented connections
+- Class Action appears in vault but has no documented connections
+- 1980 (7 events) appears in vault but has no documented connections
+- National Technology Transfer and Advancement Act of 1995 appears in vault but has no documented connections
+- Funds Battelle appears in vault but has no documented connections
 
 ### HIGH FREQUENCY KEYWORD (16)
 
-- Keyword "harassment" appears 151 times (unusually high)
-- Keyword "network" appears 1148 times (unusually high)
-- Keyword "DARPA" appears 1596 times (unusually high)
-- Keyword "BRAIN" appears 1582 times (unusually high)
-- Keyword "technology transfer" appears 136 times (unusually high)
-- Keyword "IoB" appears 124 times (unusually high)
-- Keyword "infrastructure" appears 310 times (unusually high)
-- Keyword "patent" appears 1512 times (unusually high)
-- Keyword "neural" appears 591 times (unusually high)
-- Keyword "monitoring" appears 278 times (unusually high)
+- Keyword "network" appears 1269 times (unusually high)
+- Keyword "DARPA" appears 1773 times (unusually high)
+- Keyword "BRAIN" appears 1777 times (unusually high)
+- Keyword "IoB" appears 138 times (unusually high)
+- Keyword "patent" appears 1665 times (unusually high)
+- Keyword "neural" appears 647 times (unusually high)
+- Keyword "investigation" appears 1525 times (unusually high)
+- Keyword "connection" appears 921 times (unusually high)
+- Keyword "entity" appears 678 times (unusually high)
+- Keyword "harassment" appears 156 times (unusually high)
 
 ## ENTITY CLUSTERS
 
@@ -178,4 +175,4 @@ This investigation reveals:
 
 ---
 
-**Report Generated:** 2025-11-29T01:24:50.948514
+**Report Generated:** 2025-11-29T01:28:30.653232

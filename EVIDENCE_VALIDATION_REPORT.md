@@ -1,12 +1,12 @@
 # EVIDENCE VALIDATION REPORT
 
-**Generated:** 2025-11-29T01:26:15.070603
+**Generated:** 2025-11-29T01:29:26.329712
 
 ## VALIDATION SUMMARY
 
-- **Documents Validated:** 2
-- **Average Quality Score:** 85.0/100
-- **Cross-Reference Issues:** 1681
+- **Documents Validated:** 3
+- **Average Quality Score:** 81.7/100
+- **Cross-Reference Issues:** 1784
 
 ## EVIDENCE QUALITY BY DOCUMENT
 
@@ -27,188 +27,184 @@
   - verified: 0
   - dated: 4
 
+### EVIDENCE_VALIDATION_REPORT.md
+- **Quality Score:** 75/100
+- **Indicators:**
+  - documented: 2
+  - sourced: 4
+  - verified: 3
+  - dated: 0
+
 ## INVESTIGATION COMPLETENESS
 
 
 ### ORGANIZATIONS
 
 - **Count:** 30
-- **Avg Cross-References:** 7.3
+- **Avg Cross-References:** 14.2
 
 ### PEOPLE
 
-- **Count:** 1867
-- **Avg Cross-References:** 2.3
+- **Count:** 2009
+- **Avg Cross-References:** 2.5
 
 ### TECHNOLOGIES
 
 - **Count:** 6
-- **Avg Cross-References:** 20.7
+- **Avg Cross-References:** 40.7
 
 ## CROSS-REFERENCE ISSUES
 
 
-- **Entity:** Troubleshooting
+- **Entity:** ENTITY PROFILES REPORT
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Troubleshooting
+  **Action:** Add more cross-references for ENTITY PROFILES REPORT
 
-- **Entity:** Step 2: Open Vault
+- **Entity:** Total Mentions
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Step 2: Open Vault
+  **Action:** Add more cross-references for Total Mentions
 
-- **Entity:** Obsidian Vault Auto-Sync Setup
+- **Entity:** Files Present
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Obsidian Vault Auto-Sync Setup
+  **Action:** Add more cross-references for Files Present
 
-- **Entity:** Manual Sync
+- **Entity:** ENTITIES IDENTIFIED
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Manual Sync
+  **Action:** Add more cross-references for ENTITIES IDENTIFIED
 
-- **Entity:** Sync Status
+- **Entity:** Gap 2: TIMELINE GAPS
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Sync Status
+  **Action:** Add more cross-references for Gap 2: TIMELINE GAPS
 
-- **Entity:** Step 3: Start Using
+- **Entity:** RECOMMENDED NEXT STEPS
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Step 3: Start Using
+  **Action:** Add more cross-references for RECOMMENDED NEXT STEPS
 
-- **Entity:** Resolve conflicts manually, then:
+- **Entity:** KEY FINDINGS - CRITICAL KEYWORDS
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Resolve conflicts manually, then:
+  **Action:** Add more cross-references for KEY FINDINGS - CRITICAL KEYWORDS
 
-- **Entity:** Step 1: Open Obsidian
+- **Entity:** CONNECTION HUBS (HIGH-DEGREE NODES)
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Step 1: Open Obsidian
+  **Action:** Add more cross-references for CONNECTION HUBS (HIGH-DEGREE NODES)
 
-- **Entity:** View Recent Sync Logs
+- **Entity:** EVIDENCE CHAIN SUMMARY
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for View Recent Sync Logs
+  **Action:** Add more cross-references for EVIDENCE CHAIN SUMMARY
 
-- **Entity:** Obsidian Vault Auto
+- **Entity:** TECHNOLOGIES (6 unique)
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Obsidian Vault Auto
+  **Action:** Add more cross-references for TECHNOLOGIES (6 unique)
 
-- **Entity:** Sync Setup
-
-Your
+- **Entity:** AUTONOMOUS INVESTIGATION REPORT
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Sync Setup
+  **Action:** Add more cross-references for AUTONOMOUS INVESTIGATION REPORT
 
-Your
-
-- **Entity:** View Recent Sync
+- **Entity:** TECHNOLOGY AND INFRASTRUCTURE IDENTIFIED
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for View Recent Sync
+  **Action:** Add more cross-references for TECHNOLOGY AND INFRASTRUCTURE IDENTIFIED
 
-- **Entity:** Local Path
+- **Entity:** Gap 3: INSUFFICIENT PATENT RESEARCH
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Local Path
+  **Action:** Add more cross-references for Gap 3: INSUFFICIENT PATENT RESEARCH
 
-- **Entity:** Open Vault
+- **Entity:** Entities with Most Connections
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Open Vault
+  **Action:** Add more cross-references for Entities with Most Connections
 
-- **Entity:** Open Obsidian
-Launch
+- **Entity:** FILE METADATA SUMMARY
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Open Obsidian
-Launch
+  **Action:** Add more cross-references for FILE METADATA SUMMARY
 
-- **Entity:** Start Using
-Your
+- **Entity:** Gap 1: WEAK RELATIONSHIPS
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Start Using
-Your
+  **Action:** Add more cross-references for Gap 1: WEAK RELATIONSHIPS
 
-- **Entity:** Ask Claude
+- **Entity:** Expand Entity Coverage
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Ask Claude
+  **Action:** Add more cross-references for Expand Entity Coverage
 
-- **Entity:** Manual Sync
-Force
+- **Entity:** Deep Dives
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Manual Sync
-Force
+  **Action:** Add more cross-references for Deep Dives
 
-- **Entity:** Sync Status
-Check
+- **Entity:** Total Relationships
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Sync Status
-Check
+  **Action:** Add more cross-references for Total Relationships
 
-- **Entity:** EXECUTIVE SUMMARY
+- **Entity:** Most Connections
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for EXECUTIVE SUMMARY
+  **Action:** Add more cross-references for Most Connections
 
-- **Entity:** FILES ANALYZED
+- **Entity:** Total Evidence Items
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for FILES ANALYZED
+  **Action:** Add more cross-references for Total Evidence Items
 
-- **Entity:** RELATIONSHIPS DISCOVERED
+- **Entity:** Relationship Chains
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for RELATIONSHIPS DISCOVERED
+  **Action:** Add more cross-references for Relationship Chains
 
-- **Entity:** PEOPLE (1831 unique)
+- **Entity:** Total Storage
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for PEOPLE (1831 unique)
+  **Action:** Add more cross-references for Total Storage
 
-- **Entity:** Top Files by Investigation Relevance
+- **Entity:** Continuous Monitoring
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for Top Files by Investigation Relevance
+  **Action:** Add more cross-references for Continuous Monitoring
 
-- **Entity:** FILE RELEVANCE RANKING
+- **Entity:** File Type Distribution
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for FILE RELEVANCE RANKING
+  **Action:** Add more cross-references for File Type Distribution
 
-- **Entity:** TECHNICAL ANALYSIS DETAILS
+- **Entity:** Current Count
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for TECHNICAL ANALYSIS DETAILS
+  **Action:** Add more cross-references for Current Count
 
-- **Entity:** HEADERS (1288 unique)
+- **Entity:** Fill Timeline Gaps
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for HEADERS (1288 unique)
+  **Action:** Add more cross-references for Fill Timeline Gaps
 
-- **Entity:** ORGANIZATIONS (30 unique)
+- **Entity:** Evidence Items Extracted
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for ORGANIZATIONS (30 unique)
+  **Action:** Add more cross-references for Evidence Items Extracted
 
-- **Entity:** URLS (35 unique)
+- **Entity:** NETWORK STATISTICS
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for URLS (35 unique)
+  **Action:** Add more cross-references for NETWORK STATISTICS
 
-- **Entity:** INVESTIGATION GAPS AND RECOMMENDATIONS
+- **Entity:** PERIPHERAL NODES
   **Issue:** insufficient_cross_references
   **References:** 1
-  **Action:** Add more cross-references for INVESTIGATION GAPS AND RECOMMENDATIONS
+  **Action:** Add more cross-references for PERIPHERAL NODES
 
 ## RECOMMENDATIONS FOR IMPROVEMENT
 
@@ -224,4 +220,4 @@ Check
 
 ---
 
-**Report Generated:** 2025-11-29T01:26:15.070676
+**Report Generated:** 2025-11-29T01:29:26.329794

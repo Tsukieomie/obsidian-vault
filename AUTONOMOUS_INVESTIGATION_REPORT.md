@@ -1,12 +1,12 @@
 # AUTONOMOUS INVESTIGATION REPORT
 
-**Generated:** 2025-11-29T01:24:38.606838
-**Files Analyzed:** 51
+**Generated:** 2025-11-29T01:28:30.172841
+**Files Analyzed:** 61
 **Analysis Engine:** Autonomous Investigation Tool v1.0
 
 ## EXECUTIVE SUMMARY
 
-This report presents findings from autonomous analysis of 51 files 
+This report presents findings from autonomous analysis of 61 files 
 in the Obsidian investigation vault. The analysis has identified 5 
 entity categories, 6 relationships, and 3 
 areas requiring further investigation.
@@ -14,13 +14,13 @@ areas requiring further investigation.
 
 ## FILES ANALYZED
 
-**Total Files:** 51
+**Total Files:** 61
 
 - `.sync-log.txt` (1959 bytes, txt)
 - `.sync-stderr.log` (1768 bytes, log)
 - `.sync-stdout.log` (0 bytes, log)
 - `2025-10-13.md` (0 bytes, md)
-- `AUTONOMOUS_INVESTIGATION_REPORT.md` (23111 bytes, md)
+- `AUTONOMOUS_INVESTIGATION_REPORT.md` (23716 bytes, md)
 - `Analysis/DARPA_BRAIN_Patents_Research.md` (14370 bytes, md)
 - `Analysis/Next Steps.md` (6362 bytes, md)
 - `Analysis/TECHNOLOGY_TRANSFER_MECHANISMS.md` (24875 bytes, md)
@@ -29,6 +29,8 @@ areas requiring further investigation.
 - `CROSS_REFERENCE_INDEX.md` (19082 bytes, md)
 - `DARPA_BRAIN_Timeline.md` (12938 bytes, md)
 - `ENTITY_NETWORK_MAP.md` (20749 bytes, md)
+- `ENTITY_PROFILES_REPORT.md` (13211 bytes, md)
+- `EVIDENCE_VALIDATION_REPORT.md` (6274 bytes, md)
 - `Entities/Apple.md` (13674 bytes, md)
 - `Entities/Battelle_Memorial_Institute.md` (11398 bytes, md)
 - `Entities/Christopher_Wang_MIT.md` (10468 bytes, md)
@@ -51,11 +53,17 @@ areas requiring further investigation.
 - `Entities/People/Junyuan Wang.md` (1160 bytes, md)
 - `Entities/People/Roger Wang.md` (716 bytes, md)
 - `Evidence Repository.md` (5420 bytes, md)
+- `INVESTIGATION_DASHBOARD.md` (2432 bytes, md)
 - `INVESTIGATION_SUMMARY.md` (10864 bytes, md)
+- `INVESTIGATION_TOOLS_README.md` (12926 bytes, md)
 - `Investigation Dashboard.md` (5516 bytes, md)
 - `LEGAL_CASE_FRAMEWORK.md` (41602 bytes, md)
+- `MASTER_INVESTIGATION_REPORT.md` (4614 bytes, md)
+- `NETWORK_ANALYSIS_REPORT.md` (2863 bytes, md)
+- `PATTERN_ANALYSIS_REPORT.md` (5972 bytes, md)
 - `Patents/PATENT_MASTER_INDEX.md` (20758 bytes, md)
 - `SYNC_SETUP.md` (2233 bytes, md)
+- `TIMELINE_ANALYSIS_REPORT.md` (156845 bytes, md)
 - `Technical/AS53616 Network Analysis.md` (2534 bytes, md)
 - `Technical/GitHub Analysis.md` (1702 bytes, md)
 - `Technical/Internet_of_Bodies_Architecture.md` (12800 bytes, md)
@@ -66,78 +74,80 @@ areas requiring further investigation.
 - `UNIFIED_EVIDENCE_FRAMEWORK.md` (25542 bytes, md)
 - `Welcome.md` (1282 bytes, md)
 - `YOUR_CASE_DARPA_BRAIN_CONNECTION.md` (22429 bytes, md)
-- `investigation_data.json` (1292577 bytes, json)
+- `investigation_data.json` (1361444 bytes, json)
+- `live-execution.log` (1532 bytes, log)
+- `orchestration_execution.log` (6334 bytes, log)
 
 ## KEY FINDINGS - CRITICAL KEYWORDS
 
-- **DARPA**: 1596 mentions across 23 files
-- **BRAIN**: 1582 mentions across 29 files
-- **patent**: 1512 mentions across 23 files
-- **network**: 1148 mentions across 41 files
-- **evidence**: 889 mentions across 42 files
-- **investigation**: 825 mentions across 42 files
-- **connection**: 746 mentions across 40 files
-- **entity**: 597 mentions across 35 files
-- **neural**: 591 mentions across 23 files
-- **timeline**: 568 mentions across 35 files
-- **infrastructure**: 310 mentions across 34 files
-- **monitoring**: 278 mentions across 27 files
-- **cross-reference**: 167 mentions across 18 files
-- **harassment**: 151 mentions across 24 files
-- **technology transfer**: 136 mentions across 20 files
+- **BRAIN**: 1777 mentions across 33 files
+- **DARPA**: 1773 mentions across 26 files
+- **patent**: 1665 mentions across 28 files
+- **timeline**: 1594 mentions across 42 files
+- **investigation**: 1525 mentions across 52 files
+- **network**: 1269 mentions across 50 files
+- **evidence**: 988 mentions across 49 files
+- **connection**: 921 mentions across 48 files
+- **entity**: 678 mentions across 43 files
+- **neural**: 647 mentions across 27 files
+- **infrastructure**: 340 mentions across 38 files
+- **monitoring**: 294 mentions across 30 files
+- **cross-reference**: 237 mentions across 24 files
+- **technology transfer**: 157 mentions across 22 files
+- **harassment**: 156 mentions across 27 files
 
 ## ENTITIES IDENTIFIED
 
 
-### HEADERS (1315 unique)
+### HEADERS (1611 unique)
 
 - "Targeted Individuals" = Test Subjects (cross-referenced in 2 locations)
-- ... (cross-referenced in 13 locations)
+- ... (cross-referenced in 15 locations)
+- 1. **Master Investigation Orchestrator** 🎯 (cross-referenced in 1 locations)
+- 1. BRAIN Initiative is Population Control I... (cross-referenced in 1 locations)
 - 1. BRAIN Initiative is Population Control Infrastructure (cross-referenced in 2 locations)
 - 1. DARPA (Direct & Through Contractors) (cross-referenced in 2 locations)
 - 1. Electrodes (Physical Contact) (cross-referenced in 2 locations)
 - 1. Neural Sensors (cross-referenced in 2 locations)
 - 1. Optogenetics & Neural Control (cross-referenced in 2 locations)
 - 1. Verify Intel Connection (HIGH PRIORITY) (cross-referenced in 2 locations)
-- 10. National Technology Transfer Act (1995) (cross-referenced in 2 locations)
+- 10. National Technology Transfer Act (1995) (cross-referenced in 3 locations)
 - 10. Update Evidence Repository (cross-referenced in 2 locations)
-- 11. Complete Family Network Mapping (cross-referenced in 2 locations)
-- 12. Map Business Relationships (cross-referenced in 2 locations)
-- 13. Consolidate Evidence for Legal Action (cross-referenced in 2 locations)
-- 14. Prepare Authority Briefings (cross-referenced in 2 locations)
-- 15. IPXO Investigation (cross-referenced in 2 locations)
-- 16. Hong Kong NSL Analysis (cross-referenced in 2 locations)
-- 17. Create Automated Monitoring Tools (cross-referenced in 2 locations)
-- 18. Develop Analysis Tools (cross-referenced in 2 locations)
-- 19. Maintain Investigation Timeline (cross-referenced in 2 locations)
-- 1995 - National Technology Transfer Act (cross-referenced in 2 locations)
-- ... and 1295 more
+- 1000 (4 events) (cross-referenced in 1 locations)
+- 1006 (50 events) (cross-referenced in 1 locations)
+- 1018 (1 events) (cross-referenced in 1 locations)
+- 1019 (4 events) (cross-referenced in 1 locations)
+- 1024 (4 events) (cross-referenced in 1 locations)
+- 1046 (4 events) (cross-referenced in 1 locations)
+- 1047 (1 events) (cross-referenced in 1 locations)
+- 1067 (15 events) (cross-referenced in 1 locations)
+- ... and 1591 more
 
 ### ORGANIZATIONS (30 unique)
 
-- Alphabet Inc (cross-referenced in 8 locations)
-- Apple Inc (cross-referenced in 12 locations)
-- Broad Agency (cross-referenced in 4 locations)
-- Duke University (cross-referenced in 12 locations)
-- From Lab (cross-referenced in 4 locations)
-- Funding Agency (cross-referenced in 4 locations)
-- Fusion Center (cross-referenced in 8 locations)
-- Georgetown University (cross-referenced in 4 locations)
-- Google Inc (cross-referenced in 6 locations)
-- Google LLC (cross-referenced in 3 locations)
-- Hopkins University (cross-referenced in 6 locations)
-- Junior University (cross-referenced in 4 locations)
-- Krieger Institute (cross-referenced in 4 locations)
-- Massachusetts Institute (cross-referenced in 8 locations)
-- Medical Agency (cross-referenced in 4 locations)
-- Medical Center (cross-referenced in 4 locations)
-- Mellon University (cross-referenced in 4 locations)
-- Memorial Institute (cross-referenced in 20 locations)
-- Network LLC (cross-referenced in 22 locations)
-- Nevada Corp (cross-referenced in 4 locations)
+- Alphabet Inc (cross-referenced in 15 locations)
+- Apple Inc (cross-referenced in 21 locations)
+- Broad Agency (cross-referenced in 9 locations)
+- Duke University (cross-referenced in 15 locations)
+- From Lab (cross-referenced in 9 locations)
+- Funding Agency (cross-referenced in 9 locations)
+- Fusion Center (cross-referenced in 18 locations)
+- Georgetown University (cross-referenced in 9 locations)
+- Google Inc (cross-referenced in 12 locations)
+- Google LLC (cross-referenced in 8 locations)
+- Hopkins University (cross-referenced in 12 locations)
+- Junior University (cross-referenced in 9 locations)
+- Krieger Institute (cross-referenced in 12 locations)
+- Massachusetts Institute (cross-referenced in 15 locations)
+- Medical Agency (cross-referenced in 9 locations)
+- Medical Center (cross-referenced in 9 locations)
+- Mellon University (cross-referenced in 9 locations)
+- Memorial Institute (cross-referenced in 36 locations)
+- Network LLC (cross-referenced in 48 locations)
+- Nevada Corp (cross-referenced in 12 locations)
 - ... and 10 more
 
-### PEOPLE (1867 unique)
+### PEOPLE (2009 unique)
 
 - Academic Experts (cross-referenced in 2 locations)
 - Academic Indoctrination (cross-referenced in 4 locations)
@@ -146,7 +156,7 @@ areas requiring further investigation.
 - Academic Institutions (cross-referenced in 12 locations)
 - Academic Institutions Develop (cross-referenced in 2 locations)
 - Academic Institutions Funded (cross-referenced in 4 locations)
-- Academic Layer (cross-referenced in 6 locations)
+- Academic Layer (cross-referenced in 8 locations)
 - Academic Papers (cross-referenced in 8 locations)
 - Academic Partners (cross-referenced in 4 locations)
 - Academic Pipeline (cross-referenced in 3 locations)
@@ -159,21 +169,23 @@ areas requiring further investigation.
 - Academic Research Pipeline (cross-referenced in 2 locations)
 - Academic Researcher (cross-referenced in 2 locations)
 - Academic Spinoffs (cross-referenced in 2 locations)
-- ... and 1847 more
+- ... and 1989 more
 
 ### TECHNOLOGIES (6 unique)
 
-- AI (cross-referenced in 26 locations)
-- BRAIN (cross-referenced in 22 locations)
-- DARPA (cross-referenced in 44 locations)
-- IoB (cross-referenced in 20 locations)
-- ML (cross-referenced in 4 locations)
-- Z-File (cross-referenced in 8 locations)
+- AI (cross-referenced in 64 locations)
+- BRAIN (cross-referenced in 52 locations)
+- DARPA (cross-referenced in 50 locations)
+- IoB (cross-referenced in 46 locations)
+- ML (cross-referenced in 12 locations)
+- Z-File (cross-referenced in 20 locations)
 
-### URLS (35 unique)
+### URLS (37 unique)
 
 - https://docs.google.com/document/d/1ClMxdv0u6FPJ8yUPNoytgDkWwHjf0eLHSZiooo9nAwU/edit (cross-referenced in 2 locations)
 - https://docs.google.com/document/d/1O8Tj4U_SqCRT3B-dJG3EGvHnuBGJi2i6/edit?usp=drivesdk&ouid=106715713066295607232&rtpof=true&sd=true (cross-referenced in 2 locations)
+- https://drive.goo (cross-referenced in 3 locations)
+- https://drive.google. (cross-referenced in 3 locations)
 - https://drive.google.com/drive/folders/1fBhymrT7WWNiBvP_GZmj9-F_cLDI1jVm (cross-referenced in 2 locations)
 - https://drive.google.com/drive/folders/1qfDeiXUExSJvFsXzDQH8ZSN5NLAYUPyr (cross-referenced in 2 locations)
 - https://drive.google.com/drive/folders/1vzFRvVM4LQdj0g0R8sv07mCEWX4X6Isg (cross-referenced in 2 locations)
@@ -190,9 +202,7 @@ areas requiring further investigation.
 - https://drive.google.com/file/d/1AW9_vTgFYm19RXkGwTae7ylg1u1Qp0Ks/view?usp=drivesdk (cross-referenced in 2 locations)
 - https://drive.google.com/file/d/1ExVkMDIZagbXE6y283NChPvRy83rufaq/view?usp=drivesdk (cross-referenced in 2 locations)
 - https://drive.google.com/file/d/1Fjt4wzdouiFOfbOSByqxDphF4FWlrkDQ/view?usp=drivesdk (cross-referenced in 2 locations)
-- https://drive.google.com/file/d/1O310Ka4sxHCuou-3kBZJDa7mkU7Xptd6/view (cross-referenced in 2 locations)
-- https://drive.google.com/file/d/1OLZKu_4__QHCKyylF8oYoh3KDEfiPk7O/view (cross-referenced in 2 locations)
-- ... and 15 more
+- ... and 17 more
 
 ## RELATIONSHIPS DISCOVERED
 
@@ -244,7 +254,11 @@ Comprehensive forensic analysis of GitHub accounts associate...
 
 ## CROSS-REFERENCE INDEX
 
-- **Evidence Repository**: 58 cross-references
+- **AI**: 64 cross-references
+  - ENTITY_PROFILES_REPORT.md (2 occurrences)
+  - ENTITY_PROFILES_REPORT.md (2 occurrences)
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (28 occurrences)
+- **Evidence Repository**: 60 cross-references
   - AUTONOMOUS_INVESTIGATION_REPORT.md (7 occurrences)
   - AUTONOMOUS_INVESTIGATION_REPORT.md (7 occurrences)
   - INVESTIGATION_SUMMARY.md (1 occurrences)
@@ -252,130 +266,127 @@ Comprehensive forensic analysis of GitHub accounts associate...
   - AUTONOMOUS_INVESTIGATION_REPORT.md (1 occurrences)
   - AUTONOMOUS_INVESTIGATION_REPORT.md (1 occurrences)
   - INVESTIGATION_SUMMARY.md (1 occurrences)
-- **DARPA**: 44 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (39 occurrences)
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (39 occurrences)
-  - INVESTIGATION_SUMMARY.md (14 occurrences)
-- **Evidence**: 40 cross-references
+- **BRAIN**: 52 cross-references
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (23 occurrences)
+- **DARPA**: 50 cross-references
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (23 occurrences)
+- **Network LLC**: 48 cross-references
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (7 occurrences)
+- **IoB**: 46 cross-references
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (2 occurrences)
+- **Evidence**: 45 cross-references
   - AUTONOMOUS_INVESTIGATION_REPORT.md (12 occurrences)
   - INVESTIGATION_SUMMARY.md (1 occurrences)
   - Timeline.md (2 occurrences)
-- **Junyuan Wang**: 40 cross-references
+- **Analysis**: 42 cross-references
+  - ENTITY_PROFILES_REPORT.md (2 occurrences)
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (20 occurrences)
+  - NETWORK_ANALYSIS_REPORT.md (2 occurrences)
+- **Junyuan Wang**: 42 cross-references
   - AUTONOMOUS_INVESTIGATION_REPORT.md (4 occurrences)
   - AUTONOMOUS_INVESTIGATION_REPORT.md (4 occurrences)
   - Timeline.md (5 occurrences)
-- **Stanford University**: 36 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (2 occurrences)
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (2 occurrences)
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (2 occurrences)
-- **Network Analysis**: 36 cross-references
+- **Network Analysis**: 40 cross-references
   - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
   - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
   - ENTITY_NETWORK_MAP.md (1 occurrences)
-- **Investigation Dashboard**: 36 cross-references
+- **Stanford University**: 39 cross-references
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+- **Timeline**: 39 cross-references
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (28 occurrences)
+  - INVESTIGATION_SUMMARY.md (6 occurrences)
+  - Timeline.md (1 occurrences)
+- **Connection**: 38 cross-references
+  - ENTITY_PROFILES_REPORT.md (82 occurrences)
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
+  - Timeline.md (2 occurrences)
+- **Next Steps**: 38 cross-references
   - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
   - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
   - INVESTIGATION_SUMMARY.md (1 occurrences)
-- **Analysis**: 36 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (21 occurrences)
-  - INVESTIGATION_SUMMARY.md (3 occurrences)
-  - Timeline.md (1 occurrences)
-- **Timeline**: 34 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (43 occurrences)
-  - INVESTIGATION_SUMMARY.md (6 occurrences)
-  - Timeline.md (1 occurrences)
-- **Technology Transfer**: 34 cross-references
+- **Investigation Dashboard**: 38 cross-references
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
+  - INVESTIGATION_SUMMARY.md (1 occurrences)
+- **Memorial Institute**: 36 cross-references
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+- **Technology Transfer**: 36 cross-references
   - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
   - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
   - INVESTIGATION_SUMMARY.md (2 occurrences)
-- **Connection**: 34 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
-  - Timeline.md (2 occurrences)
-  - DARPA_BRAIN_Timeline.md (2 occurrences)
-- **Next Steps**: 34 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
-  - INVESTIGATION_SUMMARY.md (1 occurrences)
-- **Technical**: 32 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (11 occurrences)
+- **Technical**: 35 cross-references
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (10 occurrences)
   - INVESTIGATION_SUMMARY.md (5 occurrences)
   - DARPA_BRAIN_Timeline.md (1 occurrences)
-- **Overview**: 31 cross-references
+- **Entities**: 34 cross-references
+  - ENTITY_PROFILES_REPORT.md (18 occurrences)
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (47 occurrences)
+  - NETWORK_ANALYSIS_REPORT.md (1 occurrences)
+- **Overview**: 33 cross-references
   - AUTONOMOUS_INVESTIGATION_REPORT.md (5 occurrences)
+  - NETWORK_ANALYSIS_REPORT.md (3 occurrences)
   - ENTITY_NETWORK_MAP.md (1 occurrences)
-  - LEGAL_CASE_FRAMEWORK.md (1 occurrences)
-- **Chris Wang Oklahoma**: 30 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (5 occurrences)
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (5 occurrences)
+- **Chris Wang Oklahoma**: 32 cross-references
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (4 occurrences)
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (4 occurrences)
   - Timeline.md (2 occurrences)
-- **Entities**: 28 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (48 occurrences)
-  - INVESTIGATION_SUMMARY.md (5 occurrences)
-  - DARPA_BRAIN_Timeline.md (5 occurrences)
-- **Threat Assessment**: 26 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
-  - INVESTIGATION_SUMMARY.md (1 occurrences)
-- **Fourth Amendment**: 26 cross-references
+- **Fourth Amendment**: 30 cross-references
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
   - AUTONOMOUS_INVESTIGATION_REPORT.md (1 occurrences)
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (1 occurrences)
-  - ENTITY_NETWORK_MAP.md (2 occurrences)
-- **AI**: 26 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (45 occurrences)
-  - INVESTIGATION_SUMMARY.md (9 occurrences)
-  - Timeline.md (1 occurrences)
-- **Legal**: 25 cross-references
+- **Threat Assessment**: 30 cross-references
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
+- **Legal**: 26 cross-references
+  - ENTITY_PROFILES_REPORT.md (3 occurrences)
   - AUTONOMOUS_INVESTIGATION_REPORT.md (2 occurrences)
   - INVESTIGATION_SUMMARY.md (1 occurrences)
+- **Infrastructure**: 26 cross-references
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
+  - INVESTIGATION_SUMMARY.md (3 occurrences)
   - Timeline.md (1 occurrences)
+- **Technology**: 25 cross-references
+  - ENTITY_PROFILES_REPORT.md (7 occurrences)
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (5 occurrences)
+  - INVESTIGATION_SUMMARY.md (5 occurrences)
+- **Assessment**: 24 cross-references
+  - ENTITY_PROFILES_REPORT.md (2 occurrences)
+  - AUTONOMOUS_INVESTIGATION_REPORT.md (4 occurrences)
+  - INVESTIGATION_SUMMARY.md (1 occurrences)
+- **Physics Lab**: 24 cross-references
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
+  - ENTITY_PROFILES_REPORT.md (1 occurrences)
 - **Carnegie Mellon**: 24 cross-references
   - AUTONOMOUS_INVESTIGATION_REPORT.md (2 occurrences)
   - AUTONOMOUS_INVESTIGATION_REPORT.md (2 occurrences)
   - DARPA_BRAIN_Timeline.md (1 occurrences)
-- **Infrastructure**: 24 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (3 occurrences)
-  - INVESTIGATION_SUMMARY.md (3 occurrences)
-  - Timeline.md (1 occurrences)
-- **Assessment**: 22 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (4 occurrences)
-  - INVESTIGATION_SUMMARY.md (1 occurrences)
-  - Timeline.md (1 occurrences)
-- **Active**: 22 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (2 occurrences)
-  - Timeline.md (1 occurrences)
-  - DARPA_BRAIN_Timeline.md (3 occurrences)
-- **Technology**: 22 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (5 occurrences)
-  - INVESTIGATION_SUMMARY.md (5 occurrences)
-  - DARPA_BRAIN_Timeline.md (9 occurrences)
-- **Asymptote Network LLC**: 22 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (5 occurrences)
-  - Timeline.md (3 occurrences)
-  - Evidence Repository.md (2 occurrences)
-- **Last Updated**: 22 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (1 occurrences)
-  - INVESTIGATION_SUMMARY.md (1 occurrences)
-  - DARPA_BRAIN_Timeline.md (1 occurrences)
-- **Asymptote Network**: 22 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (6 occurrences)
-  - Timeline.md (3 occurrences)
-  - Evidence Repository.md (2 occurrences)
-- **Network LLC**: 22 cross-references
-  - AUTONOMOUS_INVESTIGATION_REPORT.md (6 occurrences)
-  - Timeline.md (3 occurrences)
-  - Evidence Repository.md (2 occurrences)
 
 ## FILE RELEVANCE RANKING
 
 
 ### Top Files by Investigation Relevance
 
-- **investigation_data.json**: Relevance Score 20273.0
+- **investigation_data.json**: Relevance Score 20830.0
+- **TIMELINE_ANALYSIS_REPORT.md**: Relevance Score 4022.0
 - **LEGAL_CASE_FRAMEWORK.md**: Relevance Score 1502.0
 - **CROSS_REFERENCE_INDEX.md**: Relevance Score 1322.0
 - **YOUR_CASE_DARPA_BRAIN_CONNECTION.md**: Relevance Score 1278.0
 - **UNIFIED_EVIDENCE_FRAMEWORK.md**: Relevance Score 1254.0
-- **AUTONOMOUS_INVESTIGATION_REPORT.md**: Relevance Score 1019.0
+- **AUTONOMOUS_INVESTIGATION_REPORT.md**: Relevance Score 817.0
 - **Patents/PATENT_MASTER_INDEX.md**: Relevance Score 569.0
 - **Analysis/TECHNOLOGY_TRANSFER_MECHANISMS.md**: Relevance Score 536.0
 - **Analysis/Z_FILE_DEEP_ANALYSIS.md**: Relevance Score 535.0
@@ -385,6 +396,7 @@ Comprehensive forensic analysis of GitHub accounts associate...
 - **ENTITY_NETWORK_MAP.md**: Relevance Score 492.0
 - **Entities/Christopher_Wang_MIT.md**: Relevance Score 484.0
 - **Entities/Battelle_Memorial_Institute.md**: Relevance Score 407.0
+- **INVESTIGATION_TOOLS_README.md**: Relevance Score 392.0
 - **Entities/Apple.md**: Relevance Score 369.0
 - **Entities/FreerLogic.md**: Relevance Score 308.0
 - **DARPA_BRAIN_Timeline.md**: Relevance Score 300.0
@@ -393,13 +405,11 @@ Comprehensive forensic analysis of GitHub accounts associate...
 - **Investigation Dashboard.md**: Relevance Score 233.0
 - **Analysis/Threat Assessment.md**: Relevance Score 205.0
 - **Analysis/Next Steps.md**: Relevance Score 203.0
+- **PATTERN_ANALYSIS_REPORT.md**: Relevance Score 176.0
 - **Evidence Repository.md**: Relevance Score 161.0
 - **Technical/Internet_of_Bodies_Architecture.md**: Relevance Score 145.0
+- **NETWORK_ANALYSIS_REPORT.md**: Relevance Score 140.0
 - **Timeline.md**: Relevance Score 138.0
-- **Entities/DARPA.md**: Relevance Score 109.0
-- **Technical/AS53616 Network Analysis.md**: Relevance Score 104.0
-- **Entities/Google.md**: Relevance Score 100.0
-- **Entities/Organizations/Asymptote Network LLC.md**: Relevance Score 96.0
 
 ## INVESTIGATION GAPS AND RECOMMENDATIONS
 
@@ -422,7 +432,7 @@ Comprehensive forensic analysis of GitHub accounts associate...
 ## EVIDENCE CHAIN SUMMARY
 
 
-**Total Evidence Items:** 241
+**Total Evidence Items:** 248
 
 ### Sample Evidence Items
 
@@ -505,12 +515,12 @@ Comprehensive forensic analysis of GitHub accounts
 
 ## TECHNOLOGY AND INFRASTRUCTURE IDENTIFIED
 
-- AI (referenced 26 times)
-- BRAIN (referenced 22 times)
-- DARPA (referenced 44 times)
-- IoB (referenced 20 times)
-- ML (referenced 4 times)
-- Z-File (referenced 8 times)
+- AI (referenced 64 times)
+- BRAIN (referenced 52 times)
+- DARPA (referenced 50 times)
+- IoB (referenced 46 times)
+- ML (referenced 12 times)
+- Z-File (referenced 20 times)
 
 ## RECOMMENDED NEXT STEPS
 
@@ -528,22 +538,22 @@ Comprehensive forensic analysis of GitHub accounts
 ## TECHNICAL ANALYSIS DETAILS
 
 - Entity Categories: 5
-- Total Unique Entities: 3253
+- Total Unique Entities: 3693
 - Relationship Chains: 6
-- Cross-Reference Points: 2708
+- Cross-Reference Points: 3063
 - Investigation Gaps Identified: 3
-- Evidence Items Extracted: 241
+- Evidence Items Extracted: 248
 
 ## FILE METADATA SUMMARY
 
-- Total Storage: 1.63 MB
+- Total Storage: 1.90 MB
 - File Type Distribution:
   - json: 1 files
-  - log: 2 files
-  - md: 47 files
+  - log: 4 files
+  - md: 55 files
   - txt: 1 files
 
 ---
-**Report Generated:** 2025-11-29T01:24:38.608543
+**Report Generated:** 2025-11-29T01:28:30.174588
 
 **End of Report**

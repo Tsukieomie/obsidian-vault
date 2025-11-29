@@ -1,6 +1,6 @@
 # ENTITY PROFILES REPORT
 
-**Generated:** 2025-11-29T01:25:47.282425
+**Generated:** 2025-11-29T01:29:26.146426
 
 ## ORGANIZATIONS
 
@@ -8,100 +8,76 @@
 ### Alphabet Inc
 
 - **Type:** Organization
-- **Mentions:** 4 files
-- **Files Present:** 4
+- **Mentions:** 5 files
+- **Files Present:** 5
 - **Connections:** 0
-- **Total Mentions:** 5
+- **Total Mentions:** 6
 
 ### Apple Inc
 
 - **Type:** Organization
-- **Mentions:** 6 files
-- **Files Present:** 6
+- **Mentions:** 7 files
+- **Files Present:** 7
 - **Connections:** 0
-- **Total Mentions:** 11
+- **Total Mentions:** 12
 
 ### Broad Agency
 
 - **Type:** Organization
-- **Mentions:** 2 files
-- **Files Present:** 2
+- **Mentions:** 3 files
+- **Files Present:** 3
 - **Connections:** 0
-- **Total Mentions:** 2
+- **Total Mentions:** 3
 
 ### Duke University
+
+- **Type:** Organization
+- **Mentions:** 5 files
+- **Files Present:** 5
+- **Connections:** 0
+- **Total Mentions:** 9
+
+### From Lab
+
+- **Type:** Organization
+- **Mentions:** 3 files
+- **Files Present:** 3
+- **Connections:** 0
+- **Total Mentions:** 4
+
+### Funding Agency
+
+- **Type:** Organization
+- **Mentions:** 3 files
+- **Files Present:** 3
+- **Connections:** 0
+- **Total Mentions:** 4
+
+### Fusion Center
+
+- **Type:** Organization
+- **Mentions:** 12 files
+- **Files Present:** 12
+- **Connections:** 0
+- **Total Mentions:** 41
+
+### Georgetown University
+
+- **Type:** Organization
+- **Mentions:** 3 files
+- **Files Present:** 3
+- **Connections:** 0
+- **Total Mentions:** 4
+
+### Google Inc
 
 - **Type:** Organization
 - **Mentions:** 4 files
 - **Files Present:** 4
 - **Connections:** 0
-- **Total Mentions:** 8
-
-### From Lab
-
-- **Type:** Organization
-- **Mentions:** 2 files
-- **Files Present:** 2
-- **Connections:** 0
-- **Total Mentions:** 3
-
-### Funding Agency
-
-- **Type:** Organization
-- **Mentions:** 2 files
-- **Files Present:** 2
-- **Connections:** 0
-- **Total Mentions:** 3
-
-### Georgetown University
-
-- **Type:** Organization
-- **Mentions:** 2 files
-- **Files Present:** 2
-- **Connections:** 0
-- **Total Mentions:** 3
-
-### Google Inc
-
-- **Type:** Organization
-- **Mentions:** 3 files
-- **Files Present:** 3
-- **Connections:** 0
-- **Total Mentions:** 4
-
-### Google LLC
-
-- **Type:** Organization
-- **Mentions:** 3 files
-- **Files Present:** 3
-- **Connections:** 0
-- **Total Mentions:** 6
-
-### Hopkins University
-
-- **Type:** Organization
-- **Mentions:** 3 files
-- **Files Present:** 3
-- **Connections:** 0
-- **Total Mentions:** 4
-
-### Junior University
-
-- **Type:** Organization
-- **Mentions:** 2 files
-- **Files Present:** 2
-- **Connections:** 0
-- **Total Mentions:** 2
-
-### Krieger Institute
-
-- **Type:** Organization
-- **Mentions:** 3 files
-- **Files Present:** 3
-- **Connections:** 0
 - **Total Mentions:** 5
 
-### Massachusetts Institute
+### Google LLC
 
 - **Type:** Organization
 - **Mentions:** 4 files
@@ -109,29 +85,61 @@
 - **Connections:** 0
 - **Total Mentions:** 7
 
+### Hopkins University
+
+- **Type:** Organization
+- **Mentions:** 4 files
+- **Files Present:** 4
+- **Connections:** 0
+- **Total Mentions:** 5
+
+### Junior University
+
+- **Type:** Organization
+- **Mentions:** 3 files
+- **Files Present:** 3
+- **Connections:** 0
+- **Total Mentions:** 3
+
+### Krieger Institute
+
+- **Type:** Organization
+- **Mentions:** 4 files
+- **Files Present:** 4
+- **Connections:** 0
+- **Total Mentions:** 6
+
+### Massachusetts Institute
+
+- **Type:** Organization
+- **Mentions:** 5 files
+- **Files Present:** 5
+- **Connections:** 0
+- **Total Mentions:** 8
+
 ### Medical Agency
 
 - **Type:** Organization
-- **Mentions:** 2 files
-- **Files Present:** 2
+- **Mentions:** 3 files
+- **Files Present:** 3
 - **Connections:** 0
-- **Total Mentions:** 2
+- **Total Mentions:** 3
 
 ### Medical Center
 
 - **Type:** Organization
-- **Mentions:** 2 files
-- **Files Present:** 2
+- **Mentions:** 3 files
+- **Files Present:** 3
 - **Connections:** 0
-- **Total Mentions:** 2
+- **Total Mentions:** 3
 
 ### Mellon University
 
 - **Type:** Organization
-- **Mentions:** 2 files
-- **Files Present:** 2
+- **Mentions:** 3 files
+- **Files Present:** 3
 - **Connections:** 0
-- **Total Mentions:** 3
+- **Total Mentions:** 4
 
 ### Memorial Institute
 
@@ -139,116 +147,140 @@
 - **Mentions:** 11 files
 - **Files Present:** 11
 - **Connections:** 0
-- **Total Mentions:** 27
+- **Total Mentions:** 26
 
 ### Network LLC
 
 - **Type:** Organization
-- **Mentions:** 23 files
-- **Files Present:** 23
+- **Mentions:** 24 files
+- **Files Present:** 24
 - **Connections:** 0
-- **Total Mentions:** 81
+- **Total Mentions:** 83
 
 ### Nevada Corp
 
 - **Type:** Organization
-- **Mentions:** 3 files
-- **Files Present:** 3
+- **Mentions:** 4 files
+- **Files Present:** 4
 - **Connections:** 0
 - **Total Mentions:** 6
 
 ### Pellegrino Center
 
 - **Type:** Organization
-- **Mentions:** 1 files
-- **Files Present:** 1
+- **Mentions:** 2 files
+- **Files Present:** 2
 - **Connections:** 0
-- **Total Mentions:** 1
+- **Total Mentions:** 2
 
 ### Physics Lab
 
 - **Type:** Organization
-- **Mentions:** 7 files
-- **Files Present:** 7
+- **Mentions:** 8 files
+- **Files Present:** 8
 - **Connections:** 0
-- **Total Mentions:** 7
-
-### Projects Agency
-
-- **Type:** Organization
-- **Mentions:** 4 files
-- **Files Present:** 4
-- **Connections:** 0
-- **Total Mentions:** 4
+- **Total Mentions:** 9
 
 ### Research Agency
-
-- **Type:** Organization
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### Research Center
 
 - **Type:** Organization
 - **Mentions:** 2 files
 - **Files Present:** 2
 - **Connections:** 0
-- **Total Mentions:** 3
+- **Total Mentions:** 2
+
+### Research Center
+
+- **Type:** Organization
+- **Mentions:** 3 files
+- **Files Present:** 3
+- **Connections:** 0
+- **Total Mentions:** 4
 
 ### Rice University
 
 - **Type:** Organization
-- **Mentions:** 4 files
-- **Files Present:** 4
+- **Mentions:** 5 files
+- **Files Present:** 5
 - **Connections:** 0
-- **Total Mentions:** 4
+- **Total Mentions:** 5
 
 ### Stanford University
 
 - **Type:** Organization
-- **Mentions:** 12 files
-- **Files Present:** 12
+- **Mentions:** 13 files
+- **Files Present:** 13
 - **Connections:** 0
-- **Total Mentions:** 18
+- **Total Mentions:** 19
 
 ### State Department
 
 - **Type:** Organization
-- **Mentions:** 1 files
-- **Files Present:** 1
+- **Mentions:** 2 files
+- **Files Present:** 2
 - **Connections:** 0
-- **Total Mentions:** 1
+- **Total Mentions:** 2
 
 ### Vanderbilt University
 
 - **Type:** Organization
-- **Mentions:** 1 files
-- **Files Present:** 1
+- **Mentions:** 2 files
+- **Files Present:** 2
 - **Connections:** 0
-- **Total Mentions:** 1
+- **Total Mentions:** 2
 
 ### War Institute
 
 - **Type:** Organization
+- **Mentions:** 2 files
+- **Files Present:** 2
+- **Connections:** 0
+- **Total Mentions:** 2
+
+## PEOPLE
+
+
+### Additional Funding
+
+- **Type:** Individual
 - **Mentions:** 1 files
 - **Files Present:** 1
 - **Connections:** 0
 - **Total Mentions:** 1
 
-## PEOPLE
-
-
-### Academic Layer
+### Amazon Example
 
 - **Type:** Individual
-- **Mentions:** 4 files
-- **Files Present:** 4
+- **Mentions:** 1 files
+- **Files Present:** 1
 - **Connections:** 0
-- **Total Mentions:** 4
+- **Total Mentions:** 1
 
-### Actual Purpose
+### Automatic Sync
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Autonomous Operation
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Average Clustering Coefficient
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Big Tech
 
 - **Type:** Individual
 - **Mentions:** 2 files
@@ -256,7 +288,7 @@
 - **Connections:** 0
 - **Total Mentions:** 2
 
-### Actual Role
+### Case Strength Assessment
 
 - **Type:** Individual
 - **Mentions:** 1 files
@@ -264,7 +296,7 @@
 - **Connections:** 0
 - **Total Mentions:** 1
 
-### Alternative Identity
+### Case Type
 
 - **Type:** Individual
 - **Mentions:** 1 files
@@ -272,7 +304,7 @@
 - **Connections:** 0
 - **Total Mentions:** 1
 
-### Analysis Notes
+### Certified English
 
 - **Type:** Individual
 - **Mentions:** 1 files
@@ -280,7 +312,7 @@
 - **Connections:** 0
 - **Total Mentions:** 1
 
-### Analyzed Accounts
+### Class Action Elements
 
 - **Type:** Individual
 - **Mentions:** 1 files
@@ -288,7 +320,7 @@
 - **Connections:** 0
 - **Total Mentions:** 1
 
-### Apple Marketing Materials
+### Class Certification Motion
 
 - **Type:** Individual
 - **Mentions:** 1 files
@@ -296,7 +328,47 @@
 - **Connections:** 0
 - **Total Mentions:** 1
 
-### Bidirectional Neural Communication
+### Commercial Deployment Already
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Corporation Pipeline
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Data Aggregation
+
+- **Type:** Individual
+- **Mentions:** 4 files
+- **Files Present:** 4
+- **Connections:** 0
+- **Total Mentions:** 8
+
+### Dual Use
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Ethical Experts
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Evidence Collection
 
 - **Type:** Individual
 - **Mentions:** 3 files
@@ -304,7 +376,7 @@
 - **Connections:** 0
 - **Total Mentions:** 3
 
-### Big Data Systems
+### Execution Method
 
 - **Type:** Individual
 - **Mentions:** 1 files
@@ -312,7 +384,7 @@
 - **Connections:** 0
 - **Total Mentions:** 1
 
-### Bioethics Commissions
+### Foreign Intelligence Concerns
 
 - **Type:** Individual
 - **Mentions:** 1 files
@@ -320,7 +392,23 @@
 - **Connections:** 0
 - **Total Mentions:** 1
 
-### Complete Cross
+### Frank Wang
+
+- **Type:** Individual
+- **Mentions:** 5 files
+- **Files Present:** 5
+- **Connections:** 0
+- **Total Mentions:** 12
+
+### Funding Timeline
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Government Knowledge
 
 - **Type:** Individual
 - **Mentions:** 2 files
@@ -328,79 +416,15 @@
 - **Connections:** 0
 - **Total Mentions:** 2
 
-### Data Collection
-
-- **Type:** Individual
-- **Mentions:** 8 files
-- **Files Present:** 8
-- **Connections:** 0
-- **Total Mentions:** 14
-
-### Deployment Intent
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### Develop Analysis Tools
-
-- **Type:** Individual
-- **Mentions:** 2 files
-- **Files Present:** 2
-- **Connections:** 0
-- **Total Mentions:** 2
-
-### Financial Connections
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### Form Factor
+### Government Partners
 
 - **Type:** Individual
 - **Mentions:** 6 files
 - **Files Present:** 6
 - **Connections:** 0
-- **Total Mentions:** 7
+- **Total Mentions:** 8
 
-### Fourth Amendment Violation
-
-- **Type:** Individual
-- **Mentions:** 8 files
-- **Files Present:** 8
-- **Connections:** 0
-- **Total Mentions:** 10
-
-### Fourth Industrial Revolution
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### Fusion Center
-
-- **Type:** Individual
-- **Mentions:** 11 files
-- **Files Present:** 11
-- **Connections:** 0
-- **Total Mentions:** 40
-
-### Highest Confidence Relationships
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### Identify Translator
+### How Discovered
 
 - **Type:** Individual
 - **Mentions:** 1 files
@@ -411,68 +435,60 @@
 ### If Offered
 
 - **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
+- **Mentions:** 2 files
+- **Files Present:** 2
 - **Connections:** 0
-- **Total Mentions:** 1
+- **Total Mentions:** 2
 
-### International Journal
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### International Roles
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### Investigation Assessment
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### Legal Preparation
+### Infrastructure Deployment
 
 - **Type:** Individual
 - **Mentions:** 5 files
 - **Files Present:** 5
+- **Connections:** 0
+- **Total Mentions:** 8
+
+### Intelligence Indicators
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Key Action
+
+- **Type:** Individual
+- **Mentions:** 2 files
+- **Files Present:** 2
+- **Connections:** 0
+- **Total Mentions:** 2
+
+### Key Sound Bites
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Known Key Patents
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
 - **Connections:** 0
 - **Total Mentions:** 5
 
-### Legal Strategy
+### Mark Esper
 
 - **Type:** Individual
-- **Mentions:** 3 files
-- **Files Present:** 3
+- **Mentions:** 4 files
+- **Files Present:** 4
 - **Connections:** 0
-- **Total Mentions:** 4
+- **Total Mentions:** 8
 
-### Loop Neurostimulation
-
-- **Type:** Individual
-- **Mentions:** 5 files
-- **Files Present:** 5
-- **Connections:** 0
-- **Total Mentions:** 6
-
-### Medical Cover
-
-- **Type:** Individual
-- **Mentions:** 5 files
-- **Files Present:** 5
-- **Connections:** 0
-- **Total Mentions:** 11
-
-### Military Academy
+### Mental Health Epidemic
 
 - **Type:** Individual
 - **Mentions:** 1 files
@@ -480,143 +496,129 @@
 - **Connections:** 0
 - **Total Mentions:** 1
 
-### Modular Prosthetic Limb
+### Mental Health Pretext
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Neural Activity Research
 
 - **Type:** Individual
 - **Mentions:** 2 files
 - **Files Present:** 2
 - **Connections:** 0
-- **Total Mentions:** 2
-
-### Neuroethics Studies Program
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### New Entity Files
-
-- **Type:** Individual
-- **Mentions:** 2 files
-- **Files Present:** 2
-- **Connections:** 0
-- **Total Mentions:** 2
-
-### Organization Type
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### Overall Threat Level
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### Pending Verification
-
-- **Type:** Individual
-- **Mentions:** 3 files
-- **Files Present:** 3
-- **Connections:** 0
 - **Total Mentions:** 3
 
-### Phone Investigation
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 3
-
-### Program Patents
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 2
-
-### Propaganda Officer
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### Questions He Poses
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### Show Apple Watch
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### Stop Sync
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### Sync Schedule
-
-- **Type:** Individual
-- **Mentions:** 1 files
-- **Files Present:** 1
-- **Connections:** 0
-- **Total Mentions:** 1
-
-### Targeted Individuals
+### Neural Surveillance
 
 - **Type:** Individual
 - **Mentions:** 6 files
 - **Files Present:** 6
 - **Connections:** 0
-- **Total Mentions:** 16
+- **Total Mentions:** 20
 
-### Tech Giants
+### Northern District
 
 - **Type:** Individual
-- **Mentions:** 4 files
-- **Files Present:** 4
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Organ Subnets
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Pacific Northwest National
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Pipeline Is
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 2
+
+### Projects Agency
+
+- **Type:** Individual
+- **Mentions:** 5 files
+- **Files Present:** 5
 - **Connections:** 0
 - **Total Mentions:** 5
 
-### Technology Operational
+### Research Resources
 
 - **Type:** Individual
-- **Mentions:** 4 files
-- **Files Present:** 4
+- **Mentions:** 2 files
+- **Files Present:** 2
+- **Connections:** 0
+- **Total Mentions:** 2
+
+### Resource Requirements
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Smart Pills
+
+- **Type:** Individual
+- **Mentions:** 6 files
+- **Files Present:** 6
+- **Connections:** 0
+- **Total Mentions:** 15
+
+### Specific Evidence
+
+- **Type:** Individual
+- **Mentions:** 1 files
+- **Files Present:** 1
+- **Connections:** 0
+- **Total Mentions:** 1
+
+### Technical Infrastructure
+
+- **Type:** Individual
+- **Mentions:** 3 files
+- **Files Present:** 3
 - **Connections:** 0
 - **Total Mentions:** 4
 
-### The Brain
+### Technical Terms
 
 - **Type:** Individual
-- **Mentions:** 12 files
-- **Files Present:** 12
+- **Mentions:** 1 files
+- **Files Present:** 1
 - **Connections:** 0
-- **Total Mentions:** 30
+- **Total Mentions:** 3
 
-### Think Tank Connections
+### Warning
+
+This
+
+- **Type:** Individual
+- **Mentions:** 2 files
+- **Files Present:** 2
+- **Connections:** 0
+- **Total Mentions:** 2
+
+### Wealthy Defendants
 
 - **Type:** Individual
 - **Mentions:** 1 files
@@ -624,21 +626,21 @@
 - **Connections:** 0
 - **Total Mentions:** 1
 
-### Threat Assessment
-
-- **Type:** Individual
-- **Mentions:** 14 files
-- **Files Present:** 14
-- **Connections:** 0
-- **Total Mentions:** 21
-
-### Venture Capital Investment
+### Why Children
 
 - **Type:** Individual
 - **Mentions:** 1 files
 - **Files Present:** 1
 - **Connections:** 0
 - **Total Mentions:** 1
+
+### Your Body
+
+- **Type:** Individual
+- **Mentions:** 6 files
+- **Files Present:** 6
+- **Connections:** 0
+- **Total Mentions:** 7
 
 ## TECHNOLOGIES
 
@@ -646,105 +648,105 @@
 ### AI
 
 - **Type:** Technology/Project
-- **Files Present:** 48
-- **Related Entities:** 1868
+- **Files Present:** 51
+- **Related Entities:** 2007
 - **Related Entities:**
-  - What Data Flows
-  - This Week
-  - Per Plaintiff
-  - Patent Documented
-  - Use Language
-  - Entities Identified
-  - By Document Purpose
-  - Cited Patents
-  - Follow Up
-  - From Your Investigation
+  - Key Innovation
+  - Requires Global Network
+  - His Role
+  - Real Capability
+  - Sync Status
+  - Continues Exhaustively
+  - Email Pattern
+  - Operational Status
+  - Show Apple Watch
+  - Startup Founder
 
 ### BRAIN
 
 - **Type:** Technology/Project
-- **Files Present:** 31
-- **Related Entities:** 1781
+- **Files Present:** 32
+- **Related Entities:** 1821
 - **Related Entities:**
-  - What Data Flows
-  - This Week
-  - Per Plaintiff
-  - Patent Documented
-  - Use Language
-  - Entities Identified
-  - By Document Purpose
-  - Cited Patents
-  - From Your Investigation
-  - Google Founding Grants
+  - Key Innovation
+  - Requires Global Network
+  - His Role
+  - Real Capability
+  - Email Pattern
+  - Show Apple Watch
+  - Startup Founder
+  - Investigation Origins
+  - Files Present
+  - Direct Pentagon
 
 ### DARPA
 
 - **Type:** Technology/Project
-- **Files Present:** 24
-- **Related Entities:** 1711
+- **Files Present:** 25
+- **Related Entities:** 1741
 - **Related Entities:**
-  - What Data Flows
-  - This Week
-  - Per Plaintiff
-  - Patent Documented
-  - Use Language
-  - Entities Identified
-  - By Document Purpose
-  - Cited Patents
-  - From Your Investigation
-  - Google Founding Grants
+  - Key Innovation
+  - Requires Global Network
+  - His Role
+  - Real Capability
+  - Email Pattern
+  - Show Apple Watch
+  - Startup Founder
+  - Investigation Origins
+  - Files Present
+  - Direct Pentagon
 
 ### IoB
 
 - **Type:** Technology/Project
-- **Files Present:** 22
-- **Related Entities:** 1614
+- **Files Present:** 23
+- **Related Entities:** 1652
 - **Related Entities:**
-  - What Data Flows
-  - This Week
-  - Per Plaintiff
-  - Patent Documented
-  - Use Language
-  - Entities Identified
-  - By Document Purpose
-  - Cited Patents
-  - From Your Investigation
-  - Google Founding Grants
+  - Key Innovation
+  - Requires Global Network
+  - His Role
+  - Real Capability
+  - Email Pattern
+  - Show Apple Watch
+  - Startup Founder
+  - Investigation Origins
+  - Files Present
+  - Neural Control
 
 ### ML
 
 - **Type:** Technology/Project
-- **Files Present:** 6
-- **Related Entities:** 613
+- **Files Present:** 7
+- **Related Entities:** 676
 - **Related Entities:**
-  - What Data Flows
-  - Voluntary Adoption
-  - Career Path Example
-  - Michel Maharbiz
-  - Critical Connection
-  - Corporate Servers
-  - Use Language
-  - Entities Identified
-  - Informed Consent Law
-  - Corporate Surveillance
+  - Funded Google
+  - Comprehensive Optimization
+  - Investigation Dashboard
+  - Human Brain Project
+  - International Journal
+  - Ecosystem Lock
+  - Investigation Assessment
+  - Financial Incentives
+  - Show Apple Watch
+  - Startup Founder
 
 ### Z-File
 
 - **Type:** Technology/Project
-- **Files Present:** 11
-- **Related Entities:** 712
+- **Files Present:** 12
+- **Related Entities:** 785
 - **Related Entities:**
-  - Voluntary Adoption
-  - Research Hong Kong
-  - This Week
-  - Quick Navigation
-  - For Legal Team
-  - Ethics Advisor
-  - Entities Identified
-  - Files Might Answer
-  - By Document Purpose
-  - Follow Up
+  - Funded Google
+  - Patent Portfolio
+  - If Operational Procedures
+  - Requires Global Network
+  - Files Show Chinese
+  - Investigation Dashboard
+  - On Purpose
+  - Rough English
+  - International Journal
+  - Maintain Investigation Timeline
 
 ---
 
-**Report Generated:** 2025-11-29T01:25:47.282798
+**Report Generated:** 2025-11-29T01:29:26.146847
