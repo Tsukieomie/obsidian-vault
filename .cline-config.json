@@ -1,0 +1,58 @@
+{
+  "name": "Obsidian Vault Analysis",
+  "description": "Configuration for Cline AI assistant on Obsidian vault",
+  "vaultRoot": "/home/user/obsidian-vault",
+  "mdFiles": true,
+  "rules": [
+    {
+      "rule": "Always read files before modifying",
+      "priority": "critical"
+    },
+    {
+      "rule": "Commit changes with clear messages",
+      "priority": "high"
+    },
+    {
+      "rule": "Never force-push to main branches",
+      "priority": "critical"
+    },
+    {
+      "rule": "Protect sensitive data in .local.json files",
+      "priority": "critical"
+    }
+  ],
+  "environment": {
+    "modelProvider": "anthropic",
+    "modelName": "claude-opus-4-1",
+    "temperature": 0.7,
+    "maxTokens": 4096
+  },
+  "workspace": {
+    "folders": [
+      {
+        "path": "/home/user/obsidian-vault",
+        "name": "Obsidian Vault Root"
+      },
+      {
+        "path": "/home/user/obsidian-vault/Analysis",
+        "name": "Analysis Documents"
+      },
+      {
+        "path": "/home/user/obsidian-vault/Entities",
+        "name": "Entity Profiles"
+      },
+      {
+        "path": "/home/user/obsidian-vault/Technical",
+        "name": "Technical Analysis"
+      }
+    ]
+  },
+  "ignorePatterns": [
+    ".git/",
+    ".obsidian/",
+    "node_modules/",
+    ".claude/settings.local.json",
+    ".env*"
+  ],
+  "clineInstructions": "You are assisting with an Obsidian vault investigation. Key guidelines:\n1. Read files completely before analysis\n2. Maintain investigation documentation quality\n3. Commit changes with descriptive messages\n4. Protect sensitive information\n5. Use cross-references between documents\n6. Respect git workflows on the claude/ branch"
+}
