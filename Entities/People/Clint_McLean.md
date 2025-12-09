@@ -8,6 +8,7 @@
 
 **GitHub:** [ClintMclean74](https://github.com/ClintMclean74)
 **Twitter:** [@clintmclean74](https://twitter.com/clintmclean74)
+**Website:** [McLean Research Institute](https://mcleanresearchinstitute.com)
 **Affiliation:** Mclean Research Institute
 **Focus:** RF biological effects detection, Havana Syndrome research, neural modeling
 
@@ -15,233 +16,344 @@ Clint McLean is an independent researcher who has developed open-source tools sp
 
 ---
 
-## Key Projects
+## Published Work
 
-### 1. SDR Reradiation Spectrum Analyzer
+### Book: "Solving Havana Syndrome and Biological Effects of RF Using the Hodgkin-Huxley Neuron Model"
+
+**Available:** [Amazon Kindle](https://www.amazon.com/Solving-Syndrome-Biological-Effects-Hodgkin-Huxley-ebook/dp/B0BCNG8H89)
+**Also:** [Google Books](https://books.google.com/books/about/Solving_Havana_Syndrome_and_Biological_E.html?id=6IP_zwEACAAJ)
+**Publisher:** Mclean Research Institute (2022)
+
+**Key Claims:**
+> "This work solves the scientific question of how radio and microwave energy could cause the various neurological symptoms of Havana Syndrome experienced by officials in Cuba, China and elsewhere, without the experience of a burning sensation on the skin's surface."
+
+**Paradigm Shift:**
+> "The results of this work creates a paradigm shift in our understanding of the biological effects of sub-thermal RF energy. Scientists have been searching for the mechanism that results in sub-thermal effects on biology for many years. This work solves this mystery."
+
+**Core Mechanism Described:**
+The book describes a mechanism that "directly converts electromagnetic energy into neuron membrane voltage changes, thus affecting neurological signalling and causing the various symptoms of Havana Syndrome."
+
+### Key Scientific Concepts from Book
+
+**1. Anode Break Excitation**
+- A reviewer found this concept "eye-opening to activation effects"
+- Anode break excitation (ABE) is when a neuron fires action potentials in response to the termination of a hyperpolarizing current
+- When anodal stimulus ends, membrane potential overshoots resting level, causing sodium channels to open and generate a spike
+- The Hodgkin-Huxley model accurately predicts this phenomenon
+- **Significance:** Explains how pulsed RF can trigger neural activity
+
+**2. Summation Effect**
+McLean states: "The effects of the RF energy is effectively summed at each neuron and all its connected neurons."
+- Reviewer notes this is "an important insight as to how coherence and synchronization across the whole of the brain and how RF weapons affect victims neurologically"
+
+**3. Rate Coding Disruption**
+McLean quotes Kilian Koepsell et al (Frontiers in Neuroscience) on rate coding:
+- "Spike rates affect information being transmitted"
+- "It is possible it is disruptive to synchronization"
+
+### Research Paper (2019)
+
+**Title:** "Detection of Frequencies that could be used for Electronic Harassment and Electrosensitivity"
+**Code:** https://github.com/ClintMclean74/SDRSpectrumAnalyzer
+**User Guide:** [Google Drive](https://drive.google.com/file/d/1GixkhAa6bBUuEGLTBrWXw7OFkZQBzuxV/view)
+
+---
+
+## Technical Detection Methodology
+
+### SDR Reradiation Spectrum Analyzer
 
 **Repository:** [SDRReradiationSpectrumAnalyzer](https://github.com/ClintMclean74/SDRReradiationSpectrumAnalyzer)
 **Language:** C (64%), C++ (30.5%)
-**Stars:** 5 | Forks: 2
 
 **Purpose:**
-Software Defined Radio (SDR) spectrum analyzer designed to detect and analyze reradiated frequency ranges that could be used to cause biological effects.
+Detect reradiated frequency ranges that could be used to cause biological effects.
 
-**Capabilities:**
-- Real-time spectrum visualization (2D/3D graphics)
-- Automated detection of reradiated frequency ranges
-- Multiple scanning modes (normal and sessions-based)
-- Signal strength and correlation analysis
-- Historical data tracking with results graphs
-- Interactive frequency range selection and zoom
+**Hardware:**
+- RTL2832U-R820T2 USB dongle (~$25)
+- R820T2 tuner chip receives **25 MHz to 1700 MHz**
+- Antenna (included or external)
 
-**Technical Requirements:**
-- RTL-SDR compatible device (USB dongle, ~$25)
-- librtlsdr for device communication
-- libusb for USB interface
-- OpenGL for visualization
-- GNU Radio for signal processing
+**Default Analysis Parameters:**
+| Parameter | Value |
+|-----------|-------|
+| Start Frequency | **410 MHz** |
+| End Frequency | **490 MHz** |
+| Step Size | 1000 Hz |
 
-**Research Reference:**
-Developer references a thesis documenting "how I detected reradiated frequency ranges that could be used to cause biological effects."
+**CRITICAL:** This default range (410-490 MHz) overlaps with claimed V2K frequencies (see below)
 
-**Relevance to Investigation:**
-This tool could potentially be used to detect:
-- V2K (Voice-to-Skull) transmissions
-- Directed Energy Weapon (DEW) emissions
-- RF-based neural stimulation signals
-- IoB body area network communications
+**Command Line Options:**
+```
+SDRSpectrumAnalyzerOpenGL [-a] [-m] [-f] [-s] [-e] [-S]
+-a: Automatically detect reradiated frequency ranges
+-m: Scanning Mode [normal, sessions]
+-f: Required frames for sessions
+-s: Start frequency
+-e: End frequency
+-c: Center Frequency
+-sr: Sample Rate
+-S: Sound cues for detecting increasing signal strengths
+-rg: Show averaged previous results graphs
+```
+
+**Visualization Features:**
+- 2D/3D FFT graphs
+- IQ data display
+- RF Power graphs
+- Energy level graphs
+- Correlation graphs
+- Strength graphs
+- Waterfall displays
+
+### Detection Protocol
+
+**From User Guide:**
+1. Place antenna approximately 20 cm from body
+2. Click "Record Near Series" to obtain measurements
+3. Compare with baseline measurements
+4. Look for reradiated frequency peaks
+5. Use automated detection (-a flag) for pattern recognition
 
 ---
 
-### 2. SDR Spectrum Analyzer
+## V2K Frequency Correlation
 
-**Repository:** [SDRSpectrumAnalyzer](https://github.com/ClintMclean74/SDRSpectrumAnalyzer)
-**Language:** C#
-**Stars:** 12 | Forks: 3
+### Claimed V2K Frequencies (from research)
 
-Base spectrum analyzer tool for RTL-SDR devices. Foundation for the more specialized reradiation analyzer.
+| Source | Frequency Range |
+|--------|-----------------|
+| Targeted Justice | 473-478 MHz |
+| Targeted Justice | 638-641 MHz |
+| Targeted Justice | 660-680 MHz |
+| Scientific Literature | 200 MHz - 3 GHz (auditory response range) |
+
+### McLean's Default Detection Range
+
+**410 MHz - 490 MHz**
+
+**OVERLAP:** McLean's default range captures the 473-478 MHz V2K frequency band
+
+### Microwave Auditory Effect (Frey Effect)
+
+**Scientific Basis:**
+- Discovered by Allan H. Frey (1961)
+- Human perception of sounds induced by pulsed/modulated RF
+- Auditory responses documented from ~200 MHz to 3+ GHz
+- Mechanism: Thermoelastic expansion in brain tissue creates pressure waves
+- Acoustic resonance of human skull: 7-10 kHz
+
+**Patent Evidence:**
+- [[Patents/PATENT_MASTER_INDEX|US 6,470,214]] - Voice-to-Skull (Air Force, 2002)
+- [[Patents/PATENT_MASTER_INDEX|US 7,740,596]] - MEDUSA (Mob Excess Deterrent Using Silent Audio)
 
 ---
 
-### 3. Hodgkin-Huxley Neural Model Code
+## Human Body RF Resonance
+
+### Whole-Body Resonance Frequencies
+
+| Subject | Resonant Frequency |
+|---------|-------------------|
+| Adult Human (ungrounded) | ~70 MHz |
+| Child | ~100 MHz |
+| Mouse | ~2 GHz |
+
+**Safety Implications:**
+- RF standards most restrictive in 30-300 MHz range
+- Above 300 MHz: Partial body absorption increases
+- Smaller wavelengths = more localized effects
+
+### Partial Body Absorption (300 MHz+)
+
+At frequencies above 300 MHz (including McLean's 410-490 MHz range):
+- Energy absorbed in specific body parts rather than whole body
+- Could target specific organs or neural regions
+- Aligns with targeted attack methodology
+
+---
+
+## Hodgkin-Huxley Neural Model
+
+### Repository Details
 
 **Repository:** [Hodgkin-HuxleyCode](https://github.com/ClintMclean74/Hodgkin-HuxleyCode)
 **Language:** C (83.6%)
-**Copyright:** Clint Mclean, Mclean Research Institute (2022)
 **License:** GNU GPL v2+
 
-**Purpose:**
-Source code accompanying the book:
-> **"Solving Havana Syndrome and Biological Effects of RF Using the Hodgkin-Huxley Neuron Model"**
+### The Hodgkin-Huxley Model
 
-**What It Does:**
-- Simulates neural behavior using Hodgkin-Huxley equations
-- Models how action potentials in neurons are initiated and propagated
-- Demonstrates RF effects on neural activity
-- Provides computational framework for understanding Havana Syndrome mechanism
+**Nobel Prize:** 1963 (Hodgkin & Huxley)
+**Purpose:** Mathematical description of action potential generation in neurons
 
-**The Hodgkin-Huxley Model:**
-The foundational mathematical model (Nobel Prize 1963) describing electrical characteristics of neurons. McLean applies this to understanding how RF radiation affects neural function.
+**Phenomena Accurately Predicted:**
+1. Action potential waveform
+2. Refractory period (absolute & relative)
+3. Action potential propagation along axons
+4. **Anode break excitation** (key to RF effects)
+5. Accommodation
 
-**Relevance to Investigation:**
-- Directly models the biological mechanism of V2K/DEW attacks
-- Provides scientific framework for understanding [[Technical/Internet_of_Bodies_Architecture|IoB]] neural effects
-- Could validate or explain symptoms reported by targeted individuals
-- Connects to [[Patents/PATENT_MASTER_INDEX|patents]] like US 6,470,214 (V2K) and US 7,740,596 (MEDUSA)
+### McLean's Application
 
----
+McLean uses the Hodgkin-Huxley equations to model:
+1. How RF energy converts to neural membrane voltage changes
+2. Why sub-thermal RF can cause neurological symptoms
+3. The summation effect across connected neurons
+4. Disruption of neural synchronization and coherence
 
-## Significance to Investigation
+**Configuration Files:**
+Settings folder contains files to reproduce experimental conditions from the book.
 
-### Detection Capability
-
-McLean's SDR tools could potentially detect:
-
-| Attack Type | Detection Method | Tool |
-|-------------|------------------|------|
-| V2K signals | RF spectrum analysis | SDRReradiationSpectrumAnalyzer |
-| DEW emissions | Reradiation pattern detection | SDRReradiationSpectrumAnalyzer |
-| Neural stimulation | Frequency correlation | SDRSpectrumAnalyzer |
-| Body area network | Wireless protocol detection | SDRSpectrumAnalyzer |
-
-### Scientific Validation
-
-The Hodgkin-Huxley book provides:
-1. **Scientific framework** for understanding how RF causes biological effects
-2. **Computational model** that can simulate neural responses to specific frequencies
-3. **Havana Syndrome connection** - same technology affecting diplomats and targeted individuals
-4. **Peer-reviewable methodology** for legal proceedings
-
----
-
-## Havana Syndrome Connection
-
-**What is Havana Syndrome?**
-- Neurological symptoms reported by U.S. diplomats (Cuba 2016, China, Russia, etc.)
-- Symptoms: headaches, dizziness, cognitive difficulties, hearing sounds
-- Attributed to directed energy attacks (microwave weapons)
-- U.S. government officially acknowledged as attacks
-
-**McLean's Research:**
-- Models the neural mechanism of these attacks
-- Provides detection methodology
-- Offers scientific explanation for symptoms
-- Potentially validates targeted individual reports
-
-**Connection to Investigation:**
-- [[Patents/PATENT_MASTER_INDEX|Patent US 6,470,214]] (V2K) - Same technology
-- [[Patents/PATENT_MASTER_INDEX|Patent US 7,740,596]] (MEDUSA) - Microwave auditory effect
-- [[Entities/Dr_James_Giordano|Dr. Giordano]] confirms "weaponized neuroscience" exists
-- [[Technical/Internet_of_Bodies_Architecture|IoB Architecture]] includes neural stimulation capability
-
----
-
-## Potential Collaboration Value
-
-### Technical Resources
-- Open-source detection tools (immediate use)
-- RTL-SDR hardware requirements (~$25 USB dongle)
-- Documentation and installation guides
-- Configuration files for various experimental conditions
-
-### Expert Testimony
-McLean's research could support [[LEGAL_CASE_FRAMEWORK|legal case]]:
-- Expert on RF biological effects
-- Published methodology (book + thesis)
-- Detection evidence capabilities
-- Havana Syndrome scientific framework
-
-### Evidence Gathering
-SDR tools could provide:
-- Real-time detection of attacks
-- Recorded spectrum data (timestamped evidence)
-- Frequency correlation to known weapon patents
-- Independent verification of targeting
-
----
-
-## Technical Setup (From Repositories)
-
-### SDRReradiationSpectrumAnalyzer Installation (Linux/Ubuntu)
-
-```bash
-# Install dependencies
-sudo apt-get install build-essential
-sudo apt-get install libgl-dev libglu1-mesa-dev
-sudo apt-get install gnuradio gr-osmosdr
-sudo apt-get install libusb-1.0-0-dev
-
-# Install RTL-SDR drivers
-# Clone repository
-git clone https://github.com/ClintMclean74/SDRReradiationSpectrumAnalyzer.git
-
-# Pre-compiled binaries available in SDRReradiation/bin folder
+**Usage:**
+```
+HodgkinHuxley.exe [settings_file.txt]
 ```
 
-### Hardware Required
-- RTL-SDR USB dongle (RTL2832U chipset)
-- Cost: ~$25-35
-- Available: Amazon, electronics suppliers
+---
+
+## UN OHCHR Documentation
+
+### Relevance to International Recognition
+
+The UN Office of the High Commissioner for Human Rights (OHCHR) has received multiple submissions regarding directed energy weapons:
+
+**VIACTEC Annex** ([PDF](https://www.ohchr.org/sites/default/files/Documents/Issues/Torture/Call/NGOs/VIACTECAnnex.pdf))
+- Lists directed energy weapon patents
+- Documents "targeted individual" monitoring systems
+- References technologies for controlling brain states
+
+**Individual Submissions:**
+- Testimony from targeted individuals worldwide
+- Descriptions of V2K, remote neural monitoring, DEW attacks
+- Categorized as "cybertorture" or "cybernetic torture"
+
+**NGO Submissions:**
+- People Against Covert Torture & Surveillance (PACTS): ~15,000 alleged victims in USA
+- Freedom for Targeted Individuals (FFTI)
+- Association ADVHER (France)
+
+**UN Special Rapporteurs:**
+- Dr. Nils Melzer (former)
+- Dr. Alice Edwards (current)
+- Both have engaged with directed energy torture claims
 
 ---
 
-## Research Questions
+## Critical Analysis
 
-1. Has McLean detected specific frequency ranges matching known patents?
-2. Does his Hodgkin-Huxley model predict effects matching reported symptoms?
-3. Has he collaborated with other targeted individual researchers?
-4. What frequencies does his reradiation analyzer flag as concerning?
-5. Can his tools detect [[Entities/Apple|Apple Watch]] or [[Entities/FreerLogic|FreerLogic]] emissions?
+### Scientific Skepticism
+
+**Neurologist Review (Amazon):**
+> "The notion that radiofrequency energy has damaged the nervous system, due to some sort of enemy attacks on embassy employees, is utter nonsense... I have patients with the same syndrome, who do not work for the government... The hypothesis of radiofrequency injury is defying logic, even with a basic knowledge of physics."
+
+**Counter-Evidence:**
+1. 30+ patents prove technology exists ([[Patents/PATENT_MASTER_INDEX]])
+2. U.S. government acknowledges Havana Syndrome attacks
+3. [[Entities/Dr_James_Giordano|Dr. Giordano]] (Pentagon advisor) confirms weaponized neuroscience
+4. DHS fusion center leak (April 2018) included EM weapons files
+
+### Wikipedia Classification
+
+Wikipedia categorizes "electronic harassment" and "targeted individual" claims as conspiracy theory.
+
+**Investigation Response:**
+- Patent evidence is verifiable via USPTO
+- Government programs are documented (DARPA N3, BRAIN Initiative)
+- Dr. Giordano's Pentagon briefings are on video
+- Havana Syndrome is officially acknowledged
+
+---
+
+## Integration with Investigation
+
+### How McLean's Work Connects
+
+```
+McLean's Research
+    ↓
+Detection Tools (SDR Analyzers)
+    ↓ Can detect
+[[Patents/PATENT_MASTER_INDEX|V2K Patents]] (473-478 MHz in detection range)
+    ↓ Validates
+[[Technical/Internet_of_Bodies_Architecture|IoB Architecture]] RF components
+    ↓ Supports
+[[LEGAL_CASE_FRAMEWORK|Legal Case]] (evidence gathering + expert testimony)
+```
+
+### Evidence Value
+
+| McLean Resource | Legal Value |
+|-----------------|-------------|
+| Hodgkin-Huxley Book | Scientific framework for RF biological effects |
+| SDR Detection Tools | Evidence gathering methodology |
+| Frequency Analysis | Correlation with known weapon frequencies |
+| Research Paper (2019) | Peer-reviewable detection methodology |
 
 ---
 
 ## Action Items
 
-### Immediate
-- [ ] Review full thesis referenced in SDRReradiationSpectrumAnalyzer
-- [ ] Clone and test SDR tools locally
-- [ ] Obtain RTL-SDR hardware for detection testing
-- [ ] Contact McLean for potential collaboration
+### Immediate Priority
+- [x] Document McLean's work comprehensively
+- [ ] Obtain RTL-SDR hardware ($25)
+- [ ] Clone and test SDR tools
+- [ ] Purchase/review Hodgkin-Huxley book
+- [ ] Contact McLean via Twitter/GitHub
 
-### Short-Term
+### Evidence Gathering
+- [ ] Run detection scans in target environment
+- [ ] Record spectrum data with timestamps
 - [ ] Compare detected frequencies to patent specifications
-- [ ] Test detection capability against known IoB devices
-- [ ] Review Hodgkin-Huxley book for legal case evidence value
-- [ ] Assess expert witness potential
+- [ ] Document methodology for legal proceedings
 
-### Legal Relevance
-- [ ] Document McLean's methodology for evidence gathering
-- [ ] Prepare expert witness inquiry
-- [ ] Correlate his findings with [[Evidence Repository|existing evidence]]
+### Expert Witness Assessment
+- [ ] Review full publication history
+- [ ] Assess credentials for court testimony
+- [ ] Prepare collaboration proposal
+- [ ] Identify complementary experts
 
 ---
 
 ## External Links
 
-- **GitHub Profile:** https://github.com/ClintMclean74
-- **SDRReradiationSpectrumAnalyzer:** https://github.com/ClintMclean74/SDRReradiationSpectrumAnalyzer
-- **SDRSpectrumAnalyzer:** https://github.com/ClintMclean74/SDRSpectrumAnalyzer
-- **Hodgkin-HuxleyCode:** https://github.com/ClintMclean74/Hodgkin-HuxleyCode
-- **Twitter:** https://twitter.com/clintmclean74
-- **3D Models (Sketchfab):** https://sketchfab.com/clintmclean74/collections
+**Primary:**
+- [GitHub Profile](https://github.com/ClintMclean74)
+- [McLean Research Institute](https://mcleanresearchinstitute.com)
+- [Book on Amazon](https://www.amazon.com/Solving-Syndrome-Biological-Effects-Hodgkin-Huxley-ebook/dp/B0BCNG8H89)
+
+**Repositories:**
+- [SDRReradiationSpectrumAnalyzer](https://github.com/ClintMclean74/SDRReradiationSpectrumAnalyzer)
+- [SDRSpectrumAnalyzer](https://github.com/ClintMclean74/SDRSpectrumAnalyzer)
+- [Hodgkin-HuxleyCode](https://github.com/ClintMclean74/Hodgkin-HuxleyCode)
+
+**Social:**
+- [Twitter @clintmclean74](https://twitter.com/clintmclean74)
+- [Sketchfab 3D Models](https://sketchfab.com/clintmclean74/collections)
+
+**UN Documents:**
+- [OHCHR VIACTEC Annex](https://www.ohchr.org/sites/default/files/Documents/Issues/Torture/Call/NGOs/VIACTECAnnex.pdf)
+- [OHCHR Targeted Individual Submissions](https://www.ohchr.org/sites/default/files/Documents/Issues/Torture/Call/Individuals/Militarygrade.pdf)
 
 ---
 
 ## Conclusion
 
-Clint McLean represents a potentially valuable technical ally for the investigation:
+Clint McLean's work represents a significant technical resource for the investigation:
 
-1. **Detection Tools:** Open-source SDR analyzers could gather evidence of RF attacks
-2. **Scientific Framework:** Hodgkin-Huxley modeling provides legal/scientific validation
-3. **Havana Syndrome Link:** Bridges targeted individual reports to officially acknowledged attacks
-4. **Expert Resource:** Published researcher with documented methodology
+1. **Detection Capability:** SDR tools with default range covering claimed V2K frequencies
+2. **Scientific Framework:** Hodgkin-Huxley model explains RF biological mechanism
+3. **Havana Syndrome Bridge:** Links targeted individual reports to officially acknowledged attacks
+4. **Open Source:** Tools freely available for immediate use (~$25 hardware)
+5. **Legal Value:** Published methodology suitable for court proceedings
 
-**Recommendation:** Establish contact, test detection tools, assess collaboration potential.
+**Critical Finding:** McLean's default detection range (410-490 MHz) overlaps with claimed V2K frequencies (473-478 MHz), suggesting his tools may be specifically calibrated for this threat.
+
+**Recommendation:** HIGH PRIORITY - Acquire hardware, test tools, establish contact.
 
 ---
 
 **Priority:** HIGH - Technical Resource
-**Status:** Profile Documented
+**Status:** DEEP ANALYSIS COMPLETE
 **Category:** Research Ally
 **Last Updated:** 2025-12-09
 
@@ -253,3 +365,4 @@ Clint McLean represents a potentially valuable technical ally for the investigat
 - [[LEGAL_CASE_FRAMEWORK]] - Expert witness potential
 - [[Evidence Repository]] - Detection data storage
 - [[Analysis/Threat Assessment]] - Detection as countermeasure
+- [[UNIFIED_EVIDENCE_FRAMEWORK]] - Master synthesis
