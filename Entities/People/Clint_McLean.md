@@ -59,61 +59,259 @@ McLean quotes Kilian Koepsell et al (Frontiers in Neuroscience) on rate coding:
 
 ---
 
-## Technical Detection Methodology
+## Complete GitHub Repository Analysis
 
-### SDR Reradiation Spectrum Analyzer
+### Overview of All Repositories
+
+| Repository | Language | Stars | Forks | Last Updated |
+|------------|----------|-------|-------|--------------|
+| SDRSpectrumAnalyzer | C# (86.2%) | 12 | 3 | May 2019 |
+| SDRReradiationSpectrumAnalyzer | C (64%) | 5 | 2 | Oct 2023 |
+| Hodgkin-HuxleyCode | C (83.6%) | - | - | Oct 2024 |
+| ClintMclean74 | Config | - | - | Feb 2022 |
+
+---
+
+## Repository 1: SDRSpectrumAnalyzer (Original - Windows)
+
+**Repository:** [SDRSpectrumAnalyzer](https://github.com/ClintMclean74/SDRSpectrumAnalyzer)
+**Language:** C# (86.2%), C++ (4.3%), C (2.7%)
+**License:** GNU GPL v2.0
+**Commits:** 54
+
+### Purpose
+> "RTL SDR Spectrum Analyzer for Detection of Reradiated and Emitted Radio and Microwave Energy from Humans"
+
+### Core Detection Principle
+
+The system identifies reradiated signals by monitoring whether RF signal strength **increases when a user is near their computer and antenna**. It uses keyboard/mouse activity to determine proximity.
+
+**Key Insight:**
+> "Finding your reradiated frequency range could be very important for determining how that frequency range is being used and whether there are transmissions that could be causing unintentional (electrosensitivity) or intentional biological effects."
+
+### Signal Analysis Process
+
+1. **Averaging:** Signal strength averaged over longer periods to reduce noise
+2. **Leaderboards:** Ranks signals by frequency of detection
+3. **1 MHz Prioritization:** Prioritizes frequency bands containing candidate signals
+4. **Transition Analysis:** Compares signal strength 8 seconds before/after user return to workstation
+
+### Features
+
+- Real-time graphing (strength, gradient, transition analysis)
+- Record function to observe signal behavior patterns
+- "Check Far to Near Transition Strength Increase" button for manual testing
+- Automated detection reporting when percentage increases exceed 100%
+
+### Installation
+
+1. Download from GitHub (Clone or Download → Download ZIP)
+2. Extract `SDRSpectrumAnalyzer-master.zip`
+3. Navigate to `Build` subfolder
+4. Run `RTLSpectrumAnalyzerGUI.exe`
+
+**Prerequisites:**
+- RTL-SDR dongle drivers via Zadig tool
+- Microsoft Visual C++ 2010 Redistributable Package (x86)
+- Dependencies: librtlsdr, libusb-1.0.dll, rtlsdr.dll
+
+### Documentation Resources
+
+- **User Guide:** Available with images on Google Drive
+- **Research Paper:** Detailed thesis on detection methodology available via Google Drive
+
+---
+
+## Repository 2: SDRReradiationSpectrumAnalyzer (Updated - Cross-Platform)
 
 **Repository:** [SDRReradiationSpectrumAnalyzer](https://github.com/ClintMclean74/SDRReradiationSpectrumAnalyzer)
 **Language:** C (64%), C++ (30.5%)
+**License:** GNU GPL v2.0
+**Platform:** Windows and Linux (Skywave Linux recommended)
 
-**Purpose:**
-Detect reradiated frequency ranges that could be used to cause biological effects.
+### Purpose
+GNU Radio-based SDR application designed to detect and analyze reradiated electromagnetic frequency ranges that may resonate with biological systems.
 
-**Hardware:**
+### Hardware Requirements
+
 - RTL2832U-R820T2 USB dongle (~$25)
 - R820T2 tuner chip receives **25 MHz to 1700 MHz**
 - Antenna (included or external)
 
-**Default Analysis Parameters:**
+### Default Analysis Parameters
+
 | Parameter | Value |
 |-----------|-------|
 | Start Frequency | **410 MHz** |
 | End Frequency | **490 MHz** |
 | Step Size | 1000 Hz |
 
-**CRITICAL:** This default range (410-490 MHz) overlaps with claimed V2K frequencies (see below)
+**CRITICAL:** This default range (410-490 MHz) overlaps with claimed V2K frequencies (473-478 MHz)
 
-**Command Line Options:**
+### Command Line Arguments
+
+```bash
+SDRSpectrumAnalyzerOpenGL [-a] [-m] [-f] [-s] [-e] [-c] [-sr] [-S] [-rg]
+
+-a    Automatic detection of reradiated ranges
+-m    Scanning mode selection (normal or sessions)
+-f    Frame count specification for sessions
+-s    Start frequency
+-e    End frequency
+-c    Center frequency definition
+-sr   Sample rate configuration
+-S    Audio cues for signal strength changes
+-rg   Display averaged historical result graphs
 ```
-SDRSpectrumAnalyzerOpenGL [-a] [-m] [-f] [-s] [-e] [-S]
--a: Automatically detect reradiated frequency ranges
--m: Scanning Mode [normal, sessions]
--f: Required frames for sessions
--s: Start frequency
--e: End frequency
--c: Center Frequency
--sr: Sample Rate
--S: Sound cues for detecting increasing signal strengths
--rg: Show averaged previous results graphs
+
+### In-Program Controls
+
+**Numeric Keys (1-8):**
+- Toggle different visualization graphs
+- IQ data, correlation, FFT, strength, spectrum displays
+
+**Shift + Numeric:**
+- Switch primary view to specific graph types
+- Activate waterfall displays
+
+**Mouse Controls:**
+- Center-click: moves graphs
+- Right-click: rotates view
+- Dragging: selects frequency ranges for zooming
+
+**Data Recording:**
+- `n` key: Capture near series measurements
+- `f` key: Capture far series measurements
+
+### Advanced Features
+
+- Real-time spectrum analysis with 2D/3D visualization
+- Multi-device synchronization capabilities
+- Session-based scanning with configurable parameters
+- Historical data aggregation and comparison
+- Leaderboard functionality for strongest frequencies
+
+### Installation (Linux/Ubuntu)
+
+```bash
+# Install dependencies
+sudo apt-get install build-essential
+sudo apt-get install codeblocks
+sudo apt-get install libgl-dev libglu1-mesa-dev
+sudo apt-get install gnuradio gr-osmosdr
+sudo apt-get install libusb-1.0-0-dev
+
+# Clone repository
+git clone https://github.com/ClintMclean74/SDRReradiationSpectrumAnalyzer.git
+
+# Launch
+cd SDRReradiation/bin
+chmod +x launch.sh
+./launch.sh
 ```
 
-**Visualization Features:**
-- 2D/3D FFT graphs
-- IQ data display
-- RF Power graphs
-- Energy level graphs
-- Correlation graphs
-- Strength graphs
-- Waterfall displays
+### Linux Troubleshooting
 
-### Detection Protocol
+Common issue: Kernel modules automatically load for DVB functionality.
 
-**From User Guide:**
-1. Place antenna approximately 20 cm from body
-2. Click "Record Near Series" to obtain measurements
-3. Compare with baseline measurements
-4. Look for reradiated frequency peaks
-5. Use automated detection (-a flag) for pattern recognition
+**Solution - Blacklist modules:**
+```bash
+# Add to /etc/modprobe.d/blacklist.conf
+blacklist dvb_usb_rtl28xxu
+blacklist rtl2832
+blacklist rtl2830
+```
+
+---
+
+## Repository 3: Hodgkin-HuxleyCode (Neural Simulation)
+
+**Repository:** [Hodgkin-HuxleyCode](https://github.com/ClintMclean74/Hodgkin-HuxleyCode)
+**Language:** C (83.6%), C++ (6.2%), HTML (7.3%)
+**License:** GNU GPL v2+
+**Copyright:** Clint Mclean, Mclean Research Institute (2022)
+**Contact:** clint@mcleanresearchinstitute.com
+
+### Purpose
+
+Computational implementation supporting the book:
+> **"Solving Havana Syndrome and Biological Effects of RF Using the Hodgkin-Huxley Neuron Model"**
+
+### Directory Structure
+
+```
+Hodgkin-HuxleyCode/
+├── src/           # Source code implementation
+├── settings/      # Configuration files for experiments
+├── include/       # Header files
+├── libs/          # Library dependencies
+├── results/       # Output data from simulations
+├── freeglut/      # Graphics rendering library
+└── glew-2.1.0/    # OpenGL Extension Wrangler
+```
+
+### Usage
+
+```bash
+# Windows
+HodgkinHuxley.exe settings_file.txt
+
+# Example with specific settings
+HodgkinHuxley.exe settings/nn_amplification_layer_activity_testing_6_31C.txt
+```
+
+### Building from Source
+
+```bash
+# Navigate to build directory
+cd build
+
+# Generate build files
+cmake ..
+
+# Compile
+cmake --build .
+```
+
+### Settings Files
+
+The `settings/` folder contains configuration files to reproduce experiments from the book. These include parameters for:
+- Neural amplification layer activity testing
+- Various temperature conditions (e.g., 31°C)
+- Different RF exposure scenarios
+
+### The Hodgkin-Huxley Model
+
+**Nobel Prize:** 1963 (Hodgkin & Huxley)
+
+**Phenomena Accurately Predicted:**
+1. Action potential waveform
+2. Refractory period (absolute & relative)
+3. Action potential propagation along axons
+4. **Anode break excitation** (key to RF effects)
+5. Accommodation
+
+### McLean's Application
+
+Uses Hodgkin-Huxley equations to model:
+1. How RF energy converts to neural membrane voltage changes
+2. Why sub-thermal RF can cause neurological symptoms
+3. The summation effect across connected neurons
+4. Disruption of neural synchronization and coherence
+
+---
+
+## Detection Protocol (Combined Methodology)
+
+### From User Guide:
+
+1. **Setup:** Place antenna approximately 20 cm from body
+2. **Baseline:** Record with user away from antenna
+3. **Near Recording:** Click "Record Near Series" while near antenna
+4. **Far Recording:** Record with user at distance
+5. **Analysis:** Compare near/far signal strengths
+6. **Automation:** Use `-a` flag for automatic pattern recognition
+7. **Review:** Check leaderboards for strongest candidate frequencies
 
 ---
 
