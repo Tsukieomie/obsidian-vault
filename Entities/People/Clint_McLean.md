@@ -134,9 +134,51 @@ GNU Radio-based SDR application designed to detect and analyze reradiated electr
 
 ### Hardware Requirements
 
+**Primary (Tested):**
 - RTL2832U-R820T2 USB dongle (~$25)
 - R820T2 tuner chip receives **25 MHz to 1700 MHz**
 - Antenna (included or external)
+
+### HackRF Compatibility
+
+**SDRReradiationSpectrumAnalyzer - COMPATIBLE**
+
+The GNU Radio-based version supports HackRF through the **gr-osmosdr** abstraction layer.
+
+| SDR Hardware | Compatibility | Notes |
+|--------------|---------------|-------|
+| RTL-SDR | ✅ Native | Primary tested platform |
+| **HackRF One** | ✅ Compatible | Via gr-osmosdr/gr-soapy |
+| bladeRF | ✅ Compatible | Via gr-osmosdr |
+| USRP (Ettus) | ✅ Compatible | Via gr-osmosdr |
+| Airspy | ✅ Compatible | Via gr-osmosdr |
+
+**HackRF One Specifications:**
+
+| Spec | RTL-SDR | HackRF One |
+|------|---------|------------|
+| Frequency Range | 25 MHz - 1700 MHz | **1 MHz - 6 GHz** |
+| Sample Rate | 2.4 Msps | 20 Msps |
+| TX Capability | No | Yes (half-duplex) |
+| Price | ~$25 | ~$300 |
+
+**Advantage:** HackRF's 6 GHz upper limit covers more Frey Effect frequencies (200 MHz - 3+ GHz range).
+
+**Setup for HackRF:**
+```bash
+# Install dependencies
+sudo apt-get install gr-osmosdr libhackrf-dev
+
+# Verify HackRF detected
+hackrf_info
+
+# Modify GNURadioDeviceFlowgraph.grc source block for HackRF
+# Then launch as normal
+```
+
+**SDRSpectrumAnalyzer (C#/Windows) - NOT COMPATIBLE**
+- Uses librtlsdr directly (RTL-SDR specific)
+- No gr-osmosdr abstraction layer
 
 ### Default Analysis Parameters
 
