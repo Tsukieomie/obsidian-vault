@@ -10,3 +10,15 @@
 
 # Trash folder
 .trash/
+
+# Python cache and generated files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Generated vault data files
+vault_data.json
+vault_index.json
+entity_graph.json
