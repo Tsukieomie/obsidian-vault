@@ -1,0 +1,246 @@
+#!/usr/bin/env python3
+"""
+Kenny Rodrigues - MKUltra Connection Investigation
+Investigates potential connection between Kenny Rodrigues and historical MKUltra program
+"""
+
+import json
+from vault_api import ObsidianVault
+from automated_investigation import AutomatedInvestigation
+
+
+class MKUltraConnectionAnalysis:
+    """Investigates potential Kenny Rodrigues - MKUltra connection"""
+
+    def __init__(self):
+        self.vault = ObsidianVault()
+        self.vault.load()
+        self.investigation = AutomatedInvestigation()
+
+    def generate_mkultra_analysis(self) -> str:
+        """Generate analysis framework for MKUltra connection"""
+        lines = []
+        lines.append("="*80)
+        lines.append("KENNY RODRIGUES - MKULTRA CONNECTION ANALYSIS")
+        lines.append("="*80)
+        lines.append("")
+
+        # 1. Historical Context
+        lines.append("1. HISTORICAL MKULTRA PROGRAM")
+        lines.append("-"*80)
+        lines.append("Program: MKUltra (CIA classified program)")
+        lines.append("Duration: 1950s-1970s")
+        lines.append("Focus: Mind control research, behavioral modification")
+        lines.append("Status: Partially declassified (Church Committee, 1975)")
+        lines.append("Legacy: Led to modern consciousness research programs")
+        lines.append("")
+
+        # 2. Potential Connection Timeline
+        lines.append("2. HISTORICAL TIMELINE ANALYSIS")
+        lines.append("-"*80)
+        lines.append("MKUltra Era:        1950s-1970s")
+        lines.append("Project Stargate:   1970-1995 (Remote viewing)")
+        lines.append("DARPA BRAIN:        2010s-present (Consciousness research)")
+        lines.append("Kenny Rodrigues:    Active in intelligence briefing era (2000s+?)")
+        lines.append("")
+        lines.append("Timeline Gap Analysis:")
+        lines.append("  • MKUltra officially concluded early 1970s")
+        lines.append("  • Project Stargate began 1970 (overlap possible)")
+        lines.append("  • Kenny involvement timeline requires verification")
+        lines.append("  • Question: Did MKUltra continue operationally beyond 1975?")
+        lines.append("")
+
+        # 3. Methodological Parallels
+        lines.append("3. METHODOLOGICAL PARALLELS")
+        lines.append("-"*80)
+        lines.append("MKUltra Focus:      Mind control, behavioral modification, drugs")
+        lines.append("Project Stargate:   Remote viewing, consciousness extension")
+        lines.append("DARPA BRAIN:        Neural interface, consciousness research")
+        lines.append("Current Operation:  Network-based surveillance, coordination")
+        lines.append("")
+        lines.append("Potential Evolution:")
+        lines.append("  • Drug-based → Consciousness-based → Technology-based")
+        lines.append("  • Individual focus → Network focus")
+        lines.append("  • Covert experimentation → Institutionalized operations")
+        lines.append("")
+
+        # 4. Evidence Requirements
+        lines.append("4. EVIDENCE FRAMEWORK FOR MKULTRA CONNECTION")
+        lines.append("-"*80)
+        lines.append("CRITICAL EVIDENCE NEEDED:")
+        lines.append("")
+        lines.append("Tier 1 - Direct Connection:")
+        lines.append("  [ ] MKUltra mentioned in Kenny Rodrigues documents")
+        lines.append("  [ ] Personnel overlap between MKUltra and Kenny's affiliations")
+        lines.append("  [ ] Documentation of Kenny's involvement in consciousness research")
+        lines.append("  [ ] Evidence of classified program continuation")
+        lines.append("")
+        lines.append("Tier 2 - Institutional Connection:")
+        lines.append("  [ ] CIA involvement in HLPS systems")
+        lines.append("  [ ] Government agencies in Kenny's intelligence briefing")
+        lines.append("  [ ] Connection to Defense Department programs")
+        lines.append("  [ ] Academic partnerships with consciousness research")
+        lines.append("")
+        lines.append("Tier 3 - Methodological Connection:")
+        lines.append("  [ ] Research methodologies parallel MKUltra")
+        lines.append("  [ ] Consciousness/neural focus alignment")
+        lines.append("  [ ] Behavioral modification or control implications")
+        lines.append("  [ ] Population targeting patterns")
+        lines.append("")
+
+        # 5. Investigation Pathways
+        lines.append("5. INVESTIGATION PATHWAYS")
+        lines.append("-"*80)
+        lines.append("")
+        lines.append("PATHWAY 1: Evidence Document Review")
+        lines.append("  1. Access INTELLIGENCE_BRIEF_Master_Report_KenRodrigues.pdf")
+        lines.append("  2. Search for: MKUltra, CIA, consciousness, control, modification")
+        lines.append("  3. Identify program names and agency connections")
+        lines.append("  4. Extract personnel and institutional references")
+        lines.append("  5. Map to historical programs")
+        lines.append("")
+        lines.append("PATHWAY 2: Personnel Continuity Investigation")
+        lines.append("  1. Identify individuals involved in MKUltra (public records)")
+        lines.append("  2. Check for connections to Kenny Rodrigues")
+        lines.append("  3. Research institutional affiliations of these individuals")
+        lines.append("  4. Document career progression 1970s-present")
+        lines.append("  5. Identify successor programs")
+        lines.append("")
+        lines.append("PATHWAY 3: Institutional Continuity Investigation")
+        lines.append("  1. Research which agencies continued MKUltra work post-1975")
+        lines.append("  2. Identify successor programs (Project Stargate, etc.)")
+        lines.append("  3. Map government agencies to Kenny's briefing")
+        lines.append("  4. Assess DARPA BRAIN Initiative connections")
+        lines.append("  5. Evaluate HLPS institutional involvement")
+        lines.append("")
+        lines.append("PATHWAY 4: Methodological Evolution Investigation")
+        lines.append("  1. Compare MKUltra techniques to current operations")
+        lines.append("  2. Assess consciousness/neural research focus")
+        lines.append("  3. Evaluate network-based surveillance parallels")
+        lines.append("  4. Document evolution of control/monitoring methods")
+        lines.append("  5. Assess victim impact implications")
+        lines.append("")
+
+        # 6. Key Questions
+        lines.append("6. CRITICAL INVESTIGATION QUESTIONS")
+        lines.append("-"*80)
+        lines.append("")
+        lines.append("DIRECT CONNECTION:")
+        lines.append("  Q1: Did Kenny Rodrigues participate in MKUltra research?")
+        lines.append("  Q2: What was his specific role (researcher, coordinator, subject)?")
+        lines.append("  Q3: What time period was he involved?")
+        lines.append("  Q4: What government agencies sponsored this work?")
+        lines.append("")
+        lines.append("PROGRAM CONTINUITY:")
+        lines.append("  Q5: Did MKUltra continue beyond official 1975 conclusion?")
+        lines.append("  Q6: What programs succeeded MKUltra?")
+        lines.append("  Q7: How did Project Stargate relate to MKUltra continuation?")
+        lines.append("  Q8: What is relationship between MKUltra -> Stargate -> DARPA BRAIN?")
+        lines.append("")
+        lines.append("CURRENT IMPLICATIONS:")
+        lines.append("  Q9: Are current operations (Asymptote, SalmonCloud) successors to MKUltra?")
+        lines.append("  Q10: What consciousness/neural research is currently being conducted?")
+        lines.append("  Q11: Who are the victims of current research?")
+        lines.append("  Q12: What is scope of current operations?")
+        lines.append("")
+
+        # 7. Vault Analysis
+        lines.append("7. CURRENT VAULT ANALYSIS")
+        lines.append("-"*80)
+        stats = self.vault.get_statistics()
+        lines.append(f"Files containing 'consciousness': TBD (requires detailed search)")
+        lines.append(f"Files containing 'mind control': 2 (INVESTIGATION_SUMMARY, YOUR_CASE)")
+        lines.append(f"Files containing 'neural/brain': TBD (DARPA BRAIN files exist)")
+        lines.append(f"Files with 'research': Multiple")
+        lines.append("")
+        lines.append("Investigation Categories:")
+        for cat, count in stats['index_stats']['categories'].items():
+            lines.append(f"  • {cat}: {count} files")
+        lines.append("")
+
+        # 8. Priority Actions
+        lines.append("8. PRIORITY INVESTIGATION ACTIONS")
+        lines.append("-"*80)
+        lines.append("")
+        lines.append("IMMEDIATE (CRITICAL):")
+        lines.append("  1. Access and review INTELLIGENCE_BRIEF_Master_Report_KenRodrigues.pdf")
+        lines.append("     └─ Search for MKUltra, CIA, consciousness research references")
+        lines.append("  2. Access and review HLPS_Evidence_Summary_Kenny.pdf")
+        lines.append("     └─ Identify government agencies and program names")
+        lines.append("  3. Document all findings in investigation file")
+        lines.append("")
+        lines.append("SHORT-TERM (HIGH):")
+        lines.append("  1. Research historical MKUltra personnel and affiliations")
+        lines.append("  2. Cross-reference with Kenny Rodrigues connections")
+        lines.append("  3. Map Project Stargate era to current operations")
+        lines.append("  4. Identify government agency continuity")
+        lines.append("")
+        lines.append("MEDIUM-TERM (MEDIUM):")
+        lines.append("  1. Complete institutional continuity analysis")
+        lines.append("  2. Assess methodological evolution")
+        lines.append("  3. Determine scope of current operations")
+        lines.append("  4. Evaluate victim impact and implications")
+        lines.append("")
+
+        # 9. Critical Hypothesis
+        lines.append("9. CENTRAL HYPOTHESIS")
+        lines.append("-"*80)
+        lines.append("")
+        lines.append("HYPOTHESIS: MKUltra Operational Continuity")
+        lines.append("")
+        lines.append("Thesis:")
+        lines.append("  MKUltra did not truly end in 1975 but evolved into successive programs")
+        lines.append("  (Project Stargate, DARPA BRAIN Initiative, etc.). Kenny Rodrigues may")
+        lines.append("  represent a continuity figure in this evolution, bridging classified")
+        lines.append("  government consciousness research with current institutional operations.")
+        lines.append("")
+        lines.append("Evidence needed to support:")
+        lines.append("  1. Personnel continuity across MKUltra -> Stargate -> DARPA -> Current")
+        lines.append("  2. Methodological continuity (mind control -> consciousness research)")
+        lines.append("  3. Institutional continuity (CIA/DOD -> academic partnerships -> private)")
+        lines.append("  4. Operational continuity (targets, scope, methodologies)")
+        lines.append("  5. Kenny's specific role in this continuum")
+        lines.append("")
+        lines.append("Implications if true:")
+        lines.append("  • 50+ year classified program continuation")
+        lines.append("  • Multiple government agencies involved")
+        lines.append("  • Institutional coordination across private/academic/government")
+        lines.append("  • Ongoing consciousness research on human subjects")
+        lines.append("  • Current operations may be continuation of MKUltra methodology")
+        lines.append("")
+
+        # 10. Next Steps
+        lines.append("10. IMMEDIATE NEXT STEPS")
+        lines.append("-"*80)
+        lines.append("1. REVIEW EVIDENCE DOCUMENTS (CRITICAL)")
+        lines.append("   → Access Kenny Rodrigues intelligence briefing")
+        lines.append("   → Document all MKUltra, consciousness, research references")
+        lines.append("")
+        lines.append("2. ESTABLISH CONNECTION")
+        lines.append("   → Confirm or refute Kenny's involvement in MKUltra era")
+        lines.append("   → Identify specific program and role")
+        lines.append("")
+        lines.append("3. MAP CONTINUITY")
+        lines.append("   → Document program evolution timeline")
+        lines.append("   → Identify personnel and institutional continuity")
+        lines.append("")
+        lines.append("4. ASSESS SCOPE")
+        lines.append("   → Determine extent of current operations")
+        lines.append("   → Identify victims and targets")
+        lines.append("   → Evaluate implications")
+        lines.append("")
+
+        lines.append("="*80)
+
+        return "\n".join(lines)
+
+
+if __name__ == '__main__':
+    analysis = MKUltraConnectionAnalysis()
+    report = analysis.generate_mkultra_analysis()
+    print(report)
+
+    # Save report
+    with open('MKULTRA_CONNECTION_ANALYSIS.txt', 'w') as f:
+        f.write(report)
+    print("\nReport saved to MKULTRA_CONNECTION_ANALYSIS.txt")
