@@ -259,6 +259,77 @@ When run individually, the loaders generate JSON files:
 - `entity_graph.json` - Entity relationship graph
 - `vault_index.json` - Search index and statistics
 
+## Command-Line Interface
+
+A comprehensive CLI tool (`vault_cli.py`) provides easy access to all vault functionality:
+
+```bash
+# View vault information
+./vault_cli.py info
+
+# Search vault
+./vault_cli.py search "DARPA"
+./vault_cli.py search "technology transfer" --type content --limit 10
+
+# List entities
+./vault_cli.py entities
+./vault_cli.py entities "Wang"
+
+# Get entity details
+./vault_cli.py entity "Junyuan Wang"
+
+# Analyze relationships
+./vault_cli.py graph --name "Junyuan Wang"
+./vault_cli.py graph --source "Junyuan Wang" --target "DARPA"
+./vault_cli.py graph --common "Entity1,Entity2"
+
+# Browse files
+./vault_cli.py files
+./vault_cli.py files --category Analysis
+
+# Work with tags
+./vault_cli.py tags
+./vault_cli.py tags --tag investigation
+
+# Find related files
+./vault_cli.py related "Junyuan Wang.md"
+
+# Export data
+./vault_cli.py export --format json --output vault.json
+./vault_cli.py export --format csv --output vault.csv
+
+# Generate report
+./vault_cli.py report
+./vault_cli.py report --output analysis.txt
+```
+
+## Usage Examples
+
+See `vault_examples.py` for 10 comprehensive examples of using the API programmatically:
+
+```python
+from vault_api import ObsidianVault
+
+vault = ObsidianVault()
+vault.load()
+
+# Search
+results = vault.search('investigation')
+
+# Get entity info
+info = vault.get_entity_info('Junyuan Wang')
+
+# Find relationships
+path = vault.find_path('Junyuan Wang', 'DARPA')
+common = vault.find_common_connections('Entity A', 'Entity B')
+
+# Browse by category
+analysis_files = vault.list_files(category='Analysis')
+
+# Get statistics
+stats = vault.get_statistics()
+```
+
 ## Requirements
 
 - Python 3.7+
