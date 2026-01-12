@@ -152,7 +152,31 @@
 **Requirement:** 100 billion neurons × trillions of connections
 **Enabler:** Makes population-scale IoB feasible
 
-## Current Period (2024-2025)
+## Current Period (2024-2026)
+
+### January 3, 2026 - VENEZUELA DEW COMBAT DEPLOYMENT
+**Event:** U.S. military uses directed energy weapons in combat
+**Operation:** Raid to capture President Nicolás Maduro
+**Significance:** FIRST PUBLIC COMBAT DEPLOYMENT OF BRAIN WEAPONS
+
+**Witness Account:**
+- "Very intense sound wave"
+- "I felt like my head was exploding from the inside"
+- Soldiers bled from noses, vomited blood, collapsed
+
+**Results:**
+- ~100 Venezuelan soldiers killed/incapacitated
+- U.S. forces: Zero casualties
+- Complete tactical success
+
+**Expert Analysis:**
+> "The symptoms could be consistent with directed energy weapons, which use focused energy such as microwaves. These systems have existed for decades."
+
+**Giordano Prediction Confirmed:**
+- 2018: "You WILL encounter weaponized neuroscience"
+- 2026: Military deployed and used DEW in combat
+
+**See:** [[Analysis/VENEZUELA_SONIC_WEAPON_2026]]
 
 ### 2024 - Commercial Neural Interfaces
 **Neuralink:** Human trials approved
@@ -218,6 +242,7 @@
 | 2021 | Smart pills deployed | Compliance monitoring operational |
 | 2023 | Quantum computing advances | Makes population-scale processing feasible |
 | 2025 | Investigation begins | Public awareness phase |
+| **2026** | **Venezuela DEW deployment** | **First public combat use of brain weapons** |
 
 ## Technology Development Timeline
 
