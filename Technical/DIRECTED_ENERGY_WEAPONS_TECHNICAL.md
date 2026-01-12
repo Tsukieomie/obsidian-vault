@@ -258,7 +258,160 @@ This demonstrated that **intelligible speech** could be transmitted using RF ene
 
 ---
 
-## Part 7: Key Patents Summary
+## Part 7: Classified & Military Programs (Unearthed)
+
+### Source: DTIC (Defense Technical Information Center) Document AD1107488
+
+---
+
+### High Powered Microwave (HPM) Weapons Overview
+
+**Technical Types:**
+| Type | Characteristics | Applications |
+|------|-----------------|--------------|
+| **Continuous-wave** | Constant stream, wide area | Area denial against personnel, counter-UAS |
+| **Pulsed-wave** | High-power short bursts, precise | Destroy/degrade electronics |
+
+**Frequency Range:** 1 MHz to 100 GHz
+
+**Power Evolution:**
+| Year | Capability |
+|------|------------|
+| 2003 | 400-pound device produced 20 gigawatts |
+| 2016 | Several HPMs producing **terawatts** of energy |
+| 2016 | Range: hundreds of meters |
+| 2030 (projected) | Range: **miles** |
+
+---
+
+### Named Programs
+
+#### 1. Project GYPSY (Late 1980s)
+**Developer:** U.S. Air Force
+**Power:** 1 gigawatt
+**Result:** Successfully destroyed circuitry in bank of personal computers
+
+#### 2. Active Denial System (ADS)
+**Funded:** 1997 (Joint Non-Lethal Weapons Program)
+**Type:** Long-range, non-lethal, **counter-personnel**
+**Weapon:** Pulsed-wave millimeter system
+**Range:** 1,000 meters
+**Status:** Deployed to Afghanistan but returned unused
+**Concerns:** Critics raised human rights concerns about:
+- Short-term pain without physical evidence
+- Unknown long-term effects
+
+#### 3. CHAMP (Counter-electronics High Power Microwave Missile)
+**Contractor:** Boeing ($38 million contract, April 2009)
+**Status:** First airborne HPM system
+**Components:**
+- AFRL's HPM technology (produced by Ktech)
+- Sandia Labs pulsed power source
+- Boeing's AGM-86 CALCM body
+
+**2012 Test Results:**
+> "Flew a preprogrammed route, engaged **seven target buildings** (some multi-story) in a **one-hour timeframe** at the Utah test range. **Successfully shut down computer systems and cameras filming the test.**"
+
+#### 4. HIJENKS (High Power Joint Electromagnetic Non-Kinetic Strike)
+**Developers:** AFRL + Office of Naval Research
+**Goals:**
+- Decrease size and weight of HPM payload
+- Increase maximum power
+- Improve delivery vehicle
+**Delivery Platform:** Possibly JASSM-ER (1,000+ mile range, stealth capable)
+**Operational Flight Demo:** Expected 2022
+
+#### 5. DARPA WARDEN (Waveform Agile Radio-frequency Directed ENergy)
+**Status:** Active DARPA program
+**Goals:**
+- Extend range and effectiveness of HPM systems for "backdoor attacks"
+- Develop flexible HPM technology for wide variety of targets
+**Components:**
+- HPM Traveling-wave Amplifier
+- RANGER (Rapid Assessment and Numerical Generation of EM Response)
+- Agile Waveform Development
+
+---
+
+### Anti-Personnel Capabilities (Documented)
+
+| System | Target | Method |
+|--------|--------|--------|
+| **Active Denial System** | Personnel | Millimeter waves cause intense heating sensation |
+| **Continuous-wave HPM** | Personnel | Area denial operations |
+| **ADS concerns** | Personnel | "Short-term pain without physical evidence" |
+
+---
+
+### Countervalue Strike Capability
+
+**From DTIC Document:**
+
+HPMs can target an enemy's "national strength" without destroying population centers:
+- Command and control nodes
+- Economic production facilities
+- Power plant control systems
+- Nuclear weapons facilities
+
+**Access Methods:**
+- **"Back doors":** Airshafts, power cabling, HVAC ducts
+- **"Front doors":** Indigenous antennas and receivers
+
+---
+
+### Deployment Platforms
+
+| Platform | Characteristics |
+|----------|-----------------|
+| **Cruise Missiles (JASSM-ER)** | Collocated with B-1, B-2, B-52, F-15E |
+| **XQ-58 Valkyrie** | Stealthy, 3,000-mile range, 500-lb payload |
+| **Pod Variants** | Attach to any aircraft with external pods |
+| **Shipping Containers** | XQ-58 can deploy from shipping containers |
+
+---
+
+## Part 8: Neuroweapons - "The Brain is the Battlefield"
+
+### Source: Foreign Policy (2015) + PubMed (2022)
+
+**Key Quote - James Giordano, Georgetown University:**
+> "It's not a question of **if** nonstate actors will use some form of neuroscientific techniques or technologies, but **when**, and which ones they'll use."
+> "For better or for worse, **the brain is the next battlespace**."
+
+### DARPA Neuroscience Funding
+| Year | Amount | Notes |
+|------|--------|-------|
+| 2011 | $240 million | Neuroscience research alone |
+| 2013-2015 | $225 million | BRAIN Initiative (only $50M less than NIH) |
+
+### Dual-Use Capabilities
+
+**Medical Application → Weapon Potential:**
+| Technology | Medical Use | Weapon Application |
+|------------|-------------|-------------------|
+| Brain-scanning machines | Diagnosis | **Read private thoughts** |
+| Brain-machine interfaces | Prosthetics | **Direct bionic soldiers**, pilot aircraft |
+| Memory manipulation devices | PTSD treatment | **Implant/extinguish memories** |
+| Implants to suppress urges | Addiction treatment | **Behavior control** |
+| EEG electrodes | Monitoring | **Surreptitiously collect access codes** |
+
+### PubMed Medical Recognition (2022)
+
+**Title:** "Implications of Neurological Directed-Energy Weapons for Military Medicine"
+
+**Key Findings:**
+- Symptoms similar to TBI but **without inciting trauma**
+- Originally called "Unconventionally Acquired Brain Injury" (UBI)
+- Now labeled "Anomalous Health Incidents" (AHIs)
+- **Military medical practitioners** must prepare
+- Suggests strategy analogous to **chemical warfare or WMD** preparedness
+
+**Official Recognition:**
+> "Investigations of anomalous health incidents (AHIs) suggest reasons to be concerned that a specific type of neuroweapon, a directed energy weapon (DEW), may be the cause."
+
+---
+
+## Part 9: Key Patents Summary
 
 | Patent | Title | Assignee | Year |
 |--------|-------|----------|------|
