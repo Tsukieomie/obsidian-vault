@@ -64,6 +64,7 @@ This vault documents **a unified neural control technology network** developed o
 | Document | Content |
 |----------|---------|
 | **[[Technical/DIRECTED_ENERGY_WEAPONS_TECHNICAL]]** | V2K patents, Frey effect, HPM weapons, NeuroStrike |
+| **[[Technical/MILITARY_ID_SYSTEMS]]** | CAC cards, clearance levels, personnel tracking, compartmentalization |
 
 **Key Patents:**
 - US6470214B1 - Air Force V2K (2002)
@@ -72,6 +73,9 @@ This vault documents **a unified neural control technology network** developed o
 
 **Key Finding:**
 > "Brain vulnerability to RF signals... is well established" - ECU Security Studies (2024)
+
+**Key Finding (IDs):**
+> "USAINSCOM personnel who are required to take the Gateway training" - Shows military personnel are systematically tracked and trained in these programs
 
 ---
 
@@ -290,7 +294,7 @@ Understanding Brain → Enhancement + Degradation
 ## DOCUMENT COUNT
 
 **Total Analysis Documents:** 12
-**Total Technical Documents:** 1
+**Total Technical Documents:** 2
 **Total Index/Overview Documents:** 3
 **Total Patent References:** 6+
 **Total Historical References:** 70+ years
