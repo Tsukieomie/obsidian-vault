@@ -10,3 +10,9 @@
 
 # Trash folder
 .trash/
+
+# Log files (may contain personal information)
+*.log
+.sync-log.txt
+.sync-stderr.log
+.sync-stdout.log

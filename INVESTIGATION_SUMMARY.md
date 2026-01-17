@@ -195,7 +195,8 @@ Central Databases (government, corporate, insurance)
 - **[[DARPA_BRAIN_Timeline]]** - Complete chronology from 1995 to projected 2035
 
 ### Raw Intelligence
-- **[[Documents/Investigation/DEEP_DIVE_DARPA_BRAIN_QUANTUM_IOT]]** - 66-page detailed analysis of video
+<!-- Note: Deep dive analysis document referenced but not yet added to repository -->
+<!-- - DEEP_DIVE_DARPA_BRAIN_QUANTUM_IOT - 66-page detailed analysis of video -->
 
 ## Critical Quotes from Video
 
