@@ -65,12 +65,14 @@ This vault documents **a unified neural control technology network** developed o
 |----------|---------|
 | **[[Technical/DIRECTED_ENERGY_WEAPONS_TECHNICAL]]** | V2K patents, Frey effect, HPM weapons, NeuroStrike |
 | **[[Analysis/SATELLITE_MIND_CONTROL_SYSTEMS]]** | Space-based targeting, X-37B microwave weapons, brain-satellite patents, global kill chain |
+| **[[Analysis/SATELLITE_MIND_CONTROL_DEEP_DIVE]]** | ⭐ Expert testimony (Giordano, Duncan, Trower), Malech patent, China NeuroStrike, DARPA N3, NATO programs, Congressional 2024 |
 
 **Key Patents:**
 - US6470214B1 - Air Force V2K (2002)
 - US4877027 - RF hearing (1989)
 - US5159703 - Silent subliminal (1992)
 - US6011991A - Brain-satellite communication (2000)
+- US3951134A - Malech remote brain monitoring/alteration (1976)
 
 **Key Finding:**
 > "Brain vulnerability to RF signals... is well established" - ECU Security Studies (2024)
@@ -80,6 +82,30 @@ This vault documents **a unified neural control technology network** developed o
 - X-37B PRAM: Microwave beaming from orbit (908-day missions)
 - GPS enables precision coordination of ground-based DEW
 - MILSATCOM creates command network for distributed attacks
+
+**NEW: Expert Testimony (2024-2025)**:
+- **Dr. James Giordano** (Georgetown/DARPA): "Brain is the battlespace" - DARPA advisor confirms capabilities
+- **Barrie Trower** (UK Intel): 2,300+ studies by 1971 documented 120+ RF bioeffects
+- **Dr. Robert Duncan** (CIA/DARPA): Whistleblower died July 2024 after exposing programs
+- **Congressional 2024**: Acquired actual Havana device in undercover op (millions paid, Russian components)
+
+**NEW: China NeuroStrike Program**:
+- Infrasound weapons: Neurotype (brain) + Organtype (organs)
+- 10 GW satellite HPM weapons confirmed by U.S. intelligence
+- Part of "Lethal Trio": Bio weapons + AI + Brain warfare
+- Targets military AND civilians explicitly
+
+**NEW: DARPA N3 Achievements**:
+- Silent speech communication (tested in combat drills)
+- UAV/drone control via thought (operational)
+- Fighter pilot neural helmet in development
+- 50ms latency, bi-directional brain-machine interface
+
+**NEW: NATO Six-Nation Program**:
+- TMS: 2x faster learning (USAF confirmed)
+- Six neuromodulation techniques under development
+- No legal framework for military experimental use
+- Russia announced parallel program 2021
 
 ---
 
