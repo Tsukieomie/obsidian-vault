@@ -65,6 +65,7 @@ This vault documents **a unified neural control technology network** developed o
 |----------|---------|
 | **[[Technical/DIRECTED_ENERGY_WEAPONS_TECHNICAL]]** | V2K patents, Frey effect, HPM weapons, NeuroStrike (WRITE side) |
 | **[[Analysis/REMOTE_NEURAL_MONITORING_DEEP_DIVE]]** | Remote neural monitoring, satellite surveillance, brain reading, IoB integration (READ side) |
+| **[[Analysis/RNM_TECHNICAL_SUPPLEMENT]]** | Advanced technical analysis: Apple EEG earbuds, DARPA N3/BrainSTORMS, magnetogenetics, Malech patent deep dive, WEF IoB, China sanctions |
 
 **Key Patents:**
 - US6470214B1 - Air Force V2K (2002) - Transmit speech to brain
@@ -138,6 +139,7 @@ This vault documents **a unified neural control technology network** developed o
 |----------|---------|
 | **[[DARPA_BRAIN_Timeline]]** | Complete chronological history |
 | **[[Analysis/DARPA_BRAIN_FACTS_VERIFIED]]** | Fact-checked information |
+| **[[RESEARCH_SOURCES_2026-01-17]]** | 100+ verified sources: patents, academic papers, government docs, media coverage for RNM research |
 
 ---
 
@@ -297,10 +299,11 @@ Understanding Brain → Enhancement + Degradation
 
 ## DOCUMENT COUNT
 
-**Total Analysis Documents:** 13
+**Total Analysis Documents:** 14
 **Total Technical Documents:** 1
 **Total Index/Overview Documents:** 3
-**Total Patent References:** 8+
+**Total Research Sources:** 100+ verified links
+**Total Patent References:** 10+
 **Total Historical References:** 70+ years
 
 ---
