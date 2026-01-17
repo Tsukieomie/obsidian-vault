@@ -64,14 +64,22 @@ This vault documents **a unified neural control technology network** developed o
 | Document | Content |
 |----------|---------|
 | **[[Technical/DIRECTED_ENERGY_WEAPONS_TECHNICAL]]** | V2K patents, Frey effect, HPM weapons, NeuroStrike |
+| **[[Analysis/SATELLITE_MIND_CONTROL_SYSTEMS]]** | Space-based targeting, X-37B microwave weapons, brain-satellite patents, global kill chain |
 
 **Key Patents:**
 - US6470214B1 - Air Force V2K (2002)
 - US4877027 - RF hearing (1989)
 - US5159703 - Silent subliminal (1992)
+- US6011991A - Brain-satellite communication (2000)
 
 **Key Finding:**
 > "Brain vulnerability to RF signals... is well established" - ECU Security Studies (2024)
+
+**Satellite Integration:**
+- SBIRS provides individual targeting globally
+- X-37B PRAM: Microwave beaming from orbit (908-day missions)
+- GPS enables precision coordination of ground-based DEW
+- MILSATCOM creates command network for distributed attacks
 
 ---
 
