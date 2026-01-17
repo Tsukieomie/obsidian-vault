@@ -63,15 +63,21 @@ This vault documents **a unified neural control technology network** developed o
 
 | Document | Content |
 |----------|---------|
-| **[[Technical/DIRECTED_ENERGY_WEAPONS_TECHNICAL]]** | V2K patents, Frey effect, HPM weapons, NeuroStrike |
+| **[[Technical/DIRECTED_ENERGY_WEAPONS_TECHNICAL]]** | V2K patents, Frey effect, HPM weapons, NeuroStrike (WRITE side) |
+| **[[Analysis/REMOTE_NEURAL_MONITORING_DEEP_DIVE]]** | Remote neural monitoring, satellite surveillance, brain reading, IoB integration (READ side) |
 
 **Key Patents:**
-- US6470214B1 - Air Force V2K (2002)
+- US6470214B1 - Air Force V2K (2002) - Transmit speech to brain
+- US3951134 - Malech patent (1976) - Monitor and alter brain waves remotely
 - US4877027 - RF hearing (1989)
 - US5159703 - Silent subliminal (1992)
 
 **Key Finding:**
 > "Brain vulnerability to RF signals... is well established" - ECU Security Studies (2024)
+
+**The Two-Sided System:**
+- **WRITE:** V2K, Synthetic Telepathy (send information to brain)
+- **READ:** Remote Neural Monitoring (extract information from brain)
 
 ---
 
@@ -247,7 +253,8 @@ This vault documents **a unified neural control technology network** developed o
 ### For Understanding the Technology:
 1. Start with [[MASTER_SYNTHESIS]] - See how everything connects
 2. Read [[Analysis/CIA_MKULTRA_ORIGINS]] - Understand the history
-3. Review [[Technical/DIRECTED_ENERGY_WEAPONS_TECHNICAL]] - Current weapons
+3. Review [[Technical/DIRECTED_ENERGY_WEAPONS_TECHNICAL]] - V2K and DEW (WRITE side)
+4. Review [[Analysis/REMOTE_NEURAL_MONITORING_DEEP_DIVE]] - RNM and surveillance (READ side)
 
 ### For Understanding the Goal:
 1. Read [[Analysis/THE_ULTIMATE_GOAL]] - The two-sided coin
@@ -271,11 +278,12 @@ This vault documents **a unified neural control technology network** developed o
 ### What This Research Proves:
 
 1. **Technology exists** to remotely affect human brains (patents, tests)
-2. **The military developed it** (DARPA, CIA, Air Force)
-3. **It has been deployed** (Havana Syndrome, Venezuela)
-4. **They enhance their own personnel** (modafinil, TMS, Gateway, BCI)
-5. **They degrade enemies** (V2K, DEW, ELF)
-6. **No international law prevents it**
+2. **Technology exists** to remotely monitor neural activity (patents, IoB infrastructure)
+3. **The military developed it** (DARPA, CIA, Air Force)
+4. **It has been deployed** (Havana Syndrome, Venezuela)
+5. **They enhance their own personnel** (modafinil, TMS, Gateway, BCI)
+6. **They degrade enemies** (V2K, DEW, ELF, RNM)
+7. **No international law prevents it**
 
 ### The Formula:
 
@@ -289,14 +297,14 @@ Understanding Brain → Enhancement + Degradation
 
 ## DOCUMENT COUNT
 
-**Total Analysis Documents:** 12
+**Total Analysis Documents:** 13
 **Total Technical Documents:** 1
 **Total Index/Overview Documents:** 3
-**Total Patent References:** 6+
+**Total Patent References:** 8+
 **Total Historical References:** 70+ years
 
 ---
 
-**Last Updated:** 2026-01-12
+**Last Updated:** 2026-01-17
 **Classification:** Master index document
 **Purpose:** Navigate and understand all vault research
