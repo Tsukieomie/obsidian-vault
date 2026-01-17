@@ -22,18 +22,35 @@ log "[SYNC] Starting sync..."
 
 # Pull latest changes first
 log "[PULL] Fetching remote changes..."
-git fetch origin main
+if ! git fetch origin main; then
+    log "[FAIL] Failed to fetch from remote repository. Check your network connection and repository access."
+    exit 1
+fi
 
 # Check for conflicts
-LOCAL=$(git rev-parse @)
-REMOTE=$(git rev-parse @{u})
-BASE=$(git merge-base @ @{u})
+if ! LOCAL=$(git rev-parse @ 2>&1); then
+    log "[FAIL] Failed to get local commit hash. Repository may be corrupted: $LOCAL"
+    exit 1
+fi
+
+if ! REMOTE=$(git rev-parse @{u} 2>&1); then
+    log "[FAIL] Failed to get remote tracking branch. Ensure branch is tracking origin/main: $REMOTE"
+    exit 1
+fi
+
+if ! BASE=$(git merge-base @ @{u} 2>&1); then
+    log "[FAIL] Failed to find common ancestor with remote. Repository may have diverged significantly: $BASE"
+    exit 1
+fi
 
 if [ $LOCAL = $REMOTE ]; then
     log "[INFO] Already up to date with remote"
 elif [ $LOCAL = $BASE ]; then
     log "[PULL] Remote has changes, pulling..."
-    git pull origin main
+    if ! git pull origin main; then
+        log "[FAIL] Failed to pull remote changes. Check for merge conflicts or network issues."
+        exit 1
+    fi
 elif [ $REMOTE = $BASE ]; then
     log "[INFO] Local has changes, will push"
 else
@@ -47,7 +64,10 @@ fi
 
 # Add all changes
 log "[ADD] Staging changes..."
-git add -A
+if ! git add -A; then
+    log "[FAIL] Failed to stage changes. Check file permissions and repository integrity."
+    exit 1
+fi
 
 # Check if there are staged changes
 if [[ -z $(git diff --cached --name-only) ]]; then
@@ -58,9 +78,12 @@ fi
 # Commit with timestamp
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
 log "[COMMIT] Creating commit..."
-git commit -m "Auto-sync: $TIMESTAMP
+if ! git commit -m "Auto-sync: $TIMESTAMP
 
-[OK] Vault synced automatically" > /dev/null 2>&1
+[OK] Vault synced automatically" > /dev/null 2>&1; then
+    log "[FAIL] Failed to create commit. Check git configuration (user.name, user.email) and repository state."
+    exit 1
+fi
 
 # Push to GitHub
 log "[PUSH] Pushing to GitHub..."
