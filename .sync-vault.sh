@@ -18,7 +18,7 @@ if [[ -z $(git status -s) ]]; then
     exit 0
 fi
 
-log "[SYNC] Starting sync..."
+log "[SYNC] Uncommitted changes detected - proceeding with sync..."
 
 # Pull latest changes first
 log "[PULL] Fetching remote changes..."
