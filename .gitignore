@@ -10,3 +10,8 @@
 
 # Trash folder
 .trash/
+
+# Sync script logs
+.sync-log.txt
+.sync-stderr.log
+.sync-stdout.log
